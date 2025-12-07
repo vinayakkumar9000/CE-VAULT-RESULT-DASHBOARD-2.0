@@ -4,2236 +4,6 @@ import { Student } from './types';
 export const GENERATED_STUDENTS: Student[] = [
   {
     "id": "1",
-    "rollNumber": "211271524069",
-    "regNumber": "1271524069",
-    "name": "NISHANT KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "nishant.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 13,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 62,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 61,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 67,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 57,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 9,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 8.02,
-        "cgpa": 8.02,
-        "totalMarks": 779,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 77.9
-      }
-    ]
-  },
-  {
-    "id": "2",
-    "rollNumber": "211271524040",
-    "regNumber": "1271524040",
-    "name": "ANKIT KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "ankit.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 70,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 58,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 54,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 37,
-            "credits": 2.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.83,
-        "cgpa": 7.83,
-        "totalMarks": 691,
-        "maxTotalMarks": 900,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 76.8
-      }
-    ]
-  },
-  {
-    "id": "3",
-    "rollNumber": "211271524063",
-    "regNumber": "1271524063",
-    "name": "ANKUSH RAJ",
-    "course": "Diploma in Civil Engineering",
-    "email": "ankush.raj@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 66,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 61,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 69,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 74,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 8.33,
-        "cgpa": 8.33,
-        "totalMarks": 807,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 80.7
-      }
-    ]
-  },
-  {
-    "id": "4",
-    "rollNumber": "211271524088",
-    "regNumber": "1271524088",
-    "name": "GANGULI KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "ganguli.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 52,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 74,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 56,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 68,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 20,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.77,
-        "cgpa": 7.77,
-        "totalMarks": 766,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 76.6
-      }
-    ]
-  },
-  {
-    "id": "5",
-    "rollNumber": "211271524064",
-    "regNumber": "1271524064",
-    "name": "CHANDAN KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "chandan.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 48,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 60,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 54,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 36,
-            "credits": 2.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 9,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 38,
-            "credits": 1.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.57,
-        "cgpa": 7.57,
-        "totalMarks": 667,
-        "maxTotalMarks": 900,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 74.1
-      }
-    ]
-  },
-  {
-    "id": "6",
-    "rollNumber": "211271524093",
-    "regNumber": "1271524093",
-    "name": "VIVEKANAND SAGAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "vivekanand.sagar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 53,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 59,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 61,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 20,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 8.0,
-        "cgpa": 8.0,
-        "totalMarks": 687,
-        "maxTotalMarks": 900,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 76.3
-      }
-    ]
-  },
-  {
-    "id": "7",
-    "rollNumber": "211271524071",
-    "regNumber": "1271524071",
-    "name": "KAMRAN AKMAL",
-    "course": "Diploma in Civil Engineering",
-    "email": "kamran.akmal@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 43,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 64,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 67,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 19,
-            "credits": 0.5,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 30,
-            "credits": 2.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 34,
-            "credits": 1.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 39,
-            "credits": 1.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.44,
-        "cgpa": 7.44,
-        "totalMarks": 659,
-        "maxTotalMarks": 900,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 73.2
-      }
-    ]
-  },
-  {
-    "id": "8",
-    "rollNumber": "211271524010",
-    "regNumber": "1271524010",
-    "name": "RAJ KUMAR SINGH",
-    "course": "Diploma in Civil Engineering",
-    "email": "raj.kumar.singh@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 13,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 45,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 50,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 59,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 62,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 33,
-            "credits": 2.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 36,
-            "credits": 1.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.23,
-        "cgpa": 7.23,
-        "totalMarks": 715,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 71.5
-      }
-    ]
-  },
-  {
-    "id": "9",
-    "rollNumber": "211271524056",
-    "regNumber": "1271524056",
-    "name": "PINKI KUMARI",
-    "course": "Diploma in Civil Engineering",
-    "email": "pinki.kumari@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 46,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 46,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 45,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 60,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 38,
-            "credits": 2.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 38,
-            "credits": 1.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.08,
-        "cgpa": 7.08,
-        "totalMarks": 706,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 70.6
-      }
-    ]
-  },
-  {
-    "id": "10",
-    "rollNumber": "211271524035",
-    "regNumber": "1271524035",
-    "name": "SHANU KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "shanu.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 11,
-            "credits": 1.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 50,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 40,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 63,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 60,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 20,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 36,
-            "credits": 1.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 39,
-            "credits": 1.0,
-            "grade": "B",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.4,
-        "cgpa": 7.4,
-        "totalMarks": 717,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 71.7
-      }
-    ]
-  },
-  {
-    "id": "11",
-    "rollNumber": "211271524044",
-    "regNumber": "1271524044",
-    "name": "AARTI KUMARI",
-    "course": "Diploma in Civil Engineering",
-    "email": "aarti.kumari@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 13,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 76,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 82,
-            "credits": 3.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 80,
-            "credits": 3.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 68,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 20,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 8.98,
-        "cgpa": 8.98,
-        "totalMarks": 851,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class with Distinction",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 85.1
-      }
-    ]
-  },
-  {
-    "id": "12",
     "rollNumber": "211271524001",
     "regNumber": "1271524001",
     "name": "VINIT KUMAR VICKY",
@@ -2439,12 +209,2063 @@ export const GENERATED_STUDENTS: Student[] = [
     ]
   },
   {
-    "id": "13",
-    "rollNumber": "211271524067",
-    "regNumber": "1271524067",
-    "name": "PAWAN KUMAR",
+    "id": "2",
+    "rollNumber": "211271524002",
+    "regNumber": "1271524002",
+    "name": "NANDANI KUMARI",
     "course": "Diploma in Civil Engineering",
-    "email": "pawan.kumar@college.edu",
+    "email": "nandani.kumari@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 14,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 49,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 40,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 64,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 59,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 39,
+            "credits": 2.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.42,
+        "cgpa": 7.42,
+        "totalMarks": 734,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 73.4
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "rollNumber": "211271524003",
+    "regNumber": "1271524003",
+    "name": "HIMANSHU KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "himanshu.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 61,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 85,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 75,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 75,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 20,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 39,
+            "credits": 2.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.47,
+        "cgpa": 8.47,
+        "totalMarks": 816,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 81.6
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "rollNumber": "211271524004",
+    "regNumber": "1271524004",
+    "name": "GAUTAM GAMBHIR SHARMA",
+    "course": "Diploma in Civil Engineering",
+    "email": "gautam.gambhir.sharma@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 51,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 72,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 80,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 88,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 19,
+            "credits": 0.5,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 7,
+            "credits": 0.5,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.43,
+        "cgpa": 8.43,
+        "totalMarks": 807,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 80.7
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "rollNumber": "211271524005",
+    "regNumber": "1271524005",
+    "name": "VIVEK GUPTA",
+    "course": "Diploma in Civil Engineering",
+    "email": "vivek.gupta@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 56,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 75,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 72,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 71,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 37,
+            "credits": 2.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.03,
+        "cgpa": 8.03,
+        "totalMarks": 787,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 78.7
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "rollNumber": "211271524006",
+    "regNumber": "1271524006",
+    "name": "ABHAY KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "abhay.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 46,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 65,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 77,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 61,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 19,
+            "credits": 0.5,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 36,
+            "credits": 2.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 7,
+            "credits": 0.5,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 38,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 39,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.47,
+        "cgpa": 7.47,
+        "totalMarks": 747,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 74.7
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "rollNumber": "211271524007",
+    "regNumber": "1271524007",
+    "name": "HIMANSHU KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "himanshu.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 11,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 58,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 88,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 84,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 78,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 19,
+            "credits": 0.5,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.7,
+        "cgpa": 8.7,
+        "totalMarks": 846,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class with Distinction",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 84.6
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "rollNumber": "211271524008",
+    "regNumber": "1271524008",
+    "name": "ABHISHEK RANJAN",
+    "course": "Diploma in Civil Engineering",
+    "email": "abhishek.ranjan@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 14,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 66,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 83,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 71,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 90,
+            "credits": 3.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 9.08,
+        "cgpa": 9.08,
+        "totalMarks": 855,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class with Distinction",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 85.5
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "rollNumber": "211271524009",
+    "regNumber": "1271524009",
+    "name": "MAYANK KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "mayank.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 51,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 53,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 54,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 20,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 34,
+            "credits": 2.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 38,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.48,
+        "cgpa": 7.48,
+        "totalMarks": 657,
+        "maxTotalMarks": 900,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 73.0
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "rollNumber": "211271524010",
+    "regNumber": "1271524010",
+    "name": "RAJ KUMAR SINGH",
+    "course": "Diploma in Civil Engineering",
+    "email": "raj.kumar.singh@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 45,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 50,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 59,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 62,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 33,
+            "credits": 2.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 36,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.23,
+        "cgpa": 7.23,
+        "totalMarks": 715,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 71.5
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "rollNumber": "211271524012",
+    "regNumber": "1271524012",
+    "name": "SALONI KUMARI",
+    "course": "Diploma in Civil Engineering",
+    "email": "saloni.kumari@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 11,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 50,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 89,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 66,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 77,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 20,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.2,
+        "cgpa": 8.2,
+        "totalMarks": 799,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 79.9
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "rollNumber": "211271524014",
+    "regNumber": "1271524014",
+    "name": "VICKY KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "vicky.kumar@college.edu",
     "contact": "+91 98765 43210",
     "currentSemester": 2,
     "results": [
@@ -2474,16 +2295,16 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED MATHEMATICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 53,
+            "obtainedMarks": 67,
             "credits": 3.0,
-            "grade": "D",
+            "grade": "C",
             "isBacklog": false
           },
           {
             "name": "ESSEN OF IND KNOWL. AND TRADIT",
             "category": "Theory",
             "maxMarks": 25,
-            "obtainedMarks": 23,
+            "obtainedMarks": 24,
             "credits": 1.0,
             "grade": "A+",
             "isBacklog": false
@@ -2510,18 +2331,18 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "PYTHON PROGRAMMING",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 54,
+            "obtainedMarks": 65,
             "credits": 3.0,
-            "grade": "D",
+            "grade": "C",
             "isBacklog": false
           },
           {
             "name": "ENGG. MECHANICS",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 60,
+            "obtainedMarks": 79,
             "credits": 3.0,
-            "grade": "C",
+            "grade": "B",
             "isBacklog": false
           },
           {
@@ -2537,412 +2358,9 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
             "obtainedMarks": 45,
             "credits": 2.0,
             "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.7,
-        "cgpa": 7.7,
-        "totalMarks": 746,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 74.6
-      }
-    ]
-  },
-  {
-    "id": "14",
-    "rollNumber": "211271524077",
-    "regNumber": "1271524077",
-    "name": "HARIOM KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "hariom.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 42,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 63,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 68,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 30,
-            "credits": 2.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 34,
-            "credits": 1.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.61,
-        "cgpa": 7.61,
-        "totalMarks": 670,
-        "maxTotalMarks": 900,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 74.4
-      }
-    ]
-  },
-  {
-    "id": "15",
-    "rollNumber": "211271524057",
-    "regNumber": "1271524057",
-    "name": "SUSHANT KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "sushant.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 13,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 66,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 60,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 64,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 71,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 2.0,
-            "grade": "A",
             "isBacklog": false
           },
           {
@@ -2958,9 +2376,9 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ICT TOOLS",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 45,
+            "obtainedMarks": 41,
             "credits": 2.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
@@ -2968,409 +2386,6 @@ export const GENERATED_STUDENTS: Student[] = [
             "category": "Practical",
             "maxMarks": 50,
             "obtainedMarks": 46,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 9,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 8.2,
-        "cgpa": 8.2,
-        "totalMarks": 782,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 78.2
-      }
-    ]
-  },
-  {
-    "id": "16",
-    "rollNumber": "211271524092",
-    "regNumber": "1271524092",
-    "name": "RITIK KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "ritik.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 47,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 49,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 52,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 9,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.57,
-        "cgpa": 7.57,
-        "totalMarks": 665,
-        "maxTotalMarks": 900,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 73.9
-      }
-    ]
-  },
-  {
-    "id": "17",
-    "rollNumber": "211271524076",
-    "regNumber": "1271524076",
-    "name": "CHANDAN KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "chandan.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 62,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 76,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 57,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 62,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 19,
-            "credits": 0.5,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
             "credits": 2.0,
             "grade": "A+",
             "isBacklog": false
@@ -3397,7 +2412,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED MATHEMATICS -A",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 43,
+            "obtainedMarks": 44,
             "credits": 1.0,
             "grade": "A",
             "isBacklog": false
@@ -3415,48 +2430,48 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "PYTHON PROGRAMMING",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 45,
+            "obtainedMarks": 41,
             "credits": 1.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "ICT TOOLS",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 45,
+            "obtainedMarks": 41,
             "credits": 1.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "ENGG. MECHANICS",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 47,
+            "obtainedMarks": 44,
             "credits": 1.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           }
         ],
-        "sgpa": 8.25,
-        "cgpa": 8.25,
-        "totalMarks": 798,
+        "sgpa": 8.07,
+        "cgpa": 8.07,
+        "totalMarks": 794,
         "maxTotalMarks": 1000,
         "remarks": "First Class",
         "backlogCount": 0,
         "publishedDate": "10/06/2025",
-        "percentile": 79.8
+        "percentile": 79.4
       }
     ]
   },
   {
-    "id": "18",
-    "rollNumber": "211271524090",
-    "regNumber": "1271524090",
-    "name": "RITESH KUMAR",
+    "id": "13",
+    "rollNumber": "211271524015",
+    "regNumber": "1271524015",
+    "name": "RAJU KUMAR",
     "course": "Diploma in Civil Engineering",
-    "email": "ritesh.kumar@college.edu",
+    "email": "raju.kumar@college.edu",
     "contact": "+91 98765 43210",
     "currentSemester": 2,
     "results": [
@@ -3477,18 +2492,18 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 60,
+            "obtainedMarks": 81,
             "credits": 3.0,
-            "grade": "C",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "APPLIED MATHEMATICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 61,
+            "obtainedMarks": 93,
             "credits": 3.0,
-            "grade": "C",
+            "grade": "A+",
             "isBacklog": false
           },
           {
@@ -3504,7 +2519,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "PRINCIPLES OF MANAGEMENT",
             "category": "Theory",
             "maxMarks": 25,
-            "obtainedMarks": 23,
+            "obtainedMarks": 24,
             "credits": 1.0,
             "grade": "A+",
             "isBacklog": false
@@ -3513,7 +2528,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "INDIAN CONSTITUTION",
             "category": "Theory",
             "maxMarks": 25,
-            "obtainedMarks": 24,
+            "obtainedMarks": 23,
             "credits": 0.5,
             "grade": "A+",
             "isBacklog": false
@@ -3522,18 +2537,18 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "PYTHON PROGRAMMING",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 83,
+            "obtainedMarks": 75,
             "credits": 3.0,
-            "grade": "A",
+            "grade": "B",
             "isBacklog": false
           },
           {
             "name": "ENGG. MECHANICS",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 82,
+            "obtainedMarks": 92,
             "credits": 3.0,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           },
           {
@@ -3549,7 +2564,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 48,
+            "obtainedMarks": 50,
             "credits": 2.0,
             "grade": "A+",
             "isBacklog": false
@@ -3576,7 +2591,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENGG. MECHANICS",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 47,
+            "obtainedMarks": 48,
             "credits": 2.0,
             "grade": "A+",
             "isBacklog": false
@@ -3594,7 +2609,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 48,
+            "obtainedMarks": 50,
             "credits": 1.0,
             "grade": "A+",
             "isBacklog": false
@@ -3639,30 +2654,30 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENGG. MECHANICS",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 47,
+            "obtainedMarks": 49,
             "credits": 1.0,
             "grade": "A+",
             "isBacklog": false
           }
         ],
-        "sgpa": 8.97,
-        "cgpa": 8.97,
-        "totalMarks": 849,
+        "sgpa": 9.57,
+        "cgpa": 9.57,
+        "totalMarks": 911,
         "maxTotalMarks": 1000,
         "remarks": "First Class with Distinction",
         "backlogCount": 0,
         "publishedDate": "10/06/2025",
-        "percentile": 84.9
+        "percentile": 91.1
       }
     ]
   },
   {
-    "id": "19",
-    "rollNumber": "211271524073",
-    "regNumber": "1271524073",
-    "name": "ANKIT KUMAR",
+    "id": "14",
+    "rollNumber": "211271524016",
+    "regNumber": "1271524016",
+    "name": "SALVI KUMARI",
     "course": "Diploma in Civil Engineering",
-    "email": "ankit.kumar@college.edu",
+    "email": "salvi.kumari@college.edu",
     "contact": "+91 98765 43210",
     "currentSemester": 2,
     "results": [
@@ -3674,16 +2689,141 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENVT. EDU. AND SUST. DEVELOP.",
             "category": "Theory",
             "maxMarks": 15,
-            "obtainedMarks": 12,
+            "obtainedMarks": 11,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 28,
+            "credits": 1.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 27,
+            "credits": 1.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 30,
+            "credits": 1.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 30,
+            "credits": 1.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
             "credits": 1.0,
             "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.63,
+        "cgpa": 7.63,
+        "totalMarks": 269,
+        "maxTotalMarks": 375,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 71.7
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "rollNumber": "211271524017",
+    "regNumber": "1271524017",
+    "name": "GUDDU KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "guddu.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 11,
+            "credits": 1.0,
+            "grade": "B",
             "isBacklog": false
           },
           {
             "name": "APPLIED PHYSICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 53,
+            "obtainedMarks": 59,
             "credits": 3.0,
             "grade": "D",
             "isBacklog": false
@@ -3692,9 +2832,9 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED MATHEMATICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 54,
+            "obtainedMarks": 63,
             "credits": 3.0,
-            "grade": "D",
+            "grade": "C",
             "isBacklog": false
           },
           {
@@ -3728,25 +2868,25 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "PYTHON PROGRAMMING",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 47,
+            "obtainedMarks": 54,
             "credits": 3.0,
-            "grade": "E",
+            "grade": "D",
             "isBacklog": false
           },
           {
             "name": "ENGG. MECHANICS",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 47,
+            "obtainedMarks": 52,
             "credits": 3.0,
-            "grade": "E",
+            "grade": "D",
             "isBacklog": false
           },
           {
             "name": "ENVT. EDU. AND SUST. DEVELOP.",
             "category": "Practical",
             "maxMarks": 25,
-            "obtainedMarks": 22,
+            "obtainedMarks": 20,
             "credits": 0.5,
             "grade": "A",
             "isBacklog": false
@@ -3755,36 +2895,36 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 47,
+            "obtainedMarks": 35,
             "credits": 2.0,
-            "grade": "A+",
+            "grade": "B",
             "isBacklog": false
           },
           {
             "name": "PYTHON PROGRAMMING",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 47,
+            "obtainedMarks": 43,
             "credits": 2.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "ICT TOOLS",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 47,
+            "obtainedMarks": 43,
             "credits": 2.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "ENGG. MECHANICS",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 47,
+            "obtainedMarks": 42,
             "credits": 2.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
@@ -3800,16 +2940,16 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 46,
+            "obtainedMarks": 40,
             "credits": 1.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "APPLIED MATHEMATICS -A",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 43,
+            "obtainedMarks": 41,
             "credits": 1.0,
             "grade": "A",
             "isBacklog": false
@@ -3827,43 +2967,43 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "PYTHON PROGRAMMING",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 47,
+            "obtainedMarks": 43,
             "credits": 1.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "ICT TOOLS",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 47,
+            "obtainedMarks": 43,
             "credits": 1.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "ENGG. MECHANICS",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 47,
+            "obtainedMarks": 40,
             "credits": 1.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           }
         ],
-        "sgpa": 7.7,
-        "cgpa": 7.7,
-        "totalMarks": 754,
+        "sgpa": 7.4,
+        "cgpa": 7.4,
+        "totalMarks": 730,
         "maxTotalMarks": 1000,
         "remarks": "First Class",
         "backlogCount": 0,
         "publishedDate": "10/06/2025",
-        "percentile": 75.4
+        "percentile": 73.0
       }
     ]
   },
   {
-    "id": "20",
+    "id": "16",
     "rollNumber": "211271524018",
     "regNumber": "1271524018",
     "name": "PRAKASH KUMAR",
@@ -4069,12 +3209,12 @@ export const GENERATED_STUDENTS: Student[] = [
     ]
   },
   {
-    "id": "21",
-    "rollNumber": "211271524012",
-    "regNumber": "1271524012",
-    "name": "SALONI KUMARI",
+    "id": "17",
+    "rollNumber": "211271524019",
+    "regNumber": "1271524019",
+    "name": "DIPU KUMAR",
     "course": "Diploma in Civil Engineering",
-    "email": "saloni.kumari@college.edu",
+    "email": "dipu.kumar@college.edu",
     "contact": "+91 98765 43210",
     "currentSemester": 2,
     "results": [
@@ -4086,9 +3226,9 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENVT. EDU. AND SUST. DEVELOP.",
             "category": "Theory",
             "maxMarks": 15,
-            "obtainedMarks": 11,
+            "obtainedMarks": 12,
             "credits": 1.0,
-            "grade": "B",
+            "grade": "A",
             "isBacklog": false
           },
           {
@@ -4104,16 +3244,16 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED MATHEMATICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 89,
+            "obtainedMarks": 51,
             "credits": 3.0,
-            "grade": "A",
+            "grade": "D",
             "isBacklog": false
           },
           {
             "name": "ESSEN OF IND KNOWL. AND TRADIT",
             "category": "Theory",
             "maxMarks": 25,
-            "obtainedMarks": 24,
+            "obtainedMarks": 23,
             "credits": 1.0,
             "grade": "A+",
             "isBacklog": false
@@ -4140,7 +3280,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "PYTHON PROGRAMMING",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 66,
+            "obtainedMarks": 67,
             "credits": 3.0,
             "grade": "C",
             "isBacklog": false
@@ -4149,16 +3289,16 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENGG. MECHANICS",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 77,
+            "obtainedMarks": 60,
             "credits": 3.0,
-            "grade": "B",
+            "grade": "C",
             "isBacklog": false
           },
           {
             "name": "ENVT. EDU. AND SUST. DEVELOP.",
             "category": "Practical",
             "maxMarks": 25,
-            "obtainedMarks": 20,
+            "obtainedMarks": 21,
             "credits": 0.5,
             "grade": "A",
             "isBacklog": false
@@ -4167,7 +3307,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 41,
+            "obtainedMarks": 40,
             "credits": 2.0,
             "grade": "A",
             "isBacklog": false
@@ -4194,25 +3334,25 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENGG. MECHANICS",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 45,
+            "obtainedMarks": 42,
             "credits": 2.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "ENVT. EDU. AND SUST. DEVELOP.",
             "category": "Term Work",
             "maxMarks": 10,
-            "obtainedMarks": 8,
+            "obtainedMarks": 9,
             "credits": 0.5,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           },
           {
             "name": "APPLIED PHYSICS -A",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 40,
+            "obtainedMarks": 42,
             "credits": 1.0,
             "grade": "A",
             "isBacklog": false
@@ -4221,7 +3361,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED MATHEMATICS -A",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 44,
+            "obtainedMarks": 41,
             "credits": 1.0,
             "grade": "A",
             "isBacklog": false
@@ -4257,20 +3397,817 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENGG. MECHANICS",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 43,
+            "obtainedMarks": 42,
             "credits": 1.0,
             "grade": "A",
             "isBacklog": false
           }
         ],
-        "sgpa": 8.2,
-        "cgpa": 8.2,
-        "totalMarks": 799,
+        "sgpa": 7.72,
+        "cgpa": 7.72,
+        "totalMarks": 741,
         "maxTotalMarks": 1000,
         "remarks": "First Class",
         "backlogCount": 0,
         "publishedDate": "10/06/2025",
-        "percentile": 79.9
+        "percentile": 74.1
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "rollNumber": "211271524020",
+    "regNumber": "1271524020",
+    "name": "AMIT KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "amit.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 58,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 52,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 35,
+            "credits": 2.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 39,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.88,
+        "cgpa": 7.88,
+        "totalMarks": 607,
+        "maxTotalMarks": 800,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 75.9
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "rollNumber": "211271524021",
+    "regNumber": "1271524021",
+    "name": "BABY KUMARI",
+    "course": "Diploma in Civil Engineering",
+    "email": "baby.kumari@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 14,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 67,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 92,
+            "credits": 3.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 76,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 84,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 48,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 9.15,
+        "cgpa": 9.15,
+        "totalMarks": 870,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class with Distinction",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 87.0
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "rollNumber": "211271524022",
+    "regNumber": "1271524022",
+    "name": "DHIRAJ KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "dhiraj.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 48,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 52,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 52,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.67,
+        "cgpa": 7.67,
+        "totalMarks": 659,
+        "maxTotalMarks": 900,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 73.2
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "rollNumber": "211271524023",
+    "regNumber": "1271524023",
+    "name": "SHWETA KUMARI",
+    "course": "Diploma in Civil Engineering",
+    "email": "shweta.kumari@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 14,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 54,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 60,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 42,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 63,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.03,
+        "cgpa": 8.03,
+        "totalMarks": 766,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 76.6
       }
     ]
   },
@@ -4482,11 +4419,11 @@ export const GENERATED_STUDENTS: Student[] = [
   },
   {
     "id": "23",
-    "rollNumber": "211271524002",
-    "regNumber": "1271524002",
-    "name": "NANDANI KUMARI",
+    "rollNumber": "211271524025",
+    "regNumber": "1271524025",
+    "name": "SUPRIYA KUMARI",
     "course": "Diploma in Civil Engineering",
-    "email": "nandani.kumari@college.edu",
+    "email": "supriya.kumari@college.edu",
     "contact": "+91 98765 43210",
     "currentSemester": 2,
     "results": [
@@ -4507,600 +4444,81 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 49,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 40,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 64,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 59,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 39,
-            "credits": 2.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 9,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.42,
-        "cgpa": 7.42,
-        "totalMarks": 734,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 73.4
-      }
-    ]
-  },
-  {
-    "id": "24",
-    "rollNumber": "211271524016",
-    "regNumber": "1271524016",
-    "name": "SALVI KUMARI",
-    "course": "Diploma in Civil Engineering",
-    "email": "salvi.kumari@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 11,
-            "credits": 1.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 28,
-            "credits": 1.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 27,
-            "credits": 1.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 30,
-            "credits": 1.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 30,
-            "credits": 1.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.63,
-        "cgpa": 7.63,
-        "totalMarks": 269,
-        "maxTotalMarks": 375,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 71.7
-      }
-    ]
-  },
-  {
-    "id": "25",
-    "rollNumber": "211271524020",
-    "regNumber": "1271524020",
-    "name": "AMIT KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "amit.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 58,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 52,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 35,
-            "credits": 2.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 39,
-            "credits": 1.0,
-            "grade": "B",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.88,
-        "cgpa": 7.88,
-        "totalMarks": 607,
-        "maxTotalMarks": 800,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 75.9
-      }
-    ]
-  },
-  {
-    "id": "26",
-    "rollNumber": "211271524051",
-    "regNumber": "1271524051",
-    "name": "VISHAL KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "vishal.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 51,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 42,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
             "obtainedMarks": 67,
             "credits": 3.0,
             "grade": "C",
             "isBacklog": false
           },
           {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 73,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 66,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
             "name": "ENGG. MECHANICS",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 60,
+            "obtainedMarks": 98,
             "credits": 3.0,
-            "grade": "C",
+            "grade": "A+",
             "isBacklog": false
           },
           {
             "name": "ENVT. EDU. AND SUST. DEVELOP.",
             "category": "Practical",
             "maxMarks": 25,
-            "obtainedMarks": 20,
+            "obtainedMarks": 23,
             "credits": 0.5,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           },
           {
             "name": "APPLIED PHYSICS -A",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 36,
+            "obtainedMarks": 47,
             "credits": 2.0,
-            "grade": "B",
+            "grade": "A+",
             "isBacklog": false
           },
           {
@@ -5116,9 +4534,9 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ICT TOOLS",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 43,
+            "obtainedMarks": 45,
             "credits": 2.0,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           },
           {
@@ -5143,27 +4561,27 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 34,
+            "obtainedMarks": 48,
             "credits": 1.0,
-            "grade": "C",
+            "grade": "A+",
             "isBacklog": false
           },
           {
             "name": "APPLIED MATHEMATICS -A",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 39,
+            "obtainedMarks": 44,
             "credits": 1.0,
-            "grade": "B",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "INDIAN CONSTITUTION",
             "category": "Term Work",
             "maxMarks": 25,
-            "obtainedMarks": 22,
+            "obtainedMarks": 23,
             "credits": 0.5,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           },
           {
@@ -5179,34 +4597,34 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ICT TOOLS",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 43,
+            "obtainedMarks": 45,
             "credits": 1.0,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           },
           {
             "name": "ENGG. MECHANICS",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 46,
+            "obtainedMarks": 47,
             "credits": 1.0,
             "grade": "A+",
             "isBacklog": false
           }
         ],
-        "sgpa": 7.48,
-        "cgpa": 7.48,
-        "totalMarks": 730,
+        "sgpa": 8.87,
+        "cgpa": 8.87,
+        "totalMarks": 857,
         "maxTotalMarks": 1000,
-        "remarks": "First Class",
+        "remarks": "First Class with Distinction",
         "backlogCount": 0,
         "publishedDate": "10/06/2025",
-        "percentile": 73.0
+        "percentile": 85.7
       }
     ]
   },
   {
-    "id": "27",
+    "id": "24",
     "rollNumber": "211271524027",
     "regNumber": "1271524027",
     "name": "NEHA KUMARI",
@@ -5412,1230 +4830,12 @@ export const GENERATED_STUDENTS: Student[] = [
     ]
   },
   {
-    "id": "28",
-    "rollNumber": "211271524048",
-    "regNumber": "1271524048",
-    "name": "AASHIYA ANJUM",
+    "id": "25",
+    "rollNumber": "211271524029",
+    "regNumber": "1271524029",
+    "name": "SAURABH RAI",
     "course": "Diploma in Civil Engineering",
-    "email": "aashiya.anjum@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 14,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 68,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 80,
-            "credits": 3.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 76,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 91,
-            "credits": 3.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 9,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 48,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 9.17,
-        "cgpa": 9.17,
-        "totalMarks": 865,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class with Distinction",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 86.5
-      }
-    ]
-  },
-  {
-    "id": "29",
-    "rollNumber": "211271524066",
-    "regNumber": "1271524066",
-    "name": "SAGAR KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "sagar.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 11,
-            "credits": 1.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 48,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 51,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 56,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 44,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 32,
-            "credits": 2.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 9,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 34,
-            "credits": 1.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 6.93,
-        "cgpa": 6.93,
-        "totalMarks": 695,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 69.5
-      }
-    ]
-  },
-  {
-    "id": "30",
-    "rollNumber": "211271524049",
-    "regNumber": "1271524049",
-    "name": "PRIYANSHU KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "priyanshu.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 51,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 48,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 51,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 35,
-            "credits": 2.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.52,
-        "cgpa": 7.52,
-        "totalMarks": 656,
-        "maxTotalMarks": 900,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 72.9
-      }
-    ]
-  },
-  {
-    "id": "31",
-    "rollNumber": "211271524072",
-    "regNumber": "1271524072",
-    "name": "PRINCE KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "prince.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 13,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 65,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 72,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 78,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 73,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 9,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 8.32,
-        "cgpa": 8.32,
-        "totalMarks": 811,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 81.1
-      }
-    ]
-  },
-  {
-    "id": "32",
-    "rollNumber": "211271524065",
-    "regNumber": "1271524065",
-    "name": "RAUSHAN KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "raushan.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 13,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 52,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 56,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 66,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 32,
-            "credits": 2.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 9,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 34,
-            "credits": 1.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 39,
-            "credits": 1.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.48,
-        "cgpa": 7.48,
-        "totalMarks": 671,
-        "maxTotalMarks": 900,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 74.6
-      }
-    ]
-  },
-  {
-    "id": "33",
-    "rollNumber": "211271524055",
-    "regNumber": "1271524055",
-    "name": "SANJANA SUHANI",
-    "course": "Diploma in Civil Engineering",
-    "email": "sanjana.suhani@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 13,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 58,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 52,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 54,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 58,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.68,
-        "cgpa": 7.68,
-        "totalMarks": 756,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 75.6
-      }
-    ]
-  },
-  {
-    "id": "34",
-    "rollNumber": "211271524043",
-    "regNumber": "1271524043",
-    "name": "RANJAN KUMAR YADAV",
-    "course": "Diploma in Civil Engineering",
-    "email": "ranjan.kumar.yadav@college.edu",
+    "email": "saurabh.rai@college.edu",
     "contact": "+91 98765 43210",
     "currentSemester": 2,
     "results": [
@@ -6656,18 +4856,9 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 50,
+            "obtainedMarks": 43,
             "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 70,
-            "credits": 3.0,
-            "grade": "B",
+            "grade": "E",
             "isBacklog": false
           },
           {
@@ -6692,9 +4883,9 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "INDIAN CONSTITUTION",
             "category": "Theory",
             "maxMarks": 25,
-            "obtainedMarks": 22,
+            "obtainedMarks": 23,
             "credits": 0.5,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           },
           {
@@ -6710,36 +4901,36 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENGG. MECHANICS",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 71,
+            "obtainedMarks": 52,
             "credits": 3.0,
-            "grade": "B",
+            "grade": "D",
             "isBacklog": false
           },
           {
             "name": "ENVT. EDU. AND SUST. DEVELOP.",
             "category": "Practical",
             "maxMarks": 25,
-            "obtainedMarks": 21,
+            "obtainedMarks": 19,
             "credits": 0.5,
-            "grade": "A",
+            "grade": "B",
             "isBacklog": false
           },
           {
             "name": "APPLIED PHYSICS -A",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 43,
+            "obtainedMarks": 38,
             "credits": 2.0,
-            "grade": "A",
+            "grade": "B",
             "isBacklog": false
           },
           {
             "name": "PYTHON PROGRAMMING",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 45,
+            "obtainedMarks": 43,
             "credits": 2.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
@@ -6755,7 +4946,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENGG. MECHANICS",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 46,
+            "obtainedMarks": 45,
             "credits": 2.0,
             "grade": "A+",
             "isBacklog": false
@@ -6773,157 +4964,23 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
             "obtainedMarks": 46,
             "credits": 1.0,
             "grade": "A+",
             "isBacklog": false
-          }
-        ],
-        "sgpa": 8.18,
-        "cgpa": 8.18,
-        "totalMarks": 784,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 78.4
-      }
-    ]
-  },
-  {
-    "id": "35",
-    "rollNumber": "211271524086",
-    "regNumber": "1271524086",
-    "name": "TANNU KUMARI",
-    "course": "Diploma in Civil Engineering",
-    "email": "tannu.kumari@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 14,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 65,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
           },
           {
             "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 75,
-            "credits": 3.0,
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 39,
+            "credits": 1.0,
             "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
             "isBacklog": false
           },
           {
             "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 74,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 85,
-            "credits": 3.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
+            "category": "Term Work",
             "maxMarks": 25,
             "obtainedMarks": 23,
             "credits": 0.5,
@@ -6931,61 +4988,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "isBacklog": false
           },
           {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 50,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
             "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 9,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 50,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
             "category": "Term Work",
             "maxMarks": 50,
             "obtainedMarks": 43,
@@ -6994,28 +4997,10 @@ export const GENERATED_STUDENTS: Student[] = [
             "isBacklog": false
           },
           {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
             "name": "ICT TOOLS",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 47,
+            "obtainedMarks": 45,
             "credits": 1.0,
             "grade": "A+",
             "isBacklog": false
@@ -7024,30 +5009,30 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENGG. MECHANICS",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 47,
+            "obtainedMarks": 43,
             "credits": 1.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           }
         ],
-        "sgpa": 8.87,
-        "cgpa": 8.87,
-        "totalMarks": 866,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class with Distinction",
+        "sgpa": 7.63,
+        "cgpa": 7.63,
+        "totalMarks": 672,
+        "maxTotalMarks": 900,
+        "remarks": "First Class",
         "backlogCount": 0,
         "publishedDate": "10/06/2025",
-        "percentile": 86.6
+        "percentile": 74.7
       }
     ]
   },
   {
-    "id": "36",
-    "rollNumber": "211271524037",
-    "regNumber": "1271524037",
-    "name": "ABHISHEK KUMAR PATHAK",
+    "id": "26",
+    "rollNumber": "211271524031",
+    "regNumber": "1271524031",
+    "name": "RAUSHAN KUMAR",
     "course": "Diploma in Civil Engineering",
-    "email": "abhishek.kumar.pathak@college.edu",
+    "email": "raushan.kumar@college.edu",
     "contact": "+91 98765 43210",
     "currentSemester": 2,
     "results": [
@@ -7068,16 +5053,16 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 60,
+            "obtainedMarks": 54,
             "credits": 3.0,
-            "grade": "C",
+            "grade": "D",
             "isBacklog": false
           },
           {
             "name": "APPLIED MATHEMATICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 56,
+            "obtainedMarks": 58,
             "credits": 3.0,
             "grade": "D",
             "isBacklog": false
@@ -7095,7 +5080,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "PRINCIPLES OF MANAGEMENT",
             "category": "Theory",
             "maxMarks": 25,
-            "obtainedMarks": 24,
+            "obtainedMarks": 23,
             "credits": 1.0,
             "grade": "A+",
             "isBacklog": false
@@ -7104,105 +5089,6 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "INDIAN CONSTITUTION",
             "category": "Theory",
             "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 61,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 85,
-            "credits": 3.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 9,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
             "obtainedMarks": 23,
             "credits": 0.5,
             "grade": "A+",
@@ -7210,77 +5096,6 @@ export const GENERATED_STUDENTS: Student[] = [
           },
           {
             "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 8.42,
-        "cgpa": 8.42,
-        "totalMarks": 807,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 80.7
-      }
-    ]
-  },
-  {
-    "id": "37",
-    "rollNumber": "211271524084",
-    "regNumber": "1271524084",
-    "name": "NIKI KUMARI",
-    "course": "Diploma in Civil Engineering",
-    "email": "niki.kumari@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 14,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 66,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
             "category": "Theory",
             "maxMarks": 100,
             "obtainedMarks": 71,
@@ -7289,46 +5104,10 @@ export const GENERATED_STUDENTS: Student[] = [
             "isBacklog": false
           },
           {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 70,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
             "name": "ENGG. MECHANICS",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 72,
+            "obtainedMarks": 79,
             "credits": 3.0,
             "grade": "B",
             "isBacklog": false
@@ -7346,7 +5125,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 46,
+            "obtainedMarks": 47,
             "credits": 2.0,
             "grade": "A+",
             "isBacklog": false
@@ -7364,16 +5143,16 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ICT TOOLS",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 43,
+            "obtainedMarks": 45,
             "credits": 2.0,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           },
           {
             "name": "ENGG. MECHANICS",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 45,
+            "obtainedMarks": 47,
             "credits": 2.0,
             "grade": "A+",
             "isBacklog": false
@@ -7391,215 +5170,9 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 46,
+            "obtainedMarks": 48,
             "credits": 1.0,
             "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 8.52,
-        "cgpa": 8.52,
-        "totalMarks": 815,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class with Distinction",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 81.5
-      }
-    ]
-  },
-  {
-    "id": "38",
-    "rollNumber": "211271524003",
-    "regNumber": "1271524003",
-    "name": "HIMANSHU KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "himanshu.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 61,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 85,
-            "credits": 3.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 75,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 75,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 20,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 39,
-            "credits": 2.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
             "isBacklog": false
           },
           {
@@ -7615,9 +5188,9 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "INDIAN CONSTITUTION",
             "category": "Term Work",
             "maxMarks": 25,
-            "obtainedMarks": 23,
+            "obtainedMarks": 22,
             "credits": 0.5,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
@@ -7642,25 +5215,231 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENGG. MECHANICS",
             "category": "Term Work",
             "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.28,
+        "cgpa": 8.28,
+        "totalMarks": 807,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 80.7
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "rollNumber": "211271524032",
+    "regNumber": "1271524032",
+    "name": "SUDHANSHU KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "sudhanshu.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 10,
+            "credits": 1.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 45,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 49,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 67,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 69,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 19,
+            "credits": 0.5,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 32,
+            "credits": 2.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 6,
+            "credits": 0.5,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 34,
+            "credits": 1.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
             "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
             "credits": 1.0,
             "grade": "A",
             "isBacklog": false
           }
         ],
-        "sgpa": 8.47,
-        "cgpa": 8.47,
-        "totalMarks": 816,
+        "sgpa": 7.02,
+        "cgpa": 7.02,
+        "totalMarks": 713,
         "maxTotalMarks": 1000,
         "remarks": "First Class",
         "backlogCount": 0,
         "publishedDate": "10/06/2025",
-        "percentile": 81.6
+        "percentile": 71.3
       }
     ]
   },
   {
-    "id": "39",
+    "id": "28",
     "rollNumber": "211271524033",
     "regNumber": "1271524033",
     "name": "MD SHAMIM ANSARI",
@@ -7866,12 +5645,12 @@ export const GENERATED_STUDENTS: Student[] = [
     ]
   },
   {
-    "id": "40",
-    "rollNumber": "211271524023",
-    "regNumber": "1271524023",
-    "name": "SHWETA KUMARI",
+    "id": "29",
+    "rollNumber": "211271524035",
+    "regNumber": "1271524035",
+    "name": "SHANU KUMAR",
     "course": "Diploma in Civil Engineering",
-    "email": "shweta.kumari@college.edu",
+    "email": "shanu.kumar@college.edu",
     "contact": "+91 98765 43210",
     "currentSemester": 2,
     "results": [
@@ -7883,16 +5662,16 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENVT. EDU. AND SUST. DEVELOP.",
             "category": "Theory",
             "maxMarks": 15,
-            "obtainedMarks": 14,
+            "obtainedMarks": 11,
             "credits": 1.0,
-            "grade": "A+",
+            "grade": "B",
             "isBacklog": false
           },
           {
             "name": "APPLIED PHYSICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 54,
+            "obtainedMarks": 50,
             "credits": 3.0,
             "grade": "D",
             "isBacklog": false
@@ -7901,9 +5680,421 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED MATHEMATICS -A",
             "category": "Theory",
             "maxMarks": 100,
+            "obtainedMarks": 40,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 63,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
             "obtainedMarks": 60,
             "credits": 3.0,
             "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 20,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 36,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 39,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.4,
+        "cgpa": 7.4,
+        "totalMarks": 717,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 71.7
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "rollNumber": "211271524036",
+    "regNumber": "1271524036",
+    "name": "BITTU KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "bittu.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 66,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 67,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 59,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 69,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 20,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.02,
+        "cgpa": 8.02,
+        "totalMarks": 792,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 79.2
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "rollNumber": "211271524037",
+    "regNumber": "1271524037",
+    "name": "ABHISHEK KUMAR PATHAK",
+    "course": "Diploma in Civil Engineering",
+    "email": "abhishek.kumar.pathak@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 60,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 56,
+            "credits": 3.0,
+            "grade": "D",
             "isBacklog": false
           },
           {
@@ -7928,27 +6119,27 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "INDIAN CONSTITUTION",
             "category": "Theory",
             "maxMarks": 25,
-            "obtainedMarks": 23,
+            "obtainedMarks": 22,
             "credits": 0.5,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "PYTHON PROGRAMMING",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 42,
+            "obtainedMarks": 61,
             "credits": 3.0,
-            "grade": "E",
+            "grade": "C",
             "isBacklog": false
           },
           {
             "name": "ENGG. MECHANICS",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 63,
+            "obtainedMarks": 85,
             "credits": 3.0,
-            "grade": "C",
+            "grade": "A",
             "isBacklog": false
           },
           {
@@ -7964,6 +6155,1439 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Practical",
             "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.42,
+        "cgpa": 8.42,
+        "totalMarks": 807,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 80.7
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "rollNumber": "211271524038",
+    "regNumber": "1271524038",
+    "name": "RAHUL KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "rahul.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 53,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 66,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 53,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 72,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 20,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 37,
+            "credits": 2.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.75,
+        "cgpa": 7.75,
+        "totalMarks": 760,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 76.0
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "rollNumber": "211271524039",
+    "regNumber": "1271524039",
+    "name": "PAWAN KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "pawan.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 11,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 65,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 86,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 66,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 96,
+            "credits": 3.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 20,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 50,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 48,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 50,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 48,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.93,
+        "cgpa": 8.93,
+        "totalMarks": 867,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class with Distinction",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 86.7
+      }
+    ]
+  },
+  {
+    "id": "34",
+    "rollNumber": "211271524040",
+    "regNumber": "1271524040",
+    "name": "ANKIT KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "ankit.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 70,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 58,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 54,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 37,
+            "credits": 2.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.83,
+        "cgpa": 7.83,
+        "totalMarks": 691,
+        "maxTotalMarks": 900,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 76.8
+      }
+    ]
+  },
+  {
+    "id": "35",
+    "rollNumber": "211271524041",
+    "regNumber": "1271524041",
+    "name": "ANISH KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "anish.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 14,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 67,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 79,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 83,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 84,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.62,
+        "cgpa": 8.62,
+        "totalMarks": 836,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class with Distinction",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 83.6
+      }
+    ]
+  },
+  {
+    "id": "36",
+    "rollNumber": "211271524042",
+    "regNumber": "1271524042",
+    "name": "KAJAL KUMARI",
+    "course": "Diploma in Civil Engineering",
+    "email": "kajal.kumari@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 14,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 50,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 63,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 55,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 76,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.85,
+        "cgpa": 7.85,
+        "totalMarks": 760,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 76.0
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "rollNumber": "211271524043",
+    "regNumber": "1271524043",
+    "name": "RANJAN KUMAR YADAV",
+    "course": "Diploma in Civil Engineering",
+    "email": "ranjan.kumar.yadav@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 50,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 70,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 59,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 71,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.18,
+        "cgpa": 8.18,
+        "totalMarks": 784,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 78.4
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "rollNumber": "211271524044",
+    "regNumber": "1271524044",
+    "name": "AARTI KUMARI",
+    "course": "Diploma in Civil Engineering",
+    "email": "aarti.kumari@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 76,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 82,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 80,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 68,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 20,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
             "obtainedMarks": 46,
             "credits": 2.0,
             "grade": "A+",
@@ -7973,7 +7597,625 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "PYTHON PROGRAMMING",
             "category": "Practical",
             "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
             "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.98,
+        "cgpa": 8.98,
+        "totalMarks": 851,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class with Distinction",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 85.1
+      }
+    ]
+  },
+  {
+    "id": "39",
+    "rollNumber": "211271524045",
+    "regNumber": "1271524045",
+    "name": "SUHANI KUMARI",
+    "course": "Diploma in Civil Engineering",
+    "email": "suhani.kumari@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 51,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 52,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 53,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 52,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.53,
+        "cgpa": 7.53,
+        "totalMarks": 724,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 72.4
+      }
+    ]
+  },
+  {
+    "id": "40",
+    "rollNumber": "211271524046",
+    "regNumber": "1271524046",
+    "name": "ROHAN KUMAR MALAKAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "rohan.kumar.malakar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 14,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 65,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 71,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 77,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 65,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 48,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.33,
+        "cgpa": 8.33,
+        "totalMarks": 813,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 81.3
+      }
+    ]
+  },
+  {
+    "id": "41",
+    "rollNumber": "211271524047",
+    "regNumber": "1271524047",
+    "name": "KUMKUM KUMARI",
+    "course": "Diploma in Civil Engineering",
+    "email": "kumkum.kumari@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 75,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 58,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 46,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 73,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
             "credits": 2.0,
             "grade": "A+",
             "isBacklog": false
@@ -8027,7 +8269,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "INDIAN CONSTITUTION",
             "category": "Term Work",
             "maxMarks": 25,
-            "obtainedMarks": 24,
+            "obtainedMarks": 23,
             "credits": 0.5,
             "grade": "A+",
             "isBacklog": false
@@ -8036,7 +8278,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "PYTHON PROGRAMMING",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 46,
+            "obtainedMarks": 45,
             "credits": 1.0,
             "grade": "A+",
             "isBacklog": false
@@ -8054,30 +8296,30 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENGG. MECHANICS",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 44,
+            "obtainedMarks": 45,
             "credits": 1.0,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           }
         ],
-        "sgpa": 8.03,
-        "cgpa": 8.03,
-        "totalMarks": 766,
+        "sgpa": 8.15,
+        "cgpa": 8.15,
+        "totalMarks": 791,
         "maxTotalMarks": 1000,
         "remarks": "First Class",
         "backlogCount": 0,
         "publishedDate": "10/06/2025",
-        "percentile": 76.6
+        "percentile": 79.1
       }
     ]
   },
   {
-    "id": "41",
-    "rollNumber": "211271524062",
-    "regNumber": "1271524062",
-    "name": "PRINCE KUMAR",
+    "id": "42",
+    "rollNumber": "211271524048",
+    "regNumber": "1271524048",
+    "name": "AASHIYA ANJUM",
     "course": "Diploma in Civil Engineering",
-    "email": "prince.kumar@college.edu",
+    "email": "aashiya.anjum@college.edu",
     "contact": "+91 98765 43210",
     "currentSemester": 2,
     "results": [
@@ -8089,27 +8331,27 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENVT. EDU. AND SUST. DEVELOP.",
             "category": "Theory",
             "maxMarks": 15,
-            "obtainedMarks": 12,
+            "obtainedMarks": 14,
             "credits": 1.0,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           },
           {
             "name": "APPLIED PHYSICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 75,
+            "obtainedMarks": 68,
             "credits": 3.0,
-            "grade": "B",
+            "grade": "C",
             "isBacklog": false
           },
           {
             "name": "APPLIED MATHEMATICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 61,
+            "obtainedMarks": 80,
             "credits": 3.0,
-            "grade": "C",
+            "grade": "A",
             "isBacklog": false
           },
           {
@@ -8125,7 +8367,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "PRINCIPLES OF MANAGEMENT",
             "category": "Theory",
             "maxMarks": 25,
-            "obtainedMarks": 23,
+            "obtainedMarks": 24,
             "credits": 1.0,
             "grade": "A+",
             "isBacklog": false
@@ -8143,25 +8385,222 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "PYTHON PROGRAMMING",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 68,
+            "obtainedMarks": 76,
             "credits": 3.0,
-            "grade": "C",
+            "grade": "B",
             "isBacklog": false
           },
           {
             "name": "ENGG. MECHANICS",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 74,
+            "obtainedMarks": 91,
             "credits": 3.0,
-            "grade": "B",
+            "grade": "A+",
             "isBacklog": false
           },
           {
             "name": "ENVT. EDU. AND SUST. DEVELOP.",
             "category": "Practical",
             "maxMarks": 25,
-            "obtainedMarks": 20,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 48,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 9.17,
+        "cgpa": 9.17,
+        "totalMarks": 865,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class with Distinction",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 86.5
+      }
+    ]
+  },
+  {
+    "id": "43",
+    "rollNumber": "211271524049",
+    "regNumber": "1271524049",
+    "name": "PRIYANSHU KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "priyanshu.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 51,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 48,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 51,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
             "credits": 0.5,
             "grade": "A",
             "isBacklog": false
@@ -8170,16 +8609,16 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 34,
+            "obtainedMarks": 35,
             "credits": 2.0,
-            "grade": "C",
+            "grade": "B",
             "isBacklog": false
           },
           {
             "name": "PYTHON PROGRAMMING",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 41,
+            "obtainedMarks": 43,
             "credits": 2.0,
             "grade": "A",
             "isBacklog": false
@@ -8188,7 +8627,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ICT TOOLS",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 43,
+            "obtainedMarks": 42,
             "credits": 2.0,
             "grade": "A",
             "isBacklog": false
@@ -8215,18 +8654,18 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 38,
+            "obtainedMarks": 40,
             "credits": 1.0,
-            "grade": "B",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "APPLIED MATHEMATICS -A",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 39,
+            "obtainedMarks": 41,
             "credits": 1.0,
-            "grade": "B",
+            "grade": "A",
             "isBacklog": false
           },
           {
@@ -8242,7 +8681,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "PYTHON PROGRAMMING",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 41,
+            "obtainedMarks": 43,
             "credits": 1.0,
             "grade": "A",
             "isBacklog": false
@@ -8251,7 +8690,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ICT TOOLS",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 43,
+            "obtainedMarks": 42,
             "credits": 1.0,
             "grade": "A",
             "isBacklog": false
@@ -8260,30 +8699,30 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENGG. MECHANICS",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 43,
+            "obtainedMarks": 42,
             "credits": 1.0,
             "grade": "A",
             "isBacklog": false
           }
         ],
-        "sgpa": 7.77,
-        "cgpa": 7.77,
-        "totalMarks": 776,
-        "maxTotalMarks": 1000,
+        "sgpa": 7.52,
+        "cgpa": 7.52,
+        "totalMarks": 656,
+        "maxTotalMarks": 900,
         "remarks": "First Class",
         "backlogCount": 0,
         "publishedDate": "10/06/2025",
-        "percentile": 77.6
+        "percentile": 72.9
       }
     ]
   },
   {
-    "id": "42",
-    "rollNumber": "211271524061",
-    "regNumber": "1271524061",
-    "name": "SONU KUMAR",
+    "id": "44",
+    "rollNumber": "211271524050",
+    "regNumber": "1271524050",
+    "name": "VITTU KUMAR",
     "course": "Diploma in Civil Engineering",
-    "email": "sonu.kumar@college.edu",
+    "email": "vittu.kumar@college.edu",
     "contact": "+91 98765 43210",
     "currentSemester": 2,
     "results": [
@@ -8304,18 +8743,18 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 68,
+            "obtainedMarks": 59,
             "credits": 3.0,
-            "grade": "C",
+            "grade": "D",
             "isBacklog": false
           },
           {
             "name": "APPLIED MATHEMATICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 92,
+            "obtainedMarks": 47,
             "credits": 3.0,
-            "grade": "A+",
+            "grade": "E",
             "isBacklog": false
           },
           {
@@ -8349,25 +8788,25 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "PYTHON PROGRAMMING",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 79,
+            "obtainedMarks": 52,
             "credits": 3.0,
-            "grade": "B",
+            "grade": "D",
             "isBacklog": false
           },
           {
             "name": "ENGG. MECHANICS",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 85,
+            "obtainedMarks": 53,
             "credits": 3.0,
-            "grade": "A",
+            "grade": "D",
             "isBacklog": false
           },
           {
             "name": "ENVT. EDU. AND SUST. DEVELOP.",
             "category": "Practical",
             "maxMarks": 25,
-            "obtainedMarks": 20,
+            "obtainedMarks": 21,
             "credits": 0.5,
             "grade": "A",
             "isBacklog": false
@@ -8376,36 +8815,36 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 43,
+            "obtainedMarks": 35,
             "credits": 2.0,
-            "grade": "A",
+            "grade": "B",
             "isBacklog": false
           },
           {
             "name": "PYTHON PROGRAMMING",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 45,
+            "obtainedMarks": 43,
             "credits": 2.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "ICT TOOLS",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 45,
+            "obtainedMarks": 42,
             "credits": 2.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "ENGG. MECHANICS",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 47,
+            "obtainedMarks": 42,
             "credits": 2.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
@@ -8421,16 +8860,16 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 46,
+            "obtainedMarks": 40,
             "credits": 1.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "APPLIED MATHEMATICS -A",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 43,
+            "obtainedMarks": 40,
             "credits": 1.0,
             "grade": "A",
             "isBacklog": false
@@ -8439,57 +8878,57 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "INDIAN CONSTITUTION",
             "category": "Term Work",
             "maxMarks": 25,
-            "obtainedMarks": 23,
+            "obtainedMarks": 22,
             "credits": 0.5,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "PYTHON PROGRAMMING",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 45,
+            "obtainedMarks": 43,
             "credits": 1.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "ICT TOOLS",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 45,
+            "obtainedMarks": 42,
             "credits": 1.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "ENGG. MECHANICS",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 47,
+            "obtainedMarks": 40,
             "credits": 1.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           }
         ],
-        "sgpa": 9.03,
-        "cgpa": 9.03,
-        "totalMarks": 864,
+        "sgpa": 7.25,
+        "cgpa": 7.25,
+        "totalMarks": 712,
         "maxTotalMarks": 1000,
-        "remarks": "First Class with Distinction",
+        "remarks": "First Class",
         "backlogCount": 0,
         "publishedDate": "10/06/2025",
-        "percentile": 86.4
+        "percentile": 71.2
       }
     ]
   },
   {
-    "id": "43",
-    "rollNumber": "211271524006",
-    "regNumber": "1271524006",
-    "name": "ABHAY KUMAR",
+    "id": "45",
+    "rollNumber": "211271524051",
+    "regNumber": "1271524051",
+    "name": "VISHAL KUMAR",
     "course": "Diploma in Civil Engineering",
-    "email": "abhay.kumar@college.edu",
+    "email": "vishal.kumar@college.edu",
     "contact": "+91 98765 43210",
     "currentSemester": 2,
     "results": [
@@ -8510,18 +8949,18 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 46,
+            "obtainedMarks": 51,
             "credits": 3.0,
-            "grade": "E",
+            "grade": "D",
             "isBacklog": false
           },
           {
             "name": "APPLIED MATHEMATICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 65,
+            "obtainedMarks": 42,
             "credits": 3.0,
-            "grade": "C",
+            "grade": "E",
             "isBacklog": false
           },
           {
@@ -8546,25 +8985,25 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "INDIAN CONSTITUTION",
             "category": "Theory",
             "maxMarks": 25,
-            "obtainedMarks": 23,
+            "obtainedMarks": 22,
             "credits": 0.5,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "PYTHON PROGRAMMING",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 77,
+            "obtainedMarks": 67,
             "credits": 3.0,
-            "grade": "B",
+            "grade": "C",
             "isBacklog": false
           },
           {
             "name": "ENGG. MECHANICS",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 61,
+            "obtainedMarks": 60,
             "credits": 3.0,
             "grade": "C",
             "isBacklog": false
@@ -8573,9 +9012,9 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENVT. EDU. AND SUST. DEVELOP.",
             "category": "Practical",
             "maxMarks": 25,
-            "obtainedMarks": 19,
+            "obtainedMarks": 20,
             "credits": 0.5,
-            "grade": "B",
+            "grade": "A",
             "isBacklog": false
           },
           {
@@ -8591,9 +9030,9 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "PYTHON PROGRAMMING",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 43,
+            "obtainedMarks": 45,
             "credits": 2.0,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           },
           {
@@ -8609,477 +9048,83 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENGG. MECHANICS",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 41,
+            "obtainedMarks": 47,
             "credits": 2.0,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           },
           {
             "name": "ENVT. EDU. AND SUST. DEVELOP.",
             "category": "Term Work",
             "maxMarks": 10,
-            "obtainedMarks": 7,
+            "obtainedMarks": 9,
             "credits": 0.5,
-            "grade": "B",
+            "grade": "A+",
             "isBacklog": false
           },
           {
             "name": "APPLIED PHYSICS -A",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 38,
+            "obtainedMarks": 34,
             "credits": 1.0,
-            "grade": "B",
+            "grade": "C",
             "isBacklog": false
           },
           {
             "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
             "category": "Term Work",
             "maxMarks": 50,
             "obtainedMarks": 39,
             "credits": 1.0,
             "grade": "B",
             "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
           }
         ],
-        "sgpa": 7.47,
-        "cgpa": 7.47,
-        "totalMarks": 747,
+        "sgpa": 7.48,
+        "cgpa": 7.48,
+        "totalMarks": 730,
         "maxTotalMarks": 1000,
         "remarks": "First Class",
         "backlogCount": 0,
         "publishedDate": "10/06/2025",
-        "percentile": 74.7
-      }
-    ]
-  },
-  {
-    "id": "44",
-    "rollNumber": "211271524083",
-    "regNumber": "1271524083",
-    "name": "PRATIK SAHNI",
-    "course": "Diploma in Civil Engineering",
-    "email": "pratik.sahni@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 13,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 40,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 55,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 59,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 34,
-            "credits": 2.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.41,
-        "cgpa": 7.41,
-        "totalMarks": 647,
-        "maxTotalMarks": 900,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 71.9
-      }
-    ]
-  },
-  {
-    "id": "45",
-    "rollNumber": "211271524022",
-    "regNumber": "1271524022",
-    "name": "DHIRAJ KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "dhiraj.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 13,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 48,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 52,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 52,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.67,
-        "cgpa": 7.67,
-        "totalMarks": 659,
-        "maxTotalMarks": 900,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 73.2
+        "percentile": 73.0
       }
     ]
   },
@@ -9497,11 +9542,11 @@ export const GENERATED_STUDENTS: Student[] = [
   },
   {
     "id": "48",
-    "rollNumber": "211271524074",
-    "regNumber": "1271524074",
-    "name": "AMAN KUMAR",
+    "rollNumber": "211271524055",
+    "regNumber": "1271524055",
+    "name": "SANJANA SUHANI",
     "course": "Diploma in Civil Engineering",
-    "email": "aman.kumar@college.edu",
+    "email": "sanjana.suhani@college.edu",
     "contact": "+91 98765 43210",
     "currentSemester": 2,
     "results": [
@@ -9520,1869 +9565,6 @@ export const GENERATED_STUDENTS: Student[] = [
           },
           {
             "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 70,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 93,
-            "credits": 3.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 82,
-            "credits": 3.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 93,
-            "credits": 3.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 20,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 38,
-            "credits": 2.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 9.05,
-        "cgpa": 9.05,
-        "totalMarks": 856,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class with Distinction",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 85.6
-      }
-    ]
-  },
-  {
-    "id": "49",
-    "rollNumber": "211271524087",
-    "regNumber": "1271524087",
-    "name": "OM PRAKASH",
-    "course": "Diploma in Civil Engineering",
-    "email": "om.prakash@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 14,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 57,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 56,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 72,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 70,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 9,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 8.08,
-        "cgpa": 8.08,
-        "totalMarks": 777,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 77.7
-      }
-    ]
-  },
-  {
-    "id": "50",
-    "rollNumber": "211271524014",
-    "regNumber": "1271524014",
-    "name": "VICKY KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "vicky.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 59,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 67,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 65,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 79,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 20,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 48,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 8.07,
-        "cgpa": 8.07,
-        "totalMarks": 794,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 79.4
-      }
-    ]
-  },
-  {
-    "id": "51",
-    "rollNumber": "211271524036",
-    "regNumber": "1271524036",
-    "name": "BITTU KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "bittu.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 13,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 66,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 67,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 59,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 69,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 20,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 8.02,
-        "cgpa": 8.02,
-        "totalMarks": 792,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 79.2
-      }
-    ]
-  },
-  {
-    "id": "52",
-    "rollNumber": "211271524021",
-    "regNumber": "1271524021",
-    "name": "BABY KUMARI",
-    "course": "Diploma in Civil Engineering",
-    "email": "baby.kumari@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 14,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 67,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 92,
-            "credits": 3.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 76,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 84,
-            "credits": 3.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 9,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 48,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 9.15,
-        "cgpa": 9.15,
-        "totalMarks": 870,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class with Distinction",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 87.0
-      }
-    ]
-  },
-  {
-    "id": "53",
-    "rollNumber": "211271524042",
-    "regNumber": "1271524042",
-    "name": "KAJAL KUMARI",
-    "course": "Diploma in Civil Engineering",
-    "email": "kajal.kumari@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 14,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 50,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 63,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 55,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 76,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 9,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.85,
-        "cgpa": 7.85,
-        "totalMarks": 760,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 76.0
-      }
-    ]
-  },
-  {
-    "id": "54",
-    "rollNumber": "211271524091",
-    "regNumber": "1271524091",
-    "name": "KANHAIYA KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "kanhaiya.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 49,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 52,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 60,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 65,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 36,
-            "credits": 2.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 38,
-            "credits": 1.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.38,
-        "cgpa": 7.38,
-        "totalMarks": 728,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 72.8
-      }
-    ]
-  },
-  {
-    "id": "55",
-    "rollNumber": "211271524019",
-    "regNumber": "1271524019",
-    "name": "DIPU KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "dipu.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 50,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 51,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 67,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 60,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 9,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.72,
-        "cgpa": 7.72,
-        "totalMarks": 741,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 74.1
-      }
-    ]
-  },
-  {
-    "id": "56",
-    "rollNumber": "211271524039",
-    "regNumber": "1271524039",
-    "name": "PAWAN KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "pawan.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 11,
-            "credits": 1.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 65,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 86,
-            "credits": 3.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 66,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 96,
-            "credits": 3.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 20,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 50,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 48,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 50,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 48,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 8.93,
-        "cgpa": 8.93,
-        "totalMarks": 867,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class with Distinction",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 86.7
-      }
-    ]
-  },
-  {
-    "id": "57",
-    "rollNumber": "211271524031",
-    "regNumber": "1271524031",
-    "name": "RAUSHAN KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "raushan.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 54,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
             "category": "Theory",
             "maxMarks": 100,
             "obtainedMarks": 58,
@@ -11391,198 +9573,10 @@ export const GENERATED_STUDENTS: Student[] = [
             "isBacklog": false
           },
           {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 71,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 79,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 48,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
             "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 8.28,
-        "cgpa": 8.28,
-        "totalMarks": 807,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 80.7
-      }
-    ]
-  },
-  {
-    "id": "58",
-    "rollNumber": "211271524009",
-    "regNumber": "1271524009",
-    "name": "MAYANK KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "mayank.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 51,
+            "obtainedMarks": 52,
             "credits": 3.0,
             "grade": "D",
             "isBacklog": false
@@ -11618,7 +9612,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "PYTHON PROGRAMMING",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 53,
+            "obtainedMarks": 54,
             "credits": 3.0,
             "grade": "D",
             "isBacklog": false
@@ -11627,7 +9621,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENGG. MECHANICS",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 54,
+            "obtainedMarks": 58,
             "credits": 3.0,
             "grade": "D",
             "isBacklog": false
@@ -11636,7 +9630,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENVT. EDU. AND SUST. DEVELOP.",
             "category": "Practical",
             "maxMarks": 25,
-            "obtainedMarks": 20,
+            "obtainedMarks": 22,
             "credits": 0.5,
             "grade": "A",
             "isBacklog": false
@@ -11645,9 +9639,9 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 34,
+            "obtainedMarks": 45,
             "credits": 2.0,
-            "grade": "C",
+            "grade": "A+",
             "isBacklog": false
           },
           {
@@ -11663,7 +9657,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ICT TOOLS",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 41,
+            "obtainedMarks": 43,
             "credits": 2.0,
             "grade": "A",
             "isBacklog": false
@@ -11672,7 +9666,213 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENGG. MECHANICS",
             "category": "Practical",
             "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
             "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.68,
+        "cgpa": 7.68,
+        "totalMarks": 756,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 75.6
+      }
+    ]
+  },
+  {
+    "id": "49",
+    "rollNumber": "211271524056",
+    "regNumber": "1271524056",
+    "name": "PINKI KUMARI",
+    "course": "Diploma in Civil Engineering",
+    "email": "pinki.kumari@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 46,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 46,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 45,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 60,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 38,
+            "credits": 2.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
             "credits": 2.0,
             "grade": "A",
             "isBacklog": false
@@ -11726,7 +9926,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ICT TOOLS",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 42,
+            "obtainedMarks": 43,
             "credits": 1.0,
             "grade": "A",
             "isBacklog": false
@@ -11735,236 +9935,30 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENGG. MECHANICS",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 41,
+            "obtainedMarks": 43,
             "credits": 1.0,
             "grade": "A",
             "isBacklog": false
           }
         ],
-        "sgpa": 7.48,
-        "cgpa": 7.48,
-        "totalMarks": 657,
-        "maxTotalMarks": 900,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 73.0
-      }
-    ]
-  },
-  {
-    "id": "59",
-    "rollNumber": "211271524038",
-    "regNumber": "1271524038",
-    "name": "RAHUL KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "rahul.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 53,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 66,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 53,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 72,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 20,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 37,
-            "credits": 2.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.75,
-        "cgpa": 7.75,
-        "totalMarks": 760,
+        "sgpa": 7.08,
+        "cgpa": 7.08,
+        "totalMarks": 706,
         "maxTotalMarks": 1000,
         "remarks": "First Class",
         "backlogCount": 0,
         "publishedDate": "10/06/2025",
-        "percentile": 76.0
+        "percentile": 70.6
       }
     ]
   },
   {
-    "id": "60",
-    "rollNumber": "211271524005",
-    "regNumber": "1271524005",
-    "name": "VIVEK GUPTA",
+    "id": "50",
+    "rollNumber": "211271524057",
+    "regNumber": "1271524057",
+    "name": "SUSHANT KUMAR",
     "course": "Diploma in Civil Engineering",
-    "email": "vivek.gupta@college.edu",
+    "email": "sushant.kumar@college.edu",
     "contact": "+91 98765 43210",
     "currentSemester": 2,
     "results": [
@@ -11985,430 +9979,18 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 56,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 75,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 72,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 71,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 37,
-            "credits": 2.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 8.03,
-        "cgpa": 8.03,
-        "totalMarks": 787,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 78.7
-      }
-    ]
-  },
-  {
-    "id": "61",
-    "rollNumber": "211271524025",
-    "regNumber": "1271524025",
-    "name": "SUPRIYA KUMARI",
-    "course": "Diploma in Civil Engineering",
-    "email": "supriya.kumari@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 14,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 67,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 73,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
             "obtainedMarks": 66,
             "credits": 3.0,
             "grade": "C",
             "isBacklog": false
           },
           {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 98,
-            "credits": 3.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 9,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 48,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 8.87,
-        "cgpa": 8.87,
-        "totalMarks": 857,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class with Distinction",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 85.7
-      }
-    ]
-  },
-  {
-    "id": "62",
-    "rollNumber": "211271524045",
-    "regNumber": "1271524045",
-    "name": "SUHANI KUMARI",
-    "course": "Diploma in Civil Engineering",
-    "email": "suhani.kumari@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 13,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 51,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
             "name": "APPLIED MATHEMATICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 52,
+            "obtainedMarks": 60,
             "credits": 3.0,
-            "grade": "D",
+            "grade": "C",
             "isBacklog": false
           },
           {
@@ -12416,212 +9998,6 @@ export const GENERATED_STUDENTS: Student[] = [
             "category": "Theory",
             "maxMarks": 25,
             "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 53,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 52,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 9,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.53,
-        "cgpa": 7.53,
-        "totalMarks": 724,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 72.4
-      }
-    ]
-  },
-  {
-    "id": "63",
-    "rollNumber": "211271524079",
-    "regNumber": "1271524079",
-    "name": "ANURAG ANAND",
-    "course": "Diploma in Civil Engineering",
-    "email": "anurag.anand@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 50,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 47,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
             "credits": 1.0,
             "grade": "A+",
             "isBacklog": false
@@ -12657,25 +10033,25 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENGG. MECHANICS",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 52,
+            "obtainedMarks": 71,
             "credits": 3.0,
-            "grade": "D",
+            "grade": "B",
             "isBacklog": false
           },
           {
             "name": "ENVT. EDU. AND SUST. DEVELOP.",
             "category": "Practical",
             "maxMarks": 25,
-            "obtainedMarks": 20,
+            "obtainedMarks": 23,
             "credits": 0.5,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           },
           {
             "name": "APPLIED PHYSICS -A",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 40,
+            "obtainedMarks": 41,
             "credits": 2.0,
             "grade": "A",
             "isBacklog": false
@@ -12684,16 +10060,16 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "PYTHON PROGRAMMING",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 45,
+            "obtainedMarks": 41,
             "credits": 2.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "ICT TOOLS",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 47,
+            "obtainedMarks": 45,
             "credits": 2.0,
             "grade": "A+",
             "isBacklog": false
@@ -12702,34 +10078,34 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENGG. MECHANICS",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 42,
+            "obtainedMarks": 46,
             "credits": 2.0,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           },
           {
             "name": "ENVT. EDU. AND SUST. DEVELOP.",
             "category": "Term Work",
             "maxMarks": 10,
-            "obtainedMarks": 7,
+            "obtainedMarks": 9,
             "credits": 0.5,
-            "grade": "B",
+            "grade": "A+",
             "isBacklog": false
           },
           {
             "name": "APPLIED PHYSICS -A",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 46,
+            "obtainedMarks": 40,
             "credits": 1.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "APPLIED MATHEMATICS -A",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 40,
+            "obtainedMarks": 41,
             "credits": 1.0,
             "grade": "A",
             "isBacklog": false
@@ -12738,13 +10114,22 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "INDIAN CONSTITUTION",
             "category": "Term Work",
             "maxMarks": 25,
-            "obtainedMarks": 23,
+            "obtainedMarks": 22,
             "credits": 0.5,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
             "category": "Term Work",
             "maxMarks": 50,
             "obtainedMarks": 45,
@@ -12753,42 +10138,33 @@ export const GENERATED_STUDENTS: Student[] = [
             "isBacklog": false
           },
           {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
             "name": "ENGG. MECHANICS",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 40,
+            "obtainedMarks": 46,
             "credits": 1.0,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           }
         ],
-        "sgpa": 7.68,
-        "cgpa": 7.68,
-        "totalMarks": 736,
+        "sgpa": 8.2,
+        "cgpa": 8.2,
+        "totalMarks": 782,
         "maxTotalMarks": 1000,
         "remarks": "First Class",
         "backlogCount": 0,
         "publishedDate": "10/06/2025",
-        "percentile": 73.6
+        "percentile": 78.2
       }
     ]
   },
   {
-    "id": "64",
-    "rollNumber": "211271524075",
-    "regNumber": "1271524075",
-    "name": "ADITYA KUMAR",
+    "id": "51",
+    "rollNumber": "211271524061",
+    "regNumber": "1271524061",
+    "name": "SONU KUMAR",
     "course": "Diploma in Civil Engineering",
-    "email": "aditya.kumar@college.edu",
+    "email": "sonu.kumar@college.edu",
     "contact": "+91 98765 43210",
     "currentSemester": 2,
     "results": [
@@ -12809,18 +10185,18 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 48,
+            "obtainedMarks": 68,
             "credits": 3.0,
-            "grade": "E",
+            "grade": "C",
             "isBacklog": false
           },
           {
             "name": "APPLIED MATHEMATICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 65,
+            "obtainedMarks": 92,
             "credits": 3.0,
-            "grade": "C",
+            "grade": "A+",
             "isBacklog": false
           },
           {
@@ -12845,34 +10221,34 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "INDIAN CONSTITUTION",
             "category": "Theory",
             "maxMarks": 25,
-            "obtainedMarks": 22,
+            "obtainedMarks": 23,
             "credits": 0.5,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           },
           {
             "name": "PYTHON PROGRAMMING",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 56,
+            "obtainedMarks": 79,
             "credits": 3.0,
-            "grade": "D",
+            "grade": "B",
             "isBacklog": false
           },
           {
             "name": "ENGG. MECHANICS",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 55,
+            "obtainedMarks": 85,
             "credits": 3.0,
-            "grade": "D",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "ENVT. EDU. AND SUST. DEVELOP.",
             "category": "Practical",
             "maxMarks": 25,
-            "obtainedMarks": 21,
+            "obtainedMarks": 20,
             "credits": 0.5,
             "grade": "A",
             "isBacklog": false
@@ -12881,34 +10257,34 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 33,
+            "obtainedMarks": 43,
             "credits": 2.0,
-            "grade": "C",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "PYTHON PROGRAMMING",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 43,
+            "obtainedMarks": 45,
             "credits": 2.0,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           },
           {
             "name": "ICT TOOLS",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 43,
+            "obtainedMarks": 45,
             "credits": 2.0,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           },
           {
             "name": "ENGG. MECHANICS",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 45,
+            "obtainedMarks": 47,
             "credits": 2.0,
             "grade": "A+",
             "isBacklog": false
@@ -12926,16 +10302,16 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 40,
+            "obtainedMarks": 46,
             "credits": 1.0,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           },
           {
             "name": "APPLIED MATHEMATICS -A",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 42,
+            "obtainedMarks": 43,
             "credits": 1.0,
             "grade": "A",
             "isBacklog": false
@@ -12953,48 +10329,48 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "PYTHON PROGRAMMING",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 43,
+            "obtainedMarks": 45,
             "credits": 1.0,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           },
           {
             "name": "ICT TOOLS",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 43,
+            "obtainedMarks": 45,
             "credits": 1.0,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           },
           {
             "name": "ENGG. MECHANICS",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 44,
+            "obtainedMarks": 47,
             "credits": 1.0,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           }
         ],
-        "sgpa": 7.35,
-        "cgpa": 7.35,
-        "totalMarks": 734,
+        "sgpa": 9.03,
+        "cgpa": 9.03,
+        "totalMarks": 864,
         "maxTotalMarks": 1000,
-        "remarks": "First Class",
+        "remarks": "First Class with Distinction",
         "backlogCount": 0,
         "publishedDate": "10/06/2025",
-        "percentile": 73.4
+        "percentile": 86.4
       }
     ]
   },
   {
-    "id": "65",
-    "rollNumber": "211271524047",
-    "regNumber": "1271524047",
-    "name": "KUMKUM KUMARI",
+    "id": "52",
+    "rollNumber": "211271524062",
+    "regNumber": "1271524062",
+    "name": "PRINCE KUMAR",
     "course": "Diploma in Civil Engineering",
-    "email": "kumkum.kumari@college.edu",
+    "email": "prince.kumar@college.edu",
     "contact": "+91 98765 43210",
     "currentSemester": 2,
     "results": [
@@ -13006,7 +10382,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENVT. EDU. AND SUST. DEVELOP.",
             "category": "Theory",
             "maxMarks": 15,
-            "obtainedMarks": 13,
+            "obtainedMarks": 12,
             "credits": 1.0,
             "grade": "A",
             "isBacklog": false
@@ -13024,9 +10400,9 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED MATHEMATICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 58,
+            "obtainedMarks": 61,
             "credits": 3.0,
-            "grade": "D",
+            "grade": "C",
             "isBacklog": false
           },
           {
@@ -13060,16 +10436,222 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "PYTHON PROGRAMMING",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 46,
+            "obtainedMarks": 68,
             "credits": 3.0,
-            "grade": "E",
+            "grade": "C",
             "isBacklog": false
           },
           {
             "name": "ENGG. MECHANICS",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 73,
+            "obtainedMarks": 74,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 20,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 34,
+            "credits": 2.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 38,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 39,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.77,
+        "cgpa": 7.77,
+        "totalMarks": 776,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 77.6
+      }
+    ]
+  },
+  {
+    "id": "53",
+    "rollNumber": "211271524063",
+    "regNumber": "1271524063",
+    "name": "ANKUSH RAJ",
+    "course": "Diploma in Civil Engineering",
+    "email": "ankush.raj@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 66,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 61,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 69,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 74,
             "credits": 3.0,
             "grade": "B",
             "isBacklog": false
@@ -13087,7 +10669,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 44,
+            "obtainedMarks": 43,
             "credits": 2.0,
             "grade": "A",
             "isBacklog": false
@@ -13114,7 +10696,7 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENGG. MECHANICS",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 45,
+            "obtainedMarks": 46,
             "credits": 2.0,
             "grade": "A+",
             "isBacklog": false
@@ -13123,9 +10705,9 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENVT. EDU. AND SUST. DEVELOP.",
             "category": "Term Work",
             "maxMarks": 10,
-            "obtainedMarks": 9,
+            "obtainedMarks": 8,
             "credits": 0.5,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
@@ -13183,24 +10765,418 @@ export const GENERATED_STUDENTS: Student[] = [
             "isBacklog": false
           }
         ],
-        "sgpa": 8.15,
-        "cgpa": 8.15,
-        "totalMarks": 791,
+        "sgpa": 8.33,
+        "cgpa": 8.33,
+        "totalMarks": 807,
         "maxTotalMarks": 1000,
         "remarks": "First Class",
         "backlogCount": 0,
         "publishedDate": "10/06/2025",
-        "percentile": 79.1
+        "percentile": 80.7
       }
     ]
   },
   {
-    "id": "66",
-    "rollNumber": "211271524017",
-    "regNumber": "1271524017",
-    "name": "GUDDU KUMAR",
+    "id": "54",
+    "rollNumber": "211271524064",
+    "regNumber": "1271524064",
+    "name": "CHANDAN KUMAR",
     "course": "Diploma in Civil Engineering",
-    "email": "guddu.kumar@college.edu",
+    "email": "chandan.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 48,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 60,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 54,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 36,
+            "credits": 2.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 38,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.57,
+        "cgpa": 7.57,
+        "totalMarks": 667,
+        "maxTotalMarks": 900,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 74.1
+      }
+    ]
+  },
+  {
+    "id": "55",
+    "rollNumber": "211271524065",
+    "regNumber": "1271524065",
+    "name": "RAUSHAN KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "raushan.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 52,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 56,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 66,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 32,
+            "credits": 2.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 34,
+            "credits": 1.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 39,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.48,
+        "cgpa": 7.48,
+        "totalMarks": 671,
+        "maxTotalMarks": 900,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 74.6
+      }
+    ]
+  },
+  {
+    "id": "56",
+    "rollNumber": "211271524066",
+    "regNumber": "1271524066",
+    "name": "SAGAR KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "sagar.kumar@college.edu",
     "contact": "+91 98765 43210",
     "currentSemester": 2,
     "results": [
@@ -13221,6 +11197,212 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Theory",
             "maxMarks": 100,
+            "obtainedMarks": 48,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 51,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 56,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 44,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 32,
+            "credits": 2.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 34,
+            "credits": 1.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 6.93,
+        "cgpa": 6.93,
+        "totalMarks": 695,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 69.5
+      }
+    ]
+  },
+  {
+    "id": "57",
+    "rollNumber": "211271524067",
+    "regNumber": "1271524067",
+    "name": "PAWAN KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "pawan.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
             "obtainedMarks": 59,
             "credits": 3.0,
             "grade": "D",
@@ -13230,16 +11412,16 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED MATHEMATICS -A",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 63,
+            "obtainedMarks": 53,
             "credits": 3.0,
-            "grade": "C",
+            "grade": "D",
             "isBacklog": false
           },
           {
             "name": "ESSEN OF IND KNOWL. AND TRADIT",
             "category": "Theory",
             "maxMarks": 25,
-            "obtainedMarks": 24,
+            "obtainedMarks": 23,
             "credits": 1.0,
             "grade": "A+",
             "isBacklog": false
@@ -13275,1636 +11457,6 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENGG. MECHANICS",
             "category": "Theory",
             "maxMarks": 100,
-            "obtainedMarks": 52,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 20,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 35,
-            "credits": 2.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.4,
-        "cgpa": 7.4,
-        "totalMarks": 730,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 73.0
-      }
-    ]
-  },
-  {
-    "id": "67",
-    "rollNumber": "211271524094",
-    "regNumber": "1271524094",
-    "name": "PRANCHI KUMARI",
-    "course": "Diploma in Civil Engineering",
-    "email": "pranchi.kumari@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 48,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 44,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 52,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.67,
-        "cgpa": 7.67,
-        "totalMarks": 665,
-        "maxTotalMarks": 900,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 73.9
-      }
-    ]
-  },
-  {
-    "id": "68",
-    "rollNumber": "211271524007",
-    "regNumber": "1271524007",
-    "name": "HIMANSHU KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "himanshu.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 11,
-            "credits": 1.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 58,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 88,
-            "credits": 3.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 84,
-            "credits": 3.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 78,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 19,
-            "credits": 0.5,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 8.7,
-        "cgpa": 8.7,
-        "totalMarks": 846,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class with Distinction",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 84.6
-      }
-    ]
-  },
-  {
-    "id": "69",
-    "rollNumber": "211271524095",
-    "regNumber": "1271524095",
-    "name": "ROHIT KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "rohit.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 13,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 58,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 86,
-            "credits": 3.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 74,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 88,
-            "credits": 3.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 20,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 8.67,
-        "cgpa": 8.67,
-        "totalMarks": 836,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class with Distinction",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 83.6
-      }
-    ]
-  },
-  {
-    "id": "70",
-    "rollNumber": "211271524032",
-    "regNumber": "1271524032",
-    "name": "SUDHANSHU KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "sudhanshu.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 10,
-            "credits": 1.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 45,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 49,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 67,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 69,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 19,
-            "credits": 0.5,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 32,
-            "credits": 2.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 6,
-            "credits": 0.5,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 34,
-            "credits": 1.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.02,
-        "cgpa": 7.02,
-        "totalMarks": 713,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 71.3
-      }
-    ]
-  },
-  {
-    "id": "71",
-    "rollNumber": "211271524015",
-    "regNumber": "1271524015",
-    "name": "RAJU KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "raju.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 14,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 81,
-            "credits": 3.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 93,
-            "credits": 3.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 75,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 92,
-            "credits": 3.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 50,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 48,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 9,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 50,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 49,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 9.57,
-        "cgpa": 9.57,
-        "totalMarks": 911,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class with Distinction",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 91.1
-      }
-    ]
-  },
-  {
-    "id": "72",
-    "rollNumber": "211271524041",
-    "regNumber": "1271524041",
-    "name": "ANISH KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "anish.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 14,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 67,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 79,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 83,
-            "credits": 3.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 84,
-            "credits": 3.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 8.62,
-        "cgpa": 8.62,
-        "totalMarks": 836,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class with Distinction",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 83.6
-      }
-    ]
-  },
-  {
-    "id": "73",
-    "rollNumber": "211271524004",
-    "regNumber": "1271524004",
-    "name": "GAUTAM GAMBHIR SHARMA",
-    "course": "Diploma in Civil Engineering",
-    "email": "gautam.gambhir.sharma@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 51,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 72,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 80,
-            "credits": 3.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 88,
-            "credits": 3.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 19,
-            "credits": 0.5,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 7,
-            "credits": 0.5,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 8.43,
-        "cgpa": 8.43,
-        "totalMarks": 807,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 80.7
-      }
-    ]
-  },
-  {
-    "id": "74",
-    "rollNumber": "211271524070",
-    "regNumber": "1271524070",
-    "name": "KRISH KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "krish.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 51,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 55,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
             "obtainedMarks": 60,
             "credits": 3.0,
             "grade": "C",
@@ -14923,421 +11475,9 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 30,
-            "credits": 2.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 34,
-            "credits": 1.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 39,
-            "credits": 1.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
             "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.48,
-        "cgpa": 7.48,
-        "totalMarks": 652,
-        "maxTotalMarks": 900,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 72.4
-      }
-    ]
-  },
-  {
-    "id": "75",
-    "rollNumber": "211271524008",
-    "regNumber": "1271524008",
-    "name": "ABHISHEK RANJAN",
-    "course": "Diploma in Civil Engineering",
-    "email": "abhishek.ranjan@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 14,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 66,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 83,
-            "credits": 3.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 71,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 90,
-            "credits": 3.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
             "credits": 2.0,
             "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 47,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 9,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 46,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 9.08,
-        "cgpa": 9.08,
-        "totalMarks": 855,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class with Distinction",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 85.5
-      }
-    ]
-  },
-  {
-    "id": "76",
-    "rollNumber": "211271524050",
-    "regNumber": "1271524050",
-    "name": "VITTU KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "vittu.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 13,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 59,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 47,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 52,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 53,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 35,
-            "credits": 2.0,
-            "grade": "B",
             "isBacklog": false
           },
           {
@@ -15353,206 +11493,9 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ICT TOOLS",
             "category": "Practical",
             "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 42,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.25,
-        "cgpa": 7.25,
-        "totalMarks": 712,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 71.2
-      }
-    ]
-  },
-  {
-    "id": "77",
-    "rollNumber": "211271524029",
-    "regNumber": "1271524029",
-    "name": "SAURABH RAI",
-    "course": "Diploma in Civil Engineering",
-    "email": "saurabh.rai@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 43,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 59,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 52,
-            "credits": 3.0,
-            "grade": "D",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 19,
-            "credits": 0.5,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 38,
-            "credits": 2.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
             "obtainedMarks": 43,
             "credits": 2.0,
             "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
             "isBacklog": false
           },
           {
@@ -15577,442 +11520,30 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "APPLIED PHYSICS -A",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 46,
+            "obtainedMarks": 42,
             "credits": 1.0,
-            "grade": "A+",
+            "grade": "A",
             "isBacklog": false
           },
           {
             "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 39,
-            "credits": 1.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          }
-        ],
-        "sgpa": 7.63,
-        "cgpa": 7.63,
-        "totalMarks": 672,
-        "maxTotalMarks": 900,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 74.7
-      }
-    ]
-  },
-  {
-    "id": "78",
-    "rollNumber": "211271524046",
-    "regNumber": "1271524046",
-    "name": "ROHAN KUMAR MALAKAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "rohan.kumar.malakar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 14,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 65,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 71,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 77,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 65,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 2.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 9,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 48,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 23,
-            "credits": 0.5,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 45,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
             "category": "Term Work",
             "maxMarks": 50,
             "obtainedMarks": 42,
             "credits": 1.0,
             "grade": "A",
             "isBacklog": false
-          }
-        ],
-        "sgpa": 8.33,
-        "cgpa": 8.33,
-        "totalMarks": 813,
-        "maxTotalMarks": 1000,
-        "remarks": "First Class",
-        "backlogCount": 0,
-        "publishedDate": "10/06/2025",
-        "percentile": 81.3
-      }
-    ]
-  },
-  {
-    "id": "79",
-    "rollNumber": "211271524089",
-    "regNumber": "1271524089",
-    "name": "AKSHAY KUMAR",
-    "course": "Diploma in Civil Engineering",
-    "email": "akshay.kumar@college.edu",
-    "contact": "+91 98765 43210",
-    "currentSemester": 2,
-    "results": [
-      {
-        "semester": 2,
-        "session": "2024-2027",
-        "subjects": [
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Theory",
-            "maxMarks": 15,
-            "obtainedMarks": 12,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
           },
           {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 46,
-            "credits": 3.0,
-            "grade": "E",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 67,
-            "credits": 3.0,
-            "grade": "C",
-            "isBacklog": false
-          },
-          {
-            "name": "ESSEN OF IND KNOWL. AND TRADIT",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 24,
-            "credits": 1.0,
-            "grade": "A+",
-            "isBacklog": false
-          },
-          {
-            "name": "PRINCIPLES OF MANAGEMENT",
-            "category": "Theory",
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
             "maxMarks": 25,
             "obtainedMarks": 23,
-            "credits": 1.0,
+            "credits": 0.5,
             "grade": "A+",
             "isBacklog": false
           },
           {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Theory",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 70,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Theory",
-            "maxMarks": 100,
-            "obtainedMarks": 70,
-            "credits": 3.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Practical",
-            "maxMarks": 25,
-            "obtainedMarks": 21,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 35,
-            "credits": 2.0,
-            "grade": "B",
-            "isBacklog": false
-          },
-          {
-            "name": "PYTHON PROGRAMMING",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ICT TOOLS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 43,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENGG. MECHANICS",
-            "category": "Practical",
-            "maxMarks": 50,
-            "obtainedMarks": 44,
-            "credits": 2.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "ENVT. EDU. AND SUST. DEVELOP.",
-            "category": "Term Work",
-            "maxMarks": 10,
-            "obtainedMarks": 8,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED PHYSICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 40,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "APPLIED MATHEMATICS -A",
-            "category": "Term Work",
-            "maxMarks": 50,
-            "obtainedMarks": 41,
-            "credits": 1.0,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
-            "name": "INDIAN CONSTITUTION",
-            "category": "Term Work",
-            "maxMarks": 25,
-            "obtainedMarks": 22,
-            "credits": 0.5,
-            "grade": "A",
-            "isBacklog": false
-          },
-          {
             "name": "PYTHON PROGRAMMING",
             "category": "Term Work",
             "maxMarks": 50,
@@ -16034,25 +11565,25 @@ export const GENERATED_STUDENTS: Student[] = [
             "name": "ENGG. MECHANICS",
             "category": "Term Work",
             "maxMarks": 50,
-            "obtainedMarks": 42,
+            "obtainedMarks": 45,
             "credits": 1.0,
-            "grade": "A",
+            "grade": "A+",
             "isBacklog": false
           }
         ],
-        "sgpa": 7.73,
-        "cgpa": 7.73,
-        "totalMarks": 759,
+        "sgpa": 7.7,
+        "cgpa": 7.7,
+        "totalMarks": 746,
         "maxTotalMarks": 1000,
         "remarks": "First Class",
         "backlogCount": 0,
         "publishedDate": "10/06/2025",
-        "percentile": 75.9
+        "percentile": 74.6
       }
     ]
   },
   {
-    "id": "80",
+    "id": "58",
     "rollNumber": "211271524068",
     "regNumber": "1271524068",
     "name": "HIMANSHU RAJ",
@@ -16258,7 +11789,2040 @@ export const GENERATED_STUDENTS: Student[] = [
     ]
   },
   {
-    "id": "81",
+    "id": "59",
+    "rollNumber": "211271524069",
+    "regNumber": "1271524069",
+    "name": "NISHANT KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "nishant.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 62,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 61,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 67,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 57,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.02,
+        "cgpa": 8.02,
+        "totalMarks": 779,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 77.9
+      }
+    ]
+  },
+  {
+    "id": "60",
+    "rollNumber": "211271524070",
+    "regNumber": "1271524070",
+    "name": "KRISH KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "krish.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 51,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 55,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 60,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 20,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 30,
+            "credits": 2.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 34,
+            "credits": 1.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 39,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.48,
+        "cgpa": 7.48,
+        "totalMarks": 652,
+        "maxTotalMarks": 900,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 72.4
+      }
+    ]
+  },
+  {
+    "id": "61",
+    "rollNumber": "211271524071",
+    "regNumber": "1271524071",
+    "name": "KAMRAN AKMAL",
+    "course": "Diploma in Civil Engineering",
+    "email": "kamran.akmal@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 43,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 64,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 67,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 19,
+            "credits": 0.5,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 30,
+            "credits": 2.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 34,
+            "credits": 1.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 39,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.44,
+        "cgpa": 7.44,
+        "totalMarks": 659,
+        "maxTotalMarks": 900,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 73.2
+      }
+    ]
+  },
+  {
+    "id": "62",
+    "rollNumber": "211271524072",
+    "regNumber": "1271524072",
+    "name": "PRINCE KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "prince.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 65,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 72,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 78,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 73,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.32,
+        "cgpa": 8.32,
+        "totalMarks": 811,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 81.1
+      }
+    ]
+  },
+  {
+    "id": "63",
+    "rollNumber": "211271524073",
+    "regNumber": "1271524073",
+    "name": "ANKIT KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "ankit.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 53,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 54,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 47,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 47,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.7,
+        "cgpa": 7.7,
+        "totalMarks": 754,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 75.4
+      }
+    ]
+  },
+  {
+    "id": "64",
+    "rollNumber": "211271524074",
+    "regNumber": "1271524074",
+    "name": "AMAN KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "aman.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 70,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 93,
+            "credits": 3.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 82,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 93,
+            "credits": 3.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 20,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 38,
+            "credits": 2.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 9.05,
+        "cgpa": 9.05,
+        "totalMarks": 856,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class with Distinction",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 85.6
+      }
+    ]
+  },
+  {
+    "id": "65",
+    "rollNumber": "211271524075",
+    "regNumber": "1271524075",
+    "name": "ADITYA KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "aditya.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 48,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 65,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 56,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 55,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 33,
+            "credits": 2.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.35,
+        "cgpa": 7.35,
+        "totalMarks": 734,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 73.4
+      }
+    ]
+  },
+  {
+    "id": "66",
+    "rollNumber": "211271524076",
+    "regNumber": "1271524076",
+    "name": "CHANDAN KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "chandan.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 62,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 76,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 57,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 62,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 19,
+            "credits": 0.5,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 48,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.25,
+        "cgpa": 8.25,
+        "totalMarks": 798,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 79.8
+      }
+    ]
+  },
+  {
+    "id": "67",
+    "rollNumber": "211271524077",
+    "regNumber": "1271524077",
+    "name": "HARIOM KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "hariom.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 42,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 63,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 68,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 30,
+            "credits": 2.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 34,
+            "credits": 1.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.61,
+        "cgpa": 7.61,
+        "totalMarks": 670,
+        "maxTotalMarks": 900,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 74.4
+      }
+    ]
+  },
+  {
+    "id": "68",
+    "rollNumber": "211271524079",
+    "regNumber": "1271524079",
+    "name": "ANURAG ANAND",
+    "course": "Diploma in Civil Engineering",
+    "email": "anurag.anand@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 50,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 47,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 64,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 52,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 20,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 7,
+            "credits": 0.5,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.68,
+        "cgpa": 7.68,
+        "totalMarks": 736,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 73.6
+      }
+    ]
+  },
+  {
+    "id": "69",
     "rollNumber": "211271524080",
     "regNumber": "1271524080",
     "name": "SHUBHAM KUMAR",
@@ -16451,6 +14015,6481 @@ export const GENERATED_STUDENTS: Student[] = [
         "backlogCount": 0,
         "publishedDate": "10/06/2025",
         "percentile": 73.9
+      }
+    ]
+  },
+  {
+    "id": "70",
+    "rollNumber": "211271524083",
+    "regNumber": "1271524083",
+    "name": "PRATIK SAHNI",
+    "course": "Diploma in Civil Engineering",
+    "email": "pratik.sahni@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 40,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 55,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 59,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 34,
+            "credits": 2.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.41,
+        "cgpa": 7.41,
+        "totalMarks": 647,
+        "maxTotalMarks": 900,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 71.9
+      }
+    ]
+  },
+  {
+    "id": "71",
+    "rollNumber": "211271524084",
+    "regNumber": "1271524084",
+    "name": "NIKI KUMARI",
+    "course": "Diploma in Civil Engineering",
+    "email": "niki.kumari@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 14,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 66,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 71,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 70,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 72,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.52,
+        "cgpa": 8.52,
+        "totalMarks": 815,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class with Distinction",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 81.5
+      }
+    ]
+  },
+  {
+    "id": "72",
+    "rollNumber": "211271524086",
+    "regNumber": "1271524086",
+    "name": "TANNU KUMARI",
+    "course": "Diploma in Civil Engineering",
+    "email": "tannu.kumari@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 14,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 65,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 75,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 74,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 85,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 50,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 50,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.87,
+        "cgpa": 8.87,
+        "totalMarks": 866,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class with Distinction",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 86.6
+      }
+    ]
+  },
+  {
+    "id": "73",
+    "rollNumber": "211271524087",
+    "regNumber": "1271524087",
+    "name": "OM PRAKASH",
+    "course": "Diploma in Civil Engineering",
+    "email": "om.prakash@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 14,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 57,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 56,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 72,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 70,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.08,
+        "cgpa": 8.08,
+        "totalMarks": 777,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 77.7
+      }
+    ]
+  },
+  {
+    "id": "74",
+    "rollNumber": "211271524088",
+    "regNumber": "1271524088",
+    "name": "GANGULI KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "ganguli.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 52,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 74,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 56,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 68,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 20,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.77,
+        "cgpa": 7.77,
+        "totalMarks": 766,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 76.6
+      }
+    ]
+  },
+  {
+    "id": "75",
+    "rollNumber": "211271524089",
+    "regNumber": "1271524089",
+    "name": "AKSHAY KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "akshay.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 46,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 67,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 70,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 70,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 35,
+            "credits": 2.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.73,
+        "cgpa": 7.73,
+        "totalMarks": 759,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 75.9
+      }
+    ]
+  },
+  {
+    "id": "76",
+    "rollNumber": "211271524090",
+    "regNumber": "1271524090",
+    "name": "RITESH KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "ritesh.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 14,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 60,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 61,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 83,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 82,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 48,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 48,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.97,
+        "cgpa": 8.97,
+        "totalMarks": 849,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class with Distinction",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 84.9
+      }
+    ]
+  },
+  {
+    "id": "77",
+    "rollNumber": "211271524091",
+    "regNumber": "1271524091",
+    "name": "KANHAIYA KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "kanhaiya.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 49,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 52,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 60,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 65,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 36,
+            "credits": 2.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 38,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.38,
+        "cgpa": 7.38,
+        "totalMarks": 728,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 72.8
+      }
+    ]
+  },
+  {
+    "id": "78",
+    "rollNumber": "211271524092",
+    "regNumber": "1271524092",
+    "name": "RITIK KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "ritik.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 47,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 49,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 52,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.57,
+        "cgpa": 7.57,
+        "totalMarks": 665,
+        "maxTotalMarks": 900,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 73.9
+      }
+    ]
+  },
+  {
+    "id": "79",
+    "rollNumber": "211271524093",
+    "regNumber": "1271524093",
+    "name": "VIVEKANAND SAGAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "vivekanand.sagar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 53,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 59,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 61,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 20,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.0,
+        "cgpa": 8.0,
+        "totalMarks": 687,
+        "maxTotalMarks": 900,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 76.3
+      }
+    ]
+  },
+  {
+    "id": "80",
+    "rollNumber": "211271524094",
+    "regNumber": "1271524094",
+    "name": "PRANCHI KUMARI",
+    "course": "Diploma in Civil Engineering",
+    "email": "pranchi.kumari@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 48,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 44,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 52,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.67,
+        "cgpa": 7.67,
+        "totalMarks": 665,
+        "maxTotalMarks": 900,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 73.9
+      }
+    ]
+  },
+  {
+    "id": "81",
+    "rollNumber": "211271524095",
+    "regNumber": "1271524095",
+    "name": "ROHIT KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "rohit.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 58,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 86,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 74,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 88,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 20,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.67,
+        "cgpa": 8.67,
+        "totalMarks": 836,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class with Distinction",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 83.6
+      }
+    ]
+  },
+  {
+    "id": "82",
+    "rollNumber": "211271524096",
+    "regNumber": "1271524096",
+    "name": "KUMARI HIMANSHU HARSHA",
+    "course": "Diploma in Civil Engineering",
+    "email": "kumari.himanshu.harsha@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 61,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 53,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 52,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 7,
+            "credits": 0.5,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.89,
+        "cgpa": 7.89,
+        "totalMarks": 682,
+        "maxTotalMarks": 900,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 75.8
+      }
+    ]
+  },
+  {
+    "id": "83",
+    "rollNumber": "211271524098",
+    "regNumber": "1271524098",
+    "name": "UTKARSH KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "utkarsh.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 55,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 53,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 85,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 63,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 48,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.42,
+        "cgpa": 8.42,
+        "totalMarks": 810,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 81.0
+      }
+    ]
+  },
+  {
+    "id": "84",
+    "rollNumber": "211271524099",
+    "regNumber": "1271524099",
+    "name": "RAVI RANJAN KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "ravi.ranjan.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 14,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 52,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 55,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 61,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 59,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.73,
+        "cgpa": 7.73,
+        "totalMarks": 750,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 75.0
+      }
+    ]
+  },
+  {
+    "id": "85",
+    "rollNumber": "211271524100",
+    "regNumber": "1271524100",
+    "name": "DHIRAJ KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "dhiraj.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 63,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 91,
+            "credits": 3.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 64,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 63,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 20,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.57,
+        "cgpa": 8.57,
+        "totalMarks": 811,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class with Distinction",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 81.1
+      }
+    ]
+  },
+  {
+    "id": "86",
+    "rollNumber": "211271524101",
+    "regNumber": "1271524101",
+    "name": "RAKESH RAUSHAN KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "rakesh.raushan.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 43,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 54,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 57,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 32,
+            "credits": 2.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 38,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 39,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.31,
+        "cgpa": 7.31,
+        "totalMarks": 646,
+        "maxTotalMarks": 900,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 71.8
+      }
+    ]
+  },
+  {
+    "id": "87",
+    "rollNumber": "211271524103",
+    "regNumber": "1271524103",
+    "name": "PRIYANKA KUMARI",
+    "course": "Diploma in Civil Engineering",
+    "email": "priyanka.kumari@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 60,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 44,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 62,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 71,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.18,
+        "cgpa": 8.18,
+        "totalMarks": 777,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 77.7
+      }
+    ]
+  },
+  {
+    "id": "88",
+    "rollNumber": "211271524104",
+    "regNumber": "1271524104",
+    "name": "SURAJ KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "suraj.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 59,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 58,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 58,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 72,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.8,
+        "cgpa": 7.8,
+        "totalMarks": 777,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 77.7
+      }
+    ]
+  },
+  {
+    "id": "89",
+    "rollNumber": "211271524105",
+    "regNumber": "1271524105",
+    "name": "GAYATRI KUMARI",
+    "course": "Diploma in Civil Engineering",
+    "email": "gayatri.kumari@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 62,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 94,
+            "credits": 3.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 74,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 96,
+            "credits": 3.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 48,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 48,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 9.22,
+        "cgpa": 9.22,
+        "totalMarks": 879,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class with Distinction",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 87.9
+      }
+    ]
+  },
+  {
+    "id": "90",
+    "rollNumber": "211271524106",
+    "regNumber": "1271524106",
+    "name": "NITISH KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "nitish.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 65,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 54,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 63,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 67,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 20,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 38,
+            "credits": 2.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 38,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.57,
+        "cgpa": 7.57,
+        "totalMarks": 756,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 75.6
+      }
+    ]
+  },
+  {
+    "id": "91",
+    "rollNumber": "211271524107",
+    "regNumber": "1271524107",
+    "name": "PAWAN KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "pawan.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 58,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 48,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 71,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 62,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.78,
+        "cgpa": 7.78,
+        "totalMarks": 762,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 76.2
+      }
+    ]
+  },
+  {
+    "id": "92",
+    "rollNumber": "211271524108",
+    "regNumber": "1271524108",
+    "name": "UJJAWAL AJUBA",
+    "course": "Diploma in Civil Engineering",
+    "email": "ujjawal.ajuba@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 48,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 48,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 62,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 53,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 20,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 38,
+            "credits": 2.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.23,
+        "cgpa": 7.23,
+        "totalMarks": 715,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 71.5
+      }
+    ]
+  },
+  {
+    "id": "93",
+    "rollNumber": "211271524110",
+    "regNumber": "1271524110",
+    "name": "ALOKRAJ KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "alokraj.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 51,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 46,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 61,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 65,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 20,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 33,
+            "credits": 2.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.4,
+        "cgpa": 7.4,
+        "totalMarks": 728,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 72.8
+      }
+    ]
+  },
+  {
+    "id": "94",
+    "rollNumber": "211271524111",
+    "regNumber": "1271524111",
+    "name": "PIYUSH KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "piyush.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 46,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 34,
+            "credits": 2.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 38,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.05,
+        "cgpa": 8.05,
+        "totalMarks": 549,
+        "maxTotalMarks": 700,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 78.4
+      }
+    ]
+  },
+  {
+    "id": "95",
+    "rollNumber": "211271524112",
+    "regNumber": "1271524112",
+    "name": "SUNNY KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "sunny.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 14,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 62,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 49,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 81,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 55,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 36,
+            "credits": 2.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 38,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.75,
+        "cgpa": 7.75,
+        "totalMarks": 746,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 74.6
+      }
+    ]
+  },
+  {
+    "id": "96",
+    "rollNumber": "211271524113",
+    "regNumber": "1271524113",
+    "name": "SONAM KUMARI",
+    "course": "Diploma in Civil Engineering",
+    "email": "sonam.kumari@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 78,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 85,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 75,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 94,
+            "credits": 3.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 22,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 47,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 9.0,
+        "cgpa": 9.0,
+        "totalMarks": 859,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class with Distinction",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 85.9
+      }
+    ]
+  },
+  {
+    "id": "97",
+    "rollNumber": "211271524114",
+    "regNumber": "1271524114",
+    "name": "HERO KUMAR SAH",
+    "course": "Diploma in Civil Engineering",
+    "email": "hero.kumar.sah@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 42,
+            "credits": 3.0,
+            "grade": "E",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 51,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 57,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 62,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 30,
+            "credits": 2.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 34,
+            "credits": 1.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.22,
+        "cgpa": 7.22,
+        "totalMarks": 701,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 70.1
+      }
+    ]
+  },
+  {
+    "id": "98",
+    "rollNumber": "211271524116",
+    "regNumber": "1271524116",
+    "name": "SUMIT KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "sumit.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 56,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 56,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 19,
+            "credits": 0.5,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 36,
+            "credits": 2.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 45,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 38,
+            "credits": 1.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 7.92,
+        "cgpa": 7.92,
+        "totalMarks": 621,
+        "maxTotalMarks": 800,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 77.6
+      }
+    ]
+  },
+  {
+    "id": "99",
+    "rollNumber": "211271524118",
+    "regNumber": "1271524118",
+    "name": "RAUNAK KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "raunak.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 74,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 89,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 24,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 58,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 81,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 9,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 42,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.52,
+        "cgpa": 8.52,
+        "totalMarks": 819,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class with Distinction",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 81.9
+      }
+    ]
+  },
+  {
+    "id": "100",
+    "rollNumber": "211271524119",
+    "regNumber": "1271524119",
+    "name": "ABHISHEK KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "abhishek.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 13,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 66,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 57,
+            "credits": 3.0,
+            "grade": "D",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 20,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 37,
+            "credits": 2.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 40,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 41,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.08,
+        "cgpa": 8.08,
+        "totalMarks": 625,
+        "maxTotalMarks": 800,
+        "remarks": "First Class",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 78.1
+      }
+    ]
+  },
+  {
+    "id": "101",
+    "rollNumber": "211271524120",
+    "regNumber": "1271524120",
+    "name": "CHHOTU KUMAR",
+    "course": "Diploma in Civil Engineering",
+    "email": "chhotu.kumar@college.edu",
+    "contact": "+91 98765 43210",
+    "currentSemester": 2,
+    "results": [
+      {
+        "semester": 2,
+        "session": "2024-2027",
+        "subjects": [
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Theory",
+            "maxMarks": 15,
+            "obtainedMarks": 12,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 73,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 80,
+            "credits": 3.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ESSEN OF IND KNOWL. AND TRADIT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PRINCIPLES OF MANAGEMENT",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Theory",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 65,
+            "credits": 3.0,
+            "grade": "C",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Theory",
+            "maxMarks": 100,
+            "obtainedMarks": 73,
+            "credits": 3.0,
+            "grade": "B",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Practical",
+            "maxMarks": 25,
+            "obtainedMarks": 21,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 2.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Practical",
+            "maxMarks": 50,
+            "obtainedMarks": 48,
+            "credits": 2.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "ENVT. EDU. AND SUST. DEVELOP.",
+            "category": "Term Work",
+            "maxMarks": 10,
+            "obtainedMarks": 8,
+            "credits": 0.5,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED PHYSICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "APPLIED MATHEMATICS -A",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "INDIAN CONSTITUTION",
+            "category": "Term Work",
+            "maxMarks": 25,
+            "obtainedMarks": 23,
+            "credits": 0.5,
+            "grade": "A+",
+            "isBacklog": false
+          },
+          {
+            "name": "PYTHON PROGRAMMING",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 44,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ICT TOOLS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 43,
+            "credits": 1.0,
+            "grade": "A",
+            "isBacklog": false
+          },
+          {
+            "name": "ENGG. MECHANICS",
+            "category": "Term Work",
+            "maxMarks": 50,
+            "obtainedMarks": 46,
+            "credits": 1.0,
+            "grade": "A+",
+            "isBacklog": false
+          }
+        ],
+        "sgpa": 8.6,
+        "cgpa": 8.6,
+        "totalMarks": 827,
+        "maxTotalMarks": 1000,
+        "remarks": "First Class with Distinction",
+        "backlogCount": 0,
+        "publishedDate": "10/06/2025",
+        "percentile": 82.7
       }
     ]
   }
