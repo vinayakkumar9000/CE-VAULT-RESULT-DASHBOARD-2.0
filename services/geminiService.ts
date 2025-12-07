@@ -42,8 +42,8 @@ export const analyzeStudentPerformance = async (student: Student, semesterIndex?
         `;
 
         const response = await ai.models.generateContent({
-            // Use gemini-2.5-flash for deeper thinking analysis (5 RPM limit, higher quality)
-            model: 'gemini-2.5-flash',
+            // Use gemma-3-27b for deeper thinking analysis
+            model: 'gemma-3-27b',
             contents: prompt,
             config: {
                 responseMimeType: 'application/json',
@@ -77,9 +77,9 @@ export const analyzeStudentPerformance = async (student: Student, semesterIndex?
 
 export const generateStudentAvatar = async (description: string, resolution: ImageResolution): Promise<string | null> => {
     try {
-        // Image generation models are not available in free tier
+        // Image generation not supported (Gemma models don't have image generation capabilities)
         // Return null to use default avatars instead
-        console.log("Image generation not available in free tier, using default avatar");
+        console.log("Image generation not supported by Gemma models, using default avatar");
         return null;
     } catch (error) {
         console.error("Image generation failed:", error);
@@ -102,8 +102,8 @@ export const getSubjectDetails = async (subjectName: string): Promise<string> =>
         `;
 
         const response = await ai.models.generateContent({
-            // Use gemini-2.5-flash for better educational content (5 RPM limit)
-            model: 'gemini-2.5-flash',
+            // Use gemma-3-27b for better educational content
+            model: 'gemma-3-27b',
             contents: prompt,
         });
 
@@ -198,8 +198,8 @@ You: Answer with the total count: ${totalStudents} students
         }));
 
         const chat = ai.chats.create({
-            // Use gemini-2.5-flash-lite for fast, responsive chatbot (10 RPM limit)
-            model: 'gemini-2.5-flash-lite',
+            // Use gemma-3-27b for fast, responsive chatbot
+            model: 'gemma-3-27b',
             config: {
                 systemInstruction: systemInstruction,
             },

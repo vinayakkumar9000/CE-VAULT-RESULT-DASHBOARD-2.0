@@ -192,7 +192,7 @@ const Result: React.FC<ResultProps> = ({ student }) => {
                         
                         {!analysis && !loadingAnalysis && (
                             <div className="text-center py-8">
-                                <p className="text-gray-400 mb-4 text-sm">Get personalized insights powered by Gemini.</p>
+                                <p className="text-gray-400 mb-4 text-sm">Get personalized insights powered by Gemma.</p>
                                 <GlassButton onClick={handleAnalyze} className="w-full justify-center">
                                     Analyze Performance
                                 </GlassButton>
@@ -202,7 +202,7 @@ const Result: React.FC<ResultProps> = ({ student }) => {
                         {loadingAnalysis && (
                             <div className="py-10 flex flex-col items-center justify-center space-y-4">
                                 <div className="w-8 h-8 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
-                                <p className="text-blue-300 animate-pulse text-sm">Gemini is thinking...</p>
+                                <p className="text-blue-300 animate-pulse text-sm">Gemma is thinking...</p>
                             </div>
                         )}
 

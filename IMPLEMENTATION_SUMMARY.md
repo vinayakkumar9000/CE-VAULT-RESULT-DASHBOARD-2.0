@@ -5,7 +5,7 @@
 ### 1. Chatbot Rebranding
 - ✅ Renamed from "ce vault ai assist ofhatbit" to **"CE VAULT AI ASSIST"**
 - ✅ Updated header, title, aria-label, and all UI text
-- ✅ Updated model display to "Gemini 2.5 Flash Lite"
+- ✅ Updated model display to "Gemma 3 27b"
 
 ### 2. Full Student Data Access
 - ✅ Created `services/studentDataHelper.ts` with comprehensive search functions:
@@ -24,17 +24,17 @@
   - Include search results in AI context
   - Give AI clear instructions and capabilities
 
-### 3. Free Tier Model Optimization
-- ✅ **Chatbot**: `gemini-2.5-flash-lite` (10 RPM, 250K TPM)
-  - Fast, responsive
-  - Higher rate limit for frequent chatbot queries
+### 3. AI Model Configuration
+- ✅ **Chatbot**: `gemma-3-27b`
+  - Fast, responsive chatbot interactions
+  - Higher quality responses
   
-- ✅ **Analysis**: `gemini-2.5-flash` (5 RPM, 250K TPM)
-  - Deeper thinking
+- ✅ **Analysis**: `gemma-3-27b`
+  - Deep analysis capabilities
   - Better quality for performance analysis
   
-- ✅ **Subject Details**: `gemini-2.5-flash` (5 RPM, 250K TPM)
-  - Higher quality educational content
+- ✅ **Subject Details**: `gemma-3-27b`
+  - High quality educational content generation
   
 - ✅ **Image Generation**: Disabled
   - Not available in free tier
@@ -71,21 +71,21 @@
 
 ### Created:
 - `services/studentDataHelper.ts` - 330+ lines
-- `GEMINI_MODEL_USAGE.md` - Model usage documentation
+- `GEMMA_MODEL_USAGE.md` - Model usage documentation
 - `IMPLEMENTATION_SUMMARY.md` - This file
 
 ### Modified:
 - `services/geminiService.ts` - Updated AI client and all functions
 - `components/ChatBot.tsx` - Rebranded and updated data source
 
-## 🚀 Performance & Rate Limits
+## 🚀 AI Model Configuration
 
-| Component | Model | RPM | TPM | Status |
-|-----------|-------|-----|-----|--------|
-| Chatbot | gemini-2.5-flash-lite | 10 | 250K | ✅ Active |
-| Analysis | gemini-2.5-flash | 5 | 250K | ✅ Active |
-| Subject Details | gemini-2.5-flash | 5 | 250K | ✅ Active |
-| Image Generation | None | - | - | ❌ Disabled |
+| Component | Model | Status |
+|-----------|-------|--------|
+| Chatbot | gemma-3-27b | ✅ Active |
+| Analysis | gemma-3-27b | ✅ Active |
+| Subject Details | gemma-3-27b | ✅ Active |
+| Image Generation | None | ❌ Disabled |
 
 ## 🔧 Environment Variables
 
@@ -94,16 +94,17 @@ Required:
 VITE_GEMINI_API_KEY=your_api_key_here
 ```
 
-## 📊 Load Distribution Strategy
+## 📊 Model Usage Strategy
 
-The load is naturally distributed by using different models for different purposes:
-- **High-frequency** chatbot queries → gemini-2.5-flash-lite (10 RPM)
-- **Low-frequency** analysis queries → gemini-2.5-flash (5 RPM)
+All AI operations now use the gemma-3-27b model:
+- **Chatbot queries** → gemma-3-27b (high-quality responses)
+- **Performance analysis** → gemma-3-27b (deep analysis)
+- **Subject details** → gemma-3-27b (educational content)
 
-This ensures:
-- No single model gets overloaded
-- Better user experience
-- Optimal use of free tier quotas
+This provides:
+- Consistent high-quality AI responses
+- Deep analysis capabilities
+- Optimal performance across all features
 
 ## ✨ Build Status
 
