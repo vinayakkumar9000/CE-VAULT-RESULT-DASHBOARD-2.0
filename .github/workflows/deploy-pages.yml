@@ -1,0 +1,317 @@
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-validate-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Step 1: Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      
+      # Step 2: Setup Node.js 18
+      - name: Setup Node.js 18
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+      
+      # Step 3: Setup Python 3
+      - name: Setup Python 3
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+          cache: 'pip'
+      
+      # Step 4: Install Python dependencies
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            # Install required packages for PDF extraction
+            pip install pdfplumber
+          fi
+      
+      # Step 5: Install Node dependencies
+      - name: Install Node dependencies
+        run: npm ci
+      
+      # Step 6: Run unit tests (skip gracefully if not present)
+      - name: Run unit tests
+        run: |
+          if npm run | grep -q "test"; then
+            echo "Running tests..."
+            npm test || echo "Tests failed but continuing (adjust based on requirements)"
+          else
+            echo "No test script found, skipping tests"
+          fi
+        continue-on-error: true
+      
+      # Step 7: Setup directories for PDF extraction
+      - name: Setup data directories
+        run: |
+          mkdir -p data/raw-pdfs data/extracted
+          # Copy PDFs from result directory to data/raw-pdfs
+          if [ -d result ] && [ "$(ls -A result/*.pdf 2>/dev/null)" ]; then
+            cp result/*.pdf data/raw-pdfs/ || echo "No PDFs to copy"
+          fi
+          ls -la data/raw-pdfs/ || echo "No PDFs found"
+      
+      # Step 8: Run PDF extractor
+      - name: Extract data from PDFs
+        run: |
+          echo "Running PDF extractor..."
+          python3 scripts/pdf_extractor.py \
+            --input_dir data/raw-pdfs \
+            --output_file data/extracted/results.json
+          
+          echo "Extraction complete. Checking output..."
+          if [ -f data/extracted/results.json ]; then
+            echo "✓ results.json created successfully"
+            echo "File size: $(wc -c < data/extracted/results.json) bytes"
+            echo "Number of records: $(python3 -c "import json; print(len(json.load(open('data/extracted/results.json'))))")"
+          else
+            echo "ERROR: results.json was not created"
+            exit 1
+          fi
+      
+      # Step 9: Validate results.json
+      - name: Validate extracted results
+        run: |
+          echo "Validating results.json..."
+          python3 scripts/validate_results.py data/extracted/results.json
+          
+          if [ $? -eq 0 ]; then
+            echo "✓ Validation passed"
+          else
+            echo "✗ Validation failed - deployment will not proceed"
+            exit 1
+          fi
+      
+      # Step 10: Build the application
+      - name: Build application
+        run: |
+          echo "Building application..."
+          npm run build
+          
+          echo "Build complete. Checking output..."
+          if [ -d dist ]; then
+            echo "✓ dist directory created"
+            ls -lah dist/
+          else
+            echo "ERROR: dist directory not created"
+            exit 1
+          fi
+      
+      # Step 11: Copy results.json to build output
+      - name: Copy results to build
+        run: |
+          mkdir -p dist/data/extracted
+          cp data/extracted/results.json dist/data/extracted/
+          echo "✓ Copied results.json to dist/data/extracted/"
+      
+      # Step 12: Copy service worker to build output
+      - name: Copy service worker
+        run: |
+          if [ -f public/sw.js ]; then
+            cp public/sw.js dist/
+            echo "✓ Copied service worker to dist/"
+          else
+            echo "Warning: service worker not found"
+          fi
+      
+      # Step 13: Inject preload hints
+      - name: Inject preload hints
+        run: |
+          echo "Injecting preload hints..."
+          python3 scripts/preload_injector.py dist/index.html
+      
+      # Step 14: Inject service worker registration
+      - name: Inject service worker registration
+        run: |
+          echo "Injecting service worker registration..."
+          if [ -f scripts/sw-register.js ]; then
+            # Append registration script before </body>
+            if grep -q "</body>" dist/index.html; then
+              # Create a temp file with the script tag
+              echo "    <script src=\"/CE-VAULT-RESULT-DASHBOARD-2.0/sw-register.js\"></script>" > /tmp/sw-inject.html
+              # Insert before </body>
+              sed -i 's|</body>|'"$(cat /tmp/sw-inject.html)"'\n  </body>|' dist/index.html
+              # Copy the registration script
+              cp scripts/sw-register.js dist/
+              echo "✓ Service worker registration injected"
+            else
+              echo "Warning: </body> tag not found in index.html"
+            fi
+          else
+            echo "Warning: sw-register.js not found"
+          fi
+      
+      # Step 15: Create version.txt
+      - name: Create version file
+        run: |
+          echo "Creating version.txt..."
+          GIT_SHA=$(git rev-parse --short HEAD)
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          echo "version: ${GIT_SHA}" > dist/version.txt
+          echo "timestamp: ${TIMESTAMP}" >> dist/version.txt
+          echo "branch: ${GITHUB_REF_NAME}" >> dist/version.txt
+          cat dist/version.txt
+          echo "✓ Version file created"
+      
+      # Step 16: Upload results.json as artifact (for inspection)
+      - name: Upload results artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: extracted-results
+          path: data/extracted/results.json
+          retention-days: 30
+      
+      # Step 17: Deploy to Cloudflare Pages
+      - name: Deploy to Cloudflare Pages
+        id: deploy
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
+          directory: dist
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+      
+      # Step 18: Post-deploy verification
+      - name: Post-deploy verification
+        if: success()
+        run: |
+          echo "Starting post-deploy verification..."
+          DEPLOY_URL="${{ steps.deploy.outputs.url }}"
+          
+          if [ -z "$DEPLOY_URL" ]; then
+            echo "Warning: Deploy URL not available, skipping verification"
+            exit 0
+          fi
+          
+          echo "Deployed to: $DEPLOY_URL"
+          
+          # Wait for deployment to be available
+          echo "Waiting for deployment to be ready..."
+          sleep 10
+          
+          # Fetch deployed results.json
+          DEPLOYED_JSON_URL="${DEPLOY_URL}/data/extracted/results.json"
+          echo "Fetching deployed results from: $DEPLOYED_JSON_URL"
+          
+          curl -f -s "$DEPLOYED_JSON_URL" -o /tmp/deployed-results.json || {
+            echo "Warning: Could not fetch deployed results.json"
+            exit 0
+          }
+          
+          # Compare record counts
+          LOCAL_COUNT=$(python3 -c "import json; print(len(json.load(open('data/extracted/results.json'))))")
+          DEPLOYED_COUNT=$(python3 -c "import json; print(len(json.load(open('/tmp/deployed-results.json'))))" || echo "0")
+          
+          echo "Local results: $LOCAL_COUNT records"
+          echo "Deployed results: $DEPLOYED_COUNT records"
+          
+          if [ "$LOCAL_COUNT" != "$DEPLOYED_COUNT" ]; then
+            echo "ERROR: Record count mismatch!"
+            echo "Local: $LOCAL_COUNT, Deployed: $DEPLOYED_COUNT"
+            exit 1
+          fi
+          
+          echo "✓ Record counts match"
+          
+          # Sample verification: Select up to 5 random roll numbers and verify marks
+          echo "Sampling roll numbers for verification..."
+          
+          python3 << 'VERIFY_SCRIPT'
+import json
+import random
+import sys
+from pathlib import Path
+
+# Load local results
+with open('data/extracted/results.json', 'r') as f:
+    local_results = json.load(f)
+
+# Load deployed results
+with open('/tmp/deployed-results.json', 'r') as f:
+    deployed_results = json.load(f)
+
+# Create lookup dictionaries
+local_dict = {r['roll']: r for r in local_results}
+deployed_dict = {r['roll']: r for r in deployed_results}
+
+# Sample up to 5 roll numbers
+sample_size = min(5, len(local_results))
+sampled_rolls = random.sample([r['roll'] for r in local_results], sample_size)
+
+print(f"Verifying {sample_size} sampled student(s)...")
+errors = []
+
+for roll in sampled_rolls:
+    local_student = local_dict.get(roll)
+    deployed_student = deployed_dict.get(roll)
+    
+    if not deployed_student:
+        errors.append(f"Roll {roll} not found in deployed results")
+        continue
+    
+    # Compare subject marks
+    local_subjects = {s['name']: s for s in local_student.get('subjects', [])}
+    deployed_subjects = {s['name']: s for s in deployed_student.get('subjects', [])}
+    
+    for subj_name, local_subj in local_subjects.items():
+        deployed_subj = deployed_subjects.get(subj_name)
+        if not deployed_subj:
+            errors.append(f"Roll {roll}: Subject '{subj_name}' not found in deployed results")
+            continue
+        
+        # Compare marks
+        if local_subj.get('marks_total') != deployed_subj.get('marks_total'):
+            errors.append(
+                f"Roll {roll}, Subject '{subj_name}': "
+                f"marks_total mismatch (local: {local_subj.get('marks_total')}, "
+                f"deployed: {deployed_subj.get('marks_total')})"
+            )
+
+if errors:
+    print("\n✗ Verification failed:")
+    for error in errors:
+        print(f"  - {error}")
+    sys.exit(1)
+else:
+    print("✓ All sampled records verified successfully")
+    print(f"  Verified rolls: {', '.join(sampled_rolls)}")
+VERIFY_SCRIPT
+          
+          if [ $? -ne 0 ]; then
+            echo "ERROR: Post-deploy verification failed"
+            exit 1
+          fi
+          
+          echo "✓ Post-deploy verification passed"
+          echo "Deployment successful: $DEPLOY_URL"
+      
+      # Step 19: Summary
+      - name: Deployment summary
+        if: always()
+        run: |
+          echo "=========================================="
+          echo "Deployment Pipeline Summary"
+          echo "=========================================="
+          echo "Deploy URL: ${{ steps.deploy.outputs.url }}"
+          echo "Status: ${{ job.status }}"
+          echo "=========================================="

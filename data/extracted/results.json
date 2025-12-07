@@ -1,0 +1,3250 @@
+[
+  {
+    "roll": "211271524096",
+    "name": "KUMARI HIMANSHU HARSHA",
+    "subjects": [
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 12,
+        "marks_final": null,
+        "marks_total": 12,
+        "max_marks": 15,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 19,
+        "marks_final": 42,
+        "marks_total": 61,
+        "max_marks": 100,
+        "grade": "C"
+      },
+      {
+        "name": "ESSEN OF IND KNOWL. AND TRADIT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PRINCIPLES OF MANAGEMENT",
+        "marks_internal": 24,
+        "marks_final": null,
+        "marks_total": 24,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 25,
+        "marks_final": 28,
+        "marks_total": 53,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 24,
+        "marks_final": 28,
+        "marks_total": 52,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 8,
+        "marks_final": 14,
+        "marks_total": 22,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 15,
+        "marks_final": 25,
+        "marks_total": 40,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 18,
+        "marks_final": 26,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 7,
+        "marks_final": null,
+        "marks_total": 7,
+        "max_marks": 10,
+        "grade": "B"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 15,
+        "marks_final": 25,
+        "marks_total": 40,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 14,
+        "marks_final": 26,
+        "marks_total": 40,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 19,
+        "marks_final": 26,
+        "marks_total": 45,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 17,
+        "marks_final": 27,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      }
+    ]
+  },
+  {
+    "roll": "211271524098",
+    "name": "UTKARSH KUMAR",
+    "subjects": [
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 13,
+        "marks_final": null,
+        "marks_total": 13,
+        "max_marks": 15,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 26,
+        "marks_final": 29,
+        "marks_total": 55,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 18,
+        "marks_final": 35,
+        "marks_total": 53,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "ESSEN OF IND KNOWL. AND TRADIT",
+        "marks_internal": 24,
+        "marks_final": null,
+        "marks_total": 24,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PRINCIPLES OF MANAGEMENT",
+        "marks_internal": 24,
+        "marks_final": null,
+        "marks_total": 24,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 24,
+        "marks_final": null,
+        "marks_total": 24,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 29,
+        "marks_final": 56,
+        "marks_total": 85,
+        "max_marks": 100,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 23,
+        "marks_final": 40,
+        "marks_total": 63,
+        "max_marks": 100,
+        "grade": "C"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 9,
+        "marks_final": 12,
+        "marks_total": 21,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 18,
+        "marks_final": 28,
+        "marks_total": 46,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 19,
+        "marks_final": 28,
+        "marks_total": 47,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 19,
+        "marks_final": 28,
+        "marks_total": 47,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 19,
+        "marks_final": 29,
+        "marks_total": 48,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 9,
+        "marks_final": null,
+        "marks_total": 9,
+        "max_marks": 10,
+        "grade": "A+"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 18,
+        "marks_final": 28,
+        "marks_total": 46,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 14,
+        "marks_final": 26,
+        "marks_total": 40,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 24,
+        "marks_final": null,
+        "marks_total": 24,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 19,
+        "marks_final": 28,
+        "marks_total": 47,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 19,
+        "marks_final": 28,
+        "marks_total": 47,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 19,
+        "marks_final": 28,
+        "marks_total": 47,
+        "max_marks": 50,
+        "grade": "A+"
+      }
+    ]
+  },
+  {
+    "roll": "211271524099",
+    "name": "RAVI RANJAN KUMAR",
+    "subjects": [
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 14,
+        "marks_final": null,
+        "marks_total": 14,
+        "max_marks": 15,
+        "grade": "A+"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 20,
+        "marks_final": 32,
+        "marks_total": 52,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 20,
+        "marks_final": 35,
+        "marks_total": 55,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "ESSEN OF IND KNOWL. AND TRADIT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PRINCIPLES OF MANAGEMENT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 26,
+        "marks_final": 35,
+        "marks_total": 61,
+        "max_marks": 100,
+        "grade": "C"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 24,
+        "marks_final": 35,
+        "marks_total": 59,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 9,
+        "marks_final": 13,
+        "marks_total": 22,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 14,
+        "marks_final": 27,
+        "marks_total": 41,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 18,
+        "marks_final": 27,
+        "marks_total": 45,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 8,
+        "marks_final": null,
+        "marks_total": 8,
+        "max_marks": 10,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 17,
+        "marks_final": 27,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 15,
+        "marks_final": 26,
+        "marks_total": 41,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 18,
+        "marks_final": 27,
+        "marks_total": 45,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 17,
+        "marks_final": 25,
+        "marks_total": 42,
+        "max_marks": 50,
+        "grade": "A"
+      }
+    ]
+  },
+  {
+    "roll": "211271524100",
+    "name": "DHIRAJ KUMAR",
+    "subjects": [
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 12,
+        "marks_final": null,
+        "marks_total": 12,
+        "max_marks": 15,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 20,
+        "marks_final": 43,
+        "marks_total": 63,
+        "max_marks": 100,
+        "grade": "C"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 30,
+        "marks_final": 61,
+        "marks_total": 91,
+        "max_marks": 100,
+        "grade": "A+"
+      },
+      {
+        "name": "ESSEN OF IND KNOWL. AND TRADIT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PRINCIPLES OF MANAGEMENT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 27,
+        "marks_final": 37,
+        "marks_total": 64,
+        "max_marks": 100,
+        "grade": "C"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 27,
+        "marks_final": 36,
+        "marks_total": 63,
+        "max_marks": 100,
+        "grade": "C"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 8,
+        "marks_final": 12,
+        "marks_total": 20,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 14,
+        "marks_final": 27,
+        "marks_total": 41,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 18,
+        "marks_final": 27,
+        "marks_total": 45,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 18,
+        "marks_final": 27,
+        "marks_total": 45,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 17,
+        "marks_final": 28,
+        "marks_total": 45,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 8,
+        "marks_final": null,
+        "marks_total": 8,
+        "max_marks": 10,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 17,
+        "marks_final": 27,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 16,
+        "marks_final": 28,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 18,
+        "marks_final": 27,
+        "marks_total": 45,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 18,
+        "marks_final": 27,
+        "marks_total": 45,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 17,
+        "marks_final": 27,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      }
+    ]
+  },
+  {
+    "roll": "211271524101",
+    "name": "RAKESH RAUSHAN KUMAR",
+    "subjects": [
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 13,
+        "marks_final": null,
+        "marks_total": 13,
+        "max_marks": 15,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 14,
+        "marks_final": 29,
+        "marks_total": 43,
+        "max_marks": 100,
+        "grade": "E"
+      },
+      {
+        "name": "ESSEN OF IND KNOWL. AND TRADIT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PRINCIPLES OF MANAGEMENT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 26,
+        "marks_final": 28,
+        "marks_total": 54,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 27,
+        "marks_final": 30,
+        "marks_total": 57,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 8,
+        "marks_final": 13,
+        "marks_total": 21,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 8,
+        "marks_final": 24,
+        "marks_total": 32,
+        "max_marks": 50,
+        "grade": "C"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 15,
+        "marks_final": 25,
+        "marks_total": 40,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 27,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 15,
+        "marks_final": 26,
+        "marks_total": 41,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 9,
+        "marks_final": null,
+        "marks_total": 9,
+        "max_marks": 10,
+        "grade": "A+"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 14,
+        "marks_final": 24,
+        "marks_total": 38,
+        "max_marks": 50,
+        "grade": "B"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 15,
+        "marks_final": 26,
+        "marks_total": 41,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 15,
+        "marks_final": 25,
+        "marks_total": 40,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 15,
+        "marks_final": 27,
+        "marks_total": 42,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 14,
+        "marks_final": 25,
+        "marks_total": 39,
+        "max_marks": 50,
+        "grade": "B"
+      }
+    ]
+  },
+  {
+    "roll": "211271524103",
+    "name": "PRIYANKA KUMARI",
+    "subjects": [
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 13,
+        "marks_final": null,
+        "marks_total": 13,
+        "max_marks": 15,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 24,
+        "marks_final": 36,
+        "marks_total": 60,
+        "max_marks": 100,
+        "grade": "C"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 29,
+        "marks_final": 15,
+        "marks_total": 44,
+        "max_marks": 100,
+        "grade": "E"
+      },
+      {
+        "name": "ESSEN OF IND KNOWL. AND TRADIT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PRINCIPLES OF MANAGEMENT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 22,
+        "marks_final": null,
+        "marks_total": 22,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 26,
+        "marks_final": 36,
+        "marks_total": 62,
+        "max_marks": 100,
+        "grade": "C"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 26,
+        "marks_final": 45,
+        "marks_total": 71,
+        "max_marks": 100,
+        "grade": "B"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 8,
+        "marks_final": 13,
+        "marks_total": 21,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 18,
+        "marks_final": 28,
+        "marks_total": 46,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 18,
+        "marks_final": 27,
+        "marks_total": 45,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 18,
+        "marks_final": 27,
+        "marks_total": 45,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 18,
+        "marks_final": 28,
+        "marks_total": 46,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 8,
+        "marks_final": null,
+        "marks_total": 8,
+        "max_marks": 10,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 18,
+        "marks_final": 28,
+        "marks_total": 46,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 16,
+        "marks_final": 27,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 18,
+        "marks_final": 27,
+        "marks_total": 45,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 18,
+        "marks_final": 27,
+        "marks_total": 45,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 19,
+        "marks_final": 27,
+        "marks_total": 46,
+        "max_marks": 50,
+        "grade": "A+"
+      }
+    ]
+  },
+  {
+    "roll": "211271524104",
+    "name": "SURAJ KUMAR",
+    "subjects": [
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 12,
+        "marks_final": null,
+        "marks_total": 12,
+        "max_marks": 15,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 24,
+        "marks_final": 35,
+        "marks_total": 59,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 30,
+        "marks_final": 28,
+        "marks_total": 58,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "ESSEN OF IND KNOWL. AND TRADIT",
+        "marks_internal": 24,
+        "marks_final": null,
+        "marks_total": 24,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PRINCIPLES OF MANAGEMENT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 22,
+        "marks_final": null,
+        "marks_total": 22,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 26,
+        "marks_final": 32,
+        "marks_total": 58,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 30,
+        "marks_final": 42,
+        "marks_total": 72,
+        "max_marks": 100,
+        "grade": "B"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 8,
+        "marks_final": 13,
+        "marks_total": 21,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 18,
+        "marks_final": 28,
+        "marks_total": 46,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 18,
+        "marks_final": 26,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 8,
+        "marks_final": null,
+        "marks_total": 8,
+        "max_marks": 10,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 18,
+        "marks_final": 28,
+        "marks_total": 46,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 16,
+        "marks_final": 28,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 22,
+        "marks_final": null,
+        "marks_total": 22,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 19,
+        "marks_final": 27,
+        "marks_total": 46,
+        "max_marks": 50,
+        "grade": "A+"
+      }
+    ]
+  },
+  {
+    "roll": "211271524105",
+    "name": "GAYATRI KUMARI",
+    "subjects": [
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 13,
+        "marks_final": null,
+        "marks_total": 13,
+        "max_marks": 15,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 28,
+        "marks_final": 34,
+        "marks_total": 62,
+        "max_marks": 100,
+        "grade": "C"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 30,
+        "marks_final": 64,
+        "marks_total": 94,
+        "max_marks": 100,
+        "grade": "A+"
+      },
+      {
+        "name": "ESSEN OF IND KNOWL. AND TRADIT",
+        "marks_internal": 24,
+        "marks_final": null,
+        "marks_total": 24,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PRINCIPLES OF MANAGEMENT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 24,
+        "marks_final": null,
+        "marks_total": 24,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 27,
+        "marks_final": 47,
+        "marks_total": 74,
+        "max_marks": 100,
+        "grade": "B"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 29,
+        "marks_final": 67,
+        "marks_total": 96,
+        "max_marks": 100,
+        "grade": "A+"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 9,
+        "marks_final": 13,
+        "marks_total": 22,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 19,
+        "marks_final": 29,
+        "marks_total": 48,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 18,
+        "marks_final": 27,
+        "marks_total": 45,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 18,
+        "marks_final": 27,
+        "marks_total": 45,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 18,
+        "marks_final": 29,
+        "marks_total": 47,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 9,
+        "marks_final": null,
+        "marks_total": 9,
+        "max_marks": 10,
+        "grade": "A+"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 19,
+        "marks_final": 29,
+        "marks_total": 48,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 16,
+        "marks_final": 28,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 24,
+        "marks_final": null,
+        "marks_total": 24,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 18,
+        "marks_final": 27,
+        "marks_total": 45,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 18,
+        "marks_final": 27,
+        "marks_total": 45,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 19,
+        "marks_final": 28,
+        "marks_total": 47,
+        "max_marks": 50,
+        "grade": "A+"
+      }
+    ]
+  },
+  {
+    "roll": "211271524106",
+    "name": "NITISH KUMAR",
+    "subjects": [
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 12,
+        "marks_final": null,
+        "marks_total": 12,
+        "max_marks": 15,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 23,
+        "marks_final": 42,
+        "marks_total": 65,
+        "max_marks": 100,
+        "grade": "C"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 22,
+        "marks_final": 32,
+        "marks_total": 54,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "ESSEN OF IND KNOWL. AND TRADIT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PRINCIPLES OF MANAGEMENT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 22,
+        "marks_final": null,
+        "marks_total": 22,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 26,
+        "marks_final": 37,
+        "marks_total": 63,
+        "max_marks": 100,
+        "grade": "C"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 29,
+        "marks_final": 38,
+        "marks_total": 67,
+        "max_marks": 100,
+        "grade": "C"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 7,
+        "marks_final": 13,
+        "marks_total": 20,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 14,
+        "marks_final": 24,
+        "marks_total": 38,
+        "max_marks": 50,
+        "grade": "B"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 27,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 17,
+        "marks_final": 27,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 8,
+        "marks_final": null,
+        "marks_total": 8,
+        "max_marks": 10,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 14,
+        "marks_final": 24,
+        "marks_total": 38,
+        "max_marks": 50,
+        "grade": "B"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 15,
+        "marks_final": 26,
+        "marks_total": 41,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 22,
+        "marks_final": null,
+        "marks_total": 22,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 27,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 16,
+        "marks_final": 26,
+        "marks_total": 42,
+        "max_marks": 50,
+        "grade": "A"
+      }
+    ]
+  },
+  {
+    "roll": "211271524107",
+    "name": "PAWAN KUMAR",
+    "subjects": [
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 12,
+        "marks_final": null,
+        "marks_total": 12,
+        "max_marks": 15,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 22,
+        "marks_final": 36,
+        "marks_total": 58,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 17,
+        "marks_final": 31,
+        "marks_total": 48,
+        "max_marks": 100,
+        "grade": "E"
+      },
+      {
+        "name": "ESSEN OF IND KNOWL. AND TRADIT",
+        "marks_internal": 24,
+        "marks_final": null,
+        "marks_total": 24,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PRINCIPLES OF MANAGEMENT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 22,
+        "marks_final": null,
+        "marks_total": 22,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 26,
+        "marks_final": 45,
+        "marks_total": 71,
+        "max_marks": 100,
+        "grade": "B"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 27,
+        "marks_final": 35,
+        "marks_total": 62,
+        "max_marks": 100,
+        "grade": "C"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 8,
+        "marks_final": 13,
+        "marks_total": 21,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 16,
+        "marks_final": 26,
+        "marks_total": 42,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 18,
+        "marks_final": 29,
+        "marks_total": 47,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 9,
+        "marks_final": null,
+        "marks_total": 9,
+        "max_marks": 10,
+        "grade": "A+"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 16,
+        "marks_final": 26,
+        "marks_total": 42,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 14,
+        "marks_final": 26,
+        "marks_total": 40,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 22,
+        "marks_final": null,
+        "marks_total": 22,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 19,
+        "marks_final": 28,
+        "marks_total": 47,
+        "max_marks": 50,
+        "grade": "A+"
+      }
+    ]
+  },
+  {
+    "roll": "211271524108",
+    "name": "UJJAWAL AJUBA",
+    "subjects": [
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 12,
+        "marks_final": null,
+        "marks_total": 12,
+        "max_marks": 15,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 20,
+        "marks_final": 28,
+        "marks_total": 48,
+        "max_marks": 100,
+        "grade": "E"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 20,
+        "marks_final": 28,
+        "marks_total": 48,
+        "max_marks": 100,
+        "grade": "E"
+      },
+      {
+        "name": "ESSEN OF IND KNOWL. AND TRADIT",
+        "marks_internal": 24,
+        "marks_final": null,
+        "marks_total": 24,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PRINCIPLES OF MANAGEMENT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 22,
+        "marks_final": null,
+        "marks_total": 22,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 25,
+        "marks_final": 37,
+        "marks_total": 62,
+        "max_marks": 100,
+        "grade": "C"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 25,
+        "marks_final": 28,
+        "marks_total": 53,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 7,
+        "marks_final": 13,
+        "marks_total": 20,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 12,
+        "marks_final": 26,
+        "marks_total": 38,
+        "max_marks": 50,
+        "grade": "B"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 16,
+        "marks_final": 25,
+        "marks_total": 41,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 16,
+        "marks_final": 26,
+        "marks_total": 42,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 15,
+        "marks_final": 29,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 8,
+        "marks_final": null,
+        "marks_total": 8,
+        "max_marks": 10,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 16,
+        "marks_final": 26,
+        "marks_total": 42,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 15,
+        "marks_final": 26,
+        "marks_total": 41,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 22,
+        "marks_final": null,
+        "marks_total": 22,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 16,
+        "marks_final": 25,
+        "marks_total": 41,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 16,
+        "marks_final": 26,
+        "marks_total": 42,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 14,
+        "marks_final": 28,
+        "marks_total": 42,
+        "max_marks": 50,
+        "grade": "A"
+      }
+    ]
+  },
+  {
+    "roll": "211271524110",
+    "name": "ALOKRAJ KUMAR",
+    "subjects": [
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 12,
+        "marks_final": null,
+        "marks_total": 12,
+        "max_marks": 15,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 12,
+        "marks_final": 39,
+        "marks_total": 51,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 18,
+        "marks_final": 28,
+        "marks_total": 46,
+        "max_marks": 100,
+        "grade": "E"
+      },
+      {
+        "name": "ESSEN OF IND KNOWL. AND TRADIT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PRINCIPLES OF MANAGEMENT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 22,
+        "marks_final": null,
+        "marks_total": 22,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 26,
+        "marks_final": 35,
+        "marks_total": 61,
+        "max_marks": 100,
+        "grade": "C"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 27,
+        "marks_final": 38,
+        "marks_total": 65,
+        "max_marks": 100,
+        "grade": "C"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 8,
+        "marks_final": 12,
+        "marks_total": 20,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 8,
+        "marks_final": 25,
+        "marks_total": 33,
+        "max_marks": 50,
+        "grade": "C"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 17,
+        "marks_final": 27,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 9,
+        "marks_final": null,
+        "marks_total": 9,
+        "max_marks": 10,
+        "grade": "A+"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 15,
+        "marks_final": 25,
+        "marks_total": 40,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 14,
+        "marks_final": 26,
+        "marks_total": 40,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 18,
+        "marks_final": 26,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      }
+    ]
+  },
+  {
+    "roll": "211271524111",
+    "name": "PIYUSH KUMAR",
+    "subjects": [
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 13,
+        "marks_final": null,
+        "marks_total": 13,
+        "max_marks": 15,
+        "grade": "A"
+      },
+      {
+        "name": "ESSEN OF IND KNOWL. AND TRADIT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PRINCIPLES OF MANAGEMENT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 26,
+        "marks_final": 20,
+        "marks_total": 46,
+        "max_marks": 100,
+        "grade": "E"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 8,
+        "marks_final": 13,
+        "marks_total": 21,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 10,
+        "marks_final": 24,
+        "marks_total": 34,
+        "max_marks": 50,
+        "grade": "C"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 27,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 15,
+        "marks_final": 27,
+        "marks_total": 42,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 9,
+        "marks_final": null,
+        "marks_total": 9,
+        "max_marks": 10,
+        "grade": "A+"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 14,
+        "marks_final": 24,
+        "marks_total": 38,
+        "max_marks": 50,
+        "grade": "B"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 14,
+        "marks_final": 26,
+        "marks_total": 40,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 22,
+        "marks_final": null,
+        "marks_total": 22,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 27,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 15,
+        "marks_final": 26,
+        "marks_total": 41,
+        "max_marks": 50,
+        "grade": "A"
+      }
+    ]
+  },
+  {
+    "roll": "211271524112",
+    "name": "SUNNY KUMAR",
+    "subjects": [
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 14,
+        "marks_final": null,
+        "marks_total": 14,
+        "max_marks": 15,
+        "grade": "A+"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 21,
+        "marks_final": 41,
+        "marks_total": 62,
+        "max_marks": 100,
+        "grade": "C"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 17,
+        "marks_final": 32,
+        "marks_total": 49,
+        "max_marks": 100,
+        "grade": "E"
+      },
+      {
+        "name": "ESSEN OF IND KNOWL. AND TRADIT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PRINCIPLES OF MANAGEMENT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 27,
+        "marks_final": 54,
+        "marks_total": 81,
+        "max_marks": 100,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 27,
+        "marks_final": 28,
+        "marks_total": 55,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 9,
+        "marks_final": 13,
+        "marks_total": 22,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 12,
+        "marks_final": 24,
+        "marks_total": 36,
+        "max_marks": 50,
+        "grade": "B"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 16,
+        "marks_final": 25,
+        "marks_total": 41,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 16,
+        "marks_final": 26,
+        "marks_total": 42,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 15,
+        "marks_final": 27,
+        "marks_total": 42,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 9,
+        "marks_final": null,
+        "marks_total": 9,
+        "max_marks": 10,
+        "grade": "A+"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 14,
+        "marks_final": 24,
+        "marks_total": 38,
+        "max_marks": 50,
+        "grade": "B"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 14,
+        "marks_final": 26,
+        "marks_total": 40,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 16,
+        "marks_final": 25,
+        "marks_total": 41,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 16,
+        "marks_final": 26,
+        "marks_total": 42,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 14,
+        "marks_final": 26,
+        "marks_total": 40,
+        "max_marks": 50,
+        "grade": "A"
+      }
+    ]
+  },
+  {
+    "roll": "211271524113",
+    "name": "SONAM KUMARI",
+    "subjects": [
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 12,
+        "marks_final": null,
+        "marks_total": 12,
+        "max_marks": 15,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 24,
+        "marks_final": 54,
+        "marks_total": 78,
+        "max_marks": 100,
+        "grade": "B"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 25,
+        "marks_final": 60,
+        "marks_total": 85,
+        "max_marks": 100,
+        "grade": "A"
+      },
+      {
+        "name": "ESSEN OF IND KNOWL. AND TRADIT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PRINCIPLES OF MANAGEMENT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 28,
+        "marks_final": 47,
+        "marks_total": 75,
+        "max_marks": 100,
+        "grade": "B"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 29,
+        "marks_final": 65,
+        "marks_total": 94,
+        "max_marks": 100,
+        "grade": "A+"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 8,
+        "marks_final": 14,
+        "marks_total": 22,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 16,
+        "marks_final": 25,
+        "marks_total": 41,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 18,
+        "marks_final": 27,
+        "marks_total": 45,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 18,
+        "marks_final": 29,
+        "marks_total": 47,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 8,
+        "marks_final": null,
+        "marks_total": 8,
+        "max_marks": 10,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 15,
+        "marks_final": 25,
+        "marks_total": 40,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 16,
+        "marks_final": 27,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 18,
+        "marks_final": 27,
+        "marks_total": 45,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 18,
+        "marks_final": 28,
+        "marks_total": 46,
+        "max_marks": 50,
+        "grade": "A+"
+      }
+    ]
+  },
+  {
+    "roll": "211271524114",
+    "name": "HERO KUMAR SAH",
+    "subjects": [
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 13,
+        "marks_final": null,
+        "marks_total": 13,
+        "max_marks": 15,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 14,
+        "marks_final": 28,
+        "marks_total": 42,
+        "max_marks": 100,
+        "grade": "E"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 20,
+        "marks_final": 31,
+        "marks_total": 51,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "ESSEN OF IND KNOWL. AND TRADIT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PRINCIPLES OF MANAGEMENT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 26,
+        "marks_final": 31,
+        "marks_total": 57,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 23,
+        "marks_final": 39,
+        "marks_total": 62,
+        "max_marks": 100,
+        "grade": "C"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 9,
+        "marks_final": 12,
+        "marks_total": 21,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 8,
+        "marks_final": 22,
+        "marks_total": 30,
+        "max_marks": 50,
+        "grade": "C"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 16,
+        "marks_final": 25,
+        "marks_total": 41,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 15,
+        "marks_final": 27,
+        "marks_total": 42,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 9,
+        "marks_final": null,
+        "marks_total": 9,
+        "max_marks": 10,
+        "grade": "A+"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 12,
+        "marks_final": 22,
+        "marks_total": 34,
+        "max_marks": 50,
+        "grade": "C"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 15,
+        "marks_final": 26,
+        "marks_total": 41,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 16,
+        "marks_final": 25,
+        "marks_total": 41,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 16,
+        "marks_final": 26,
+        "marks_total": 42,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 14,
+        "marks_final": 26,
+        "marks_total": 40,
+        "max_marks": 50,
+        "grade": "A"
+      }
+    ]
+  },
+  {
+    "roll": "211271524116",
+    "name": "SUMIT KUMAR",
+    "subjects": [
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 12,
+        "marks_final": null,
+        "marks_total": 12,
+        "max_marks": 15,
+        "grade": "A"
+      },
+      {
+        "name": "ESSEN OF IND KNOWL. AND TRADIT",
+        "marks_internal": 24,
+        "marks_final": null,
+        "marks_total": 24,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PRINCIPLES OF MANAGEMENT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 26,
+        "marks_final": 30,
+        "marks_total": 56,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 24,
+        "marks_final": 32,
+        "marks_total": 56,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 7,
+        "marks_final": 12,
+        "marks_total": 19,
+        "max_marks": 25,
+        "grade": "B"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 12,
+        "marks_final": 24,
+        "marks_total": 36,
+        "max_marks": 50,
+        "grade": "B"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 18,
+        "marks_final": 27,
+        "marks_total": 45,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 17,
+        "marks_final": 27,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 8,
+        "marks_final": null,
+        "marks_total": 8,
+        "max_marks": 10,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 14,
+        "marks_final": 24,
+        "marks_total": 38,
+        "max_marks": 50,
+        "grade": "B"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 15,
+        "marks_final": 26,
+        "marks_total": 41,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 27,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      }
+    ]
+  },
+  {
+    "roll": "211271524118",
+    "name": "RAUNAK KUMAR",
+    "subjects": [
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 13,
+        "marks_final": null,
+        "marks_total": 13,
+        "max_marks": 15,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 20,
+        "marks_final": 54,
+        "marks_total": 74,
+        "max_marks": 100,
+        "grade": "B"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 27,
+        "marks_final": 62,
+        "marks_total": 89,
+        "max_marks": 100,
+        "grade": "A"
+      },
+      {
+        "name": "ESSEN OF IND KNOWL. AND TRADIT",
+        "marks_internal": 24,
+        "marks_final": null,
+        "marks_total": 24,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PRINCIPLES OF MANAGEMENT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 27,
+        "marks_final": 31,
+        "marks_total": 58,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 29,
+        "marks_final": 52,
+        "marks_total": 81,
+        "max_marks": 100,
+        "grade": "A"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 9,
+        "marks_final": 12,
+        "marks_total": 21,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 15,
+        "marks_final": 25,
+        "marks_total": 40,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 18,
+        "marks_final": 26,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 9,
+        "marks_final": null,
+        "marks_total": 9,
+        "max_marks": 10,
+        "grade": "A+"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 15,
+        "marks_final": 25,
+        "marks_total": 40,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 16,
+        "marks_final": 27,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 17,
+        "marks_final": 25,
+        "marks_total": 42,
+        "max_marks": 50,
+        "grade": "A"
+      }
+    ]
+  },
+  {
+    "roll": "211271524119",
+    "name": "ABHISHEK KUMAR",
+    "subjects": [
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 13,
+        "marks_final": null,
+        "marks_total": 13,
+        "max_marks": 15,
+        "grade": "A"
+      },
+      {
+        "name": "ESSEN OF IND KNOWL. AND TRADIT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PRINCIPLES OF MANAGEMENT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 26,
+        "marks_final": 40,
+        "marks_total": 66,
+        "max_marks": 100,
+        "grade": "C"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 29,
+        "marks_final": 28,
+        "marks_total": 57,
+        "max_marks": 100,
+        "grade": "D"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 8,
+        "marks_final": 12,
+        "marks_total": 20,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 12,
+        "marks_final": 25,
+        "marks_total": 37,
+        "max_marks": 50,
+        "grade": "B"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 16,
+        "marks_final": 25,
+        "marks_total": 41,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 15,
+        "marks_final": 28,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 8,
+        "marks_final": null,
+        "marks_total": 8,
+        "max_marks": 10,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 15,
+        "marks_final": 25,
+        "marks_total": 40,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 14,
+        "marks_final": 26,
+        "marks_total": 40,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 16,
+        "marks_final": 25,
+        "marks_total": 41,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 14,
+        "marks_final": 27,
+        "marks_total": 41,
+        "max_marks": 50,
+        "grade": "A"
+      }
+    ]
+  },
+  {
+    "roll": "211271524120",
+    "name": "CHHOTU KUMAR",
+    "subjects": [
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 12,
+        "marks_final": null,
+        "marks_total": 12,
+        "max_marks": 15,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 26,
+        "marks_final": 47,
+        "marks_total": 73,
+        "max_marks": 100,
+        "grade": "B"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 25,
+        "marks_final": 55,
+        "marks_total": 80,
+        "max_marks": 100,
+        "grade": "A"
+      },
+      {
+        "name": "ESSEN OF IND KNOWL. AND TRADIT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PRINCIPLES OF MANAGEMENT",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 26,
+        "marks_final": 39,
+        "marks_total": 65,
+        "max_marks": 100,
+        "grade": "C"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 28,
+        "marks_final": 45,
+        "marks_total": 73,
+        "max_marks": 100,
+        "grade": "B"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 8,
+        "marks_final": 13,
+        "marks_total": 21,
+        "max_marks": 25,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 18,
+        "marks_final": 28,
+        "marks_total": 46,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 18,
+        "marks_final": 26,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 19,
+        "marks_final": 29,
+        "marks_total": 48,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "ENVT. EDU. AND SUST. DEVELOP.",
+        "marks_internal": 8,
+        "marks_final": null,
+        "marks_total": 8,
+        "max_marks": 10,
+        "grade": "A"
+      },
+      {
+        "name": "APPLIED PHYSICS -A",
+        "marks_internal": 18,
+        "marks_final": 28,
+        "marks_total": 46,
+        "max_marks": 50,
+        "grade": "A+"
+      },
+      {
+        "name": "APPLIED MATHEMATICS -A",
+        "marks_internal": 16,
+        "marks_final": 27,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "INDIAN CONSTITUTION",
+        "marks_internal": 23,
+        "marks_final": null,
+        "marks_total": 23,
+        "max_marks": 25,
+        "grade": "A+"
+      },
+      {
+        "name": "PYTHON PROGRAMMING",
+        "marks_internal": 18,
+        "marks_final": 26,
+        "marks_total": 44,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ICT TOOLS",
+        "marks_internal": 17,
+        "marks_final": 26,
+        "marks_total": 43,
+        "max_marks": 50,
+        "grade": "A"
+      },
+      {
+        "name": "ENGG. MECHANICS",
+        "marks_internal": 18,
+        "marks_final": 28,
+        "marks_total": 46,
+        "max_marks": 50,
+        "grade": "A+"
+      }
+    ]
+  }
+]
