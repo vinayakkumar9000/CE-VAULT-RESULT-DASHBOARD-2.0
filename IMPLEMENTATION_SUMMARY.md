@@ -5,7 +5,7 @@
 ### 1. Chatbot Rebranding
 - ✅ Renamed from "ce vault ai assist ofhatbit" to **"CE VAULT AI ASSIST"**
 - ✅ Updated header, title, aria-label, and all UI text
-- ✅ Updated model display to "Gemma 3 27b"
+- ✅ Updated model display to "Gemma 3 27B-IT"
 
 ### 2. Full Student Data Access
 - ✅ Created `services/studentDataHelper.ts` with comprehensive search functions:
@@ -25,15 +25,15 @@
   - Give AI clear instructions and capabilities
 
 ### 3. AI Model Configuration
-- ✅ **Chatbot**: `gemma-3-27b`
+- ✅ **Chatbot**: `gemma-3-27b-it`
   - Fast, responsive chatbot interactions
   - Higher quality responses
   
-- ✅ **Analysis**: `gemma-3-27b`
+- ✅ **Analysis**: `gemma-3-27b-it`
   - Deep analysis capabilities
   - Better quality for performance analysis
   
-- ✅ **Subject Details**: `gemma-3-27b`
+- ✅ **Subject Details**: `gemma-3-27b-it`
   - High quality educational content generation
   
 - ✅ **Image Generation**: Disabled
@@ -82,9 +82,9 @@
 
 | Component | Model | Status |
 |-----------|-------|--------|
-| Chatbot | gemma-3-27b | ✅ Active |
-| Analysis | gemma-3-27b | ✅ Active |
-| Subject Details | gemma-3-27b | ✅ Active |
+| Chatbot | gemma-3-27b-it | ✅ Active |
+| Analysis | gemma-3-27b-it | ✅ Active |
+| Subject Details | gemma-3-27b-it | ✅ Active |
 | Image Generation | None | ❌ Disabled |
 
 ## 🔧 Environment Variables
@@ -96,10 +96,10 @@ VITE_GEMINI_API_KEY=your_api_key_here
 
 ## 📊 Model Usage Strategy
 
-All AI operations now use the gemma-3-27b model:
-- **Chatbot queries** → gemma-3-27b (high-quality responses)
-- **Performance analysis** → gemma-3-27b (deep analysis)
-- **Subject details** → gemma-3-27b (educational content)
+All AI operations now use the gemma-3-27b-it model:
+- **Chatbot queries** → gemma-3-27b-it (high-quality responses)
+- **Performance analysis** → gemma-3-27b-it (deep analysis)
+- **Subject details** → gemma-3-27b-it (educational content)
 
 This provides:
 - Consistent high-quality AI responses

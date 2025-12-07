@@ -42,8 +42,8 @@ export const analyzeStudentPerformance = async (student: Student, semesterIndex?
         `;
 
         const response = await ai.models.generateContent({
-            // Use gemma-3-27b for deeper thinking analysis
-            model: 'gemma-3-27b',
+            // Use gemma-3-27b-it for deeper thinking analysis
+            model: 'gemma-3-27b-it',
             contents: prompt,
             config: {
                 responseMimeType: 'application/json',
@@ -102,8 +102,8 @@ export const getSubjectDetails = async (subjectName: string): Promise<string> =>
         `;
 
         const response = await ai.models.generateContent({
-            // Use gemma-3-27b for better educational content
-            model: 'gemma-3-27b',
+            // Use gemma-3-27b-it for better educational content
+            model: 'gemma-3-27b-it',
             contents: prompt,
         });
 
@@ -198,8 +198,8 @@ You: Answer with the total count: ${totalStudents} students
         }));
 
         const chat = ai.chats.create({
-            // Use gemma-3-27b for fast, responsive chatbot
-            model: 'gemma-3-27b',
+            // Use gemma-3-27b-it for fast, responsive chatbot
+            model: 'gemma-3-27b-it',
             config: {
                 systemInstruction: systemInstruction,
             },
