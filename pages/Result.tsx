@@ -4,7 +4,6 @@ import { GlassCard, Badge, GlassButton } from '../components/GlassComponents';
 import { SubjectMarksChart } from '../components/Charts';
 import { Sparkles, Download, Share2, AlertTriangle, CheckCircle, BrainCircuit, XCircle, BookOpen, X, Loader2 } from 'lucide-react';
 import { analyzeStudentPerformance, getSubjectDetails } from '../services/geminiService';
-import { PercentileInfo } from '../components/PercentileInfo';
 import { MOCK_STUDENTS } from '../mockData';
 
 interface ResultProps {
@@ -22,14 +21,6 @@ const Result: React.FC<ResultProps> = ({ student }) => {
     const [loadingDetails, setLoadingDetails] = useState(false);
 
     const currentResult: SemesterResult | undefined = student.results.find(r => r.semester === selectedSem);
-
-    // Gather batch SGPA data for percentile calculation
-    const batchSgpas: number[] = MOCK_STUDENTS
-        .map(s => {
-            const semResult = s.results.find(r => r.semester === selectedSem);
-            return semResult?.sgpa;
-        })
-        .filter((sgpa): sgpa is number => typeof sgpa === 'number' && !isNaN(sgpa));
 
     const handleAnalyze = async () => {
         setLoadingAnalysis(true);
@@ -99,7 +90,7 @@ const Result: React.FC<ResultProps> = ({ student }) => {
             </div>
 
             {/* Overview Cards */}
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <GlassCard className="text-center py-6">
                     <p className="text-gray-400 text-xs uppercase tracking-widest mb-2">SGPA</p>
                     <p className="text-4xl font-bold text-blue-400">{currentResult.sgpa}</p>
@@ -110,12 +101,6 @@ const Result: React.FC<ResultProps> = ({ student }) => {
                         {currentResult.totalMarks}
                         <span className="text-lg text-gray-500 font-normal">/{currentResult.maxTotalMarks}</span>
                     </p>
-                </GlassCard>
-                <GlassCard className="text-center py-6 bg-yellow-500/10 border-yellow-500/30">
-                    <p className="text-yellow-200/80 text-xs uppercase tracking-widest mb-2">Percentile</p>
-                    <div className="flex items-center justify-center">
-                        <PercentileInfo sgpa={currentResult.sgpa} batchSgpas={batchSgpas} />
-                    </div>
                 </GlassCard>
                 
                 {/* Result Status Card with Highlight Logic */}
