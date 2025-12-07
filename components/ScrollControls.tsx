@@ -1,9 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import { ArrowDown, ArrowUp } from 'lucide-react';
 
+// Reusable Tooltip Component
+const Tooltip: React.FC<{ text: string; show: boolean }> = ({ text, show }) => {
+    if (!show) return null;
+    
+    return (
+        <div className="absolute right-full mr-3 top-1/2 -translate-y-1/2 px-3 py-1.5 bg-gray-900/95 backdrop-blur-sm text-white text-sm rounded-lg whitespace-nowrap shadow-lg border border-white/10 opacity-0 animate-[fadeIn_0.2s_ease-out_forwards]">
+            {text}
+            <div className="absolute right-[-6px] top-1/2 -translate-y-1/2 w-0 h-0 border-t-[6px] border-t-transparent border-b-[6px] border-b-transparent border-l-[6px] border-l-gray-900/95"></div>
+        </div>
+    );
+};
+
 const ScrollControls = () => {
     const [isAtBottom, setIsAtBottom] = useState(false);
     const [isScrollable, setIsScrollable] = useState(false);
+    const [showTooltip, setShowTooltip] = useState<'top' | 'bottom' | null>(null);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -50,28 +63,34 @@ const ScrollControls = () => {
         <div className="fixed bottom-24 right-4 md:right-8 z-40 flex flex-col gap-3 pointer-events-none md:pointer-events-auto transition-all duration-300">
             {/* Scroll to Bottom Button - Shows when NOT at bottom */}
             <div 
-                className={`transition-all duration-500 transform ${!isAtBottom ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 pointer-events-none'}`}
+                className={`relative transition-all duration-500 transform ${!isAtBottom ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 pointer-events-none'}`}
             >
                 <button
                     onClick={scrollToBottom}
-                    className="p-3 bg-white/10 backdrop-blur-xl border border-white/20 rounded-full text-white shadow-lg hover:bg-white/20 hover:scale-110 transition-all duration-300 flex items-center justify-center group"
-                    title="Go to Bottom"
+                    onMouseEnter={() => setShowTooltip('bottom')}
+                    onMouseLeave={() => setShowTooltip(null)}
+                    className="p-3 bg-white/10 backdrop-blur-xl border border-white/20 rounded-full text-white shadow-lg hover:bg-white/20 hover:scale-110 hover:shadow-xl transition-all duration-300 flex items-center justify-center group pointer-events-auto"
+                    aria-label="Scroll to bottom"
                 >
                     <ArrowDown size={20} className="group-hover:translate-y-0.5 transition-transform" />
                 </button>
+                <Tooltip text="Scroll to Bottom" show={showTooltip === 'bottom'} />
             </div>
 
             {/* Scroll to Top Button - Shows ONLY when at bottom */}
             <div 
-                className={`transition-all duration-500 transform ${isAtBottom ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 pointer-events-none'} -mt-[52px]`}
+                className={`relative transition-all duration-500 transform ${isAtBottom ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 pointer-events-none'} -mt-[52px]`}
             >
                 <button
                     onClick={scrollToTop}
-                    className="p-3 bg-blue-600/80 backdrop-blur-xl border border-blue-400/50 rounded-full text-white shadow-lg shadow-blue-500/30 hover:bg-blue-500/90 hover:scale-110 transition-all duration-300 flex items-center justify-center group"
-                    title="Go to Top"
+                    onMouseEnter={() => setShowTooltip('top')}
+                    onMouseLeave={() => setShowTooltip(null)}
+                    className="p-3 bg-blue-600/80 backdrop-blur-xl border border-blue-400/50 rounded-full text-white shadow-lg shadow-blue-500/30 hover:bg-blue-500/90 hover:scale-110 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 flex items-center justify-center group pointer-events-auto"
+                    aria-label="Scroll to top"
                 >
                     <ArrowUp size={20} className="group-hover:-translate-y-0.5 transition-transform" />
                 </button>
+                <Tooltip text="Scroll to Top" show={showTooltip === 'top'} />
             </div>
         </div>
     );
