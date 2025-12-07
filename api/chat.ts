@@ -1,0 +1,33 @@
+import type { VercelRequest, VercelResponse } from '@vercel/node';
+import { GoogleGenAI } from "@google/genai";
+
+export default async function handler(req: VercelRequest, res: VercelResponse) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+  if (req.method === 'OPTIONS') return res.status(200).end();
+  if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
+
+  try {
+    const { message, history, systemInstruction } = req.body;
+    if (!message) return res.status(400).json({ error: 'Missing message' });
+
+    const apiKey = process.env.GEMINI_API_KEY;
+    if (!apiKey) return res.status(500).json({ error: 'GEMINI_API_KEY missing' });
+
+    const client = new GoogleGenAI({ apiKey });
+
+    const chat = client.chats.create({
+      model: 'gemma-3-27b-it',
+      config: { systemInstruction: systemInstruction || "You are a helpful assistant." },
+      history: history || []
+    });
+
+    const result = await chat.sendMessage({ message });
+    return res.status(200).json({ text: result?.text ?? '' });
+  } catch (err: any) {
+    console.error('Chat API error:', err);
+    return res.status(500).json({ error: String(err?.message || err) });
+  }
+}
