@@ -20,14 +20,19 @@ Before deploying, add the Gemini API key **securely**:
 
 1. In your Vercel project settings, go to **Settings** → **Environment Variables**
 2. Add a new environment variable:
-   - **Name**: `GOOGLE_GENERATIVE_AI_API_KEY` (recommended) or `GEMINI_API_KEY` (legacy)
+   - **Name**: `GEMINI_API_KEY` (required)
    - **Value**: Your Gemini API key (e.g., `AIzaSy...`)
    - **Environment**: Select all three options:
      - ✅ Production
      - ✅ Preview
      - ✅ Development
 
-3. Click **Save**
+3. Optionally, add the model name:
+   - **Name**: `GEMINI_MODEL` (optional, defaults to `gemini-robotics-er-1.5-preview`)
+   - **Value**: `gemini-robotics-er-1.5-preview`
+   - **Environment**: Select all three options
+
+4. Click **Save**
 
 ## Step 3: Deploy
 
@@ -39,7 +44,9 @@ Before deploying, add the Gemini API key **securely**:
 
 ### ✅ What You Need to Do
 
-**ONLY ONE STEP**: Add `GOOGLE_GENERATIVE_AI_API_KEY` in Vercel → Project → Environment Variables.
+**REQUIRED STEP**: Add `GEMINI_API_KEY` in Vercel → Project → Environment Variables.
+
+**OPTIONAL STEP**: Add `GEMINI_MODEL` if you want to use a different model (defaults to `gemini-robotics-er-1.5-preview`).
 
 That's it! No other configuration is needed.
 
@@ -65,8 +72,8 @@ That's it! No other configuration is needed.
 Client (Browser)
     ↓ POST /api/chat
 Vercel Serverless Function (api/chat.ts)
-    ↓ Uses process.env.GOOGLE_GENERATIVE_AI_API_KEY
-Google Gemini API
+    ↓ Uses lib/aiClient.ts → process.env.GEMINI_API_KEY
+Google Gemini API (gemini-robotics-er-1.5-preview)
     ↓ Streaming response
 Client receives AI response
 ```
@@ -77,7 +84,8 @@ If you want to run the project locally:
 
 1. Create a `.env` file in the project root:
    ```
-   GOOGLE_GENERATIVE_AI_API_KEY=your_gemini_api_key_here
+   GEMINI_API_KEY=your_gemini_api_key_here
+   GEMINI_MODEL=gemini-robotics-er-1.5-preview
    ```
 
 2. Run the development server:
@@ -97,7 +105,8 @@ This application uses a **secure server-side architecture**:
 - ✅ API key stored **only** in Vercel Environment Variables
 - ✅ API key **never** exposed to client-side code
 - ✅ All AI operations through serverless functions
-- ✅ Uses Vercel AI SDK for industry-standard security
+- ✅ Centralized Gemini client in `lib/aiClient.ts`
+- ✅ Uses `gemini-robotics-er-1.5-preview` model exclusively
 - ✅ No `VITE_*` prefixed variables (which expose to browser)
 
 ### 🔒 Additional Security Measures
@@ -123,7 +132,7 @@ To further protect your API key:
 Unlike the previous client-side approach:
 
 - **Before (Insecure)**: `VITE_GEMINI_API_KEY` was embedded in browser JavaScript
-- **After (Secure)**: `GOOGLE_GENERATIVE_AI_API_KEY` only exists in serverless functions
+- **After (Secure)**: `GEMINI_API_KEY` only exists in serverless functions via centralized client
 
 This architecture prevents:
 - ❌ API key theft from browser inspection
@@ -136,7 +145,7 @@ This architecture prevents:
 
 If the build fails, check:
 
-1. ✅ Environment variable name is **exactly** `GOOGLE_GENERATIVE_AI_API_KEY` or `GEMINI_API_KEY`
+1. ✅ Environment variable name is **exactly** `GEMINI_API_KEY` (required)
 2. ✅ Environment variable is added to all environments (Production, Preview, Development)
 3. ✅ You triggered a new deployment after adding the environment variable
 
@@ -182,9 +191,10 @@ If you encounter issues:
 
 If you're migrating from the old `VITE_GEMINI_API_KEY` approach:
 
-1. **Remove** the old `VITE_GEMINI_API_KEY` environment variable from Vercel
-2. **Add** the new `GOOGLE_GENERATIVE_AI_API_KEY` environment variable
-3. **Redeploy** the application
-4. **Test** that the chatbot and AI features work correctly
+1. **Remove** any old environment variables (`VITE_GEMINI_API_KEY`, `GOOGLE_GENERATIVE_AI_API_KEY`)
+2. **Add** the new `GEMINI_API_KEY` environment variable (required)
+3. **Optionally add** `GEMINI_MODEL` if you want to override the default model
+4. **Redeploy** the application
+5. **Test** that the chatbot and AI features work correctly
 
-The application now uses Vercel AI SDK with server-side API routes for maximum security.
+The application now uses a centralized Gemini client (`lib/aiClient.ts`) with the `gemini-robotics-er-1.5-preview` model exclusively, using server-side API routes for maximum security.

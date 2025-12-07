@@ -1,5 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { GoogleGenAI, Type } from "@google/genai";
+import { callModelJSON } from '../lib/aiClient';
+import { Type } from "@google/genai";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -13,33 +14,19 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const { prompt } = req.body;
     if (!prompt) return res.status(400).json({ error: 'Missing prompt' });
 
-    const apiKey = process.env.GEMINI_API_KEY;
-    if (!apiKey) return res.status(500).json({ error: 'GEMINI_API_KEY missing' });
-
-    const client = new GoogleGenAI({ apiKey });
-
-    const response = await client.models.generateContent({
-      model: 'gemma-3-27b-it',
-      contents: prompt,
-      config: {
-        responseMimeType: 'application/json',
-        responseSchema: {
-          type: Type.OBJECT,
-          properties: {
-            summary: { type: Type.STRING },
-            weakAreas: { type: Type.ARRAY, items: { type: Type.STRING } },
-            prediction: { type: Type.STRING },
-            tips: { type: Type.ARRAY, items: { type: Type.STRING } }
-          }
-        }
+    const jsonSchema = {
+      type: Type.OBJECT,
+      properties: {
+        summary: { type: Type.STRING },
+        weakAreas: { type: Type.ARRAY, items: { type: Type.STRING } },
+        prediction: { type: Type.STRING },
+        tips: { type: Type.ARRAY, items: { type: Type.STRING } }
       }
-    });
+    };
 
-    // response.text is a JSON string, parse and return as object
-    if (!response.text) {
-      throw new Error('Empty response from AI');
-    }
-    return res.status(200).json(JSON.parse(response.text));
+    const data = await callModelJSON(prompt, jsonSchema);
+
+    return res.status(200).json(data);
   } catch (err: any) {
     console.error('Analysis API error:', err);
     return res.status(500).json({ error: String(err?.message || err) });

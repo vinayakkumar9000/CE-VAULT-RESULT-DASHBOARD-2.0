@@ -84,7 +84,7 @@ const ChatBot = () => {
                                 <div>
                                     <h3 className="font-bold text-white text-sm">CE VAULT AI ASSIST</h3>
                                     <p className="text-[10px] text-blue-200 flex items-center gap-1">
-                                        <Sparkles size={8} /> Powered by Gemma 3 27B-IT
+                                        <Sparkles size={8} /> Powered by Gemini Robotics
                                     </p>
                                 </div>
                             </div>
