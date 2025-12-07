@@ -65,7 +65,7 @@ const ChatBot = () => {
     };
 
     return (
-        <div className="fixed bottom-24 right-4 md:right-8 z-50 flex flex-col items-end pointer-events-none">
+        <div className="fixed bottom-4 right-4 md:right-8 z-50 flex flex-col items-end pointer-events-none">
             {/* Chat Window */}
             {isOpen && (
                 <div className="pointer-events-auto mb-4 w-[350px] md:w-[400px] h-[500px] max-h-[80vh] flex flex-col animate-fade-in origin-bottom-right">
