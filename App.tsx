@@ -7,6 +7,8 @@ import ChatBot from './components/ChatBot';
 import ScrollControls from './components/ScrollControls';
 import { GENERATED_STUDENTS } from './generatedData';
 import { Student } from './types';
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const App = () => {
     // Simple state-based routing for a single-page feel
@@ -44,6 +46,8 @@ const App = () => {
             )}
             <ScrollControls />
             <ChatBot />
+            <Analytics />
+            <SpeedInsights />
         </div>
     );
 };
