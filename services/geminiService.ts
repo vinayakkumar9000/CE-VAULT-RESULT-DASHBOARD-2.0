@@ -7,7 +7,7 @@ import {
   getTotalStudents 
 } from './studentDataHelper';
 
-// Helper to get AI instance safely
+// Helper to get AI instance safely with single API key
 const getAIClient = () => {
     const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
     if (!apiKey) {
@@ -18,6 +18,7 @@ const getAIClient = () => {
 
 export const analyzeStudentPerformance = async (student: Student, semesterIndex?: number): Promise<AnalysisResult> => {
     try {
+        // Use single API key with high-quality model for deeper analysis
         const ai = getAIClient();
         
         let contextData;
@@ -41,6 +42,7 @@ export const analyzeStudentPerformance = async (student: Student, semesterIndex?
         `;
 
         const response = await ai.models.generateContent({
+            // Use gemini-2.5-flash for deeper thinking analysis (5 RPM limit, higher quality)
             model: 'gemini-2.5-flash',
             contents: prompt,
             config: {
@@ -75,29 +77,10 @@ export const analyzeStudentPerformance = async (student: Student, semesterIndex?
 
 export const generateStudentAvatar = async (description: string, resolution: ImageResolution): Promise<string | null> => {
     try {
-        const ai = getAIClient();
-        
-        const response = await ai.models.generateContent({
-            model: 'gemini-3-pro-image-preview',
-            contents: {
-                parts: [{ text: `A professional, academic-themed, futuristic student avatar or illustration: ${description}` }]
-            },
-            config: {
-                imageConfig: {
-                    imageSize: resolution,
-                    aspectRatio: "1:1"
-                }
-            }
-        });
-
-        // Loop to find image part
-        for (const part of response.candidates?.[0]?.content?.parts || []) {
-            if (part.inlineData) {
-                return `data:image/png;base64,${part.inlineData.data}`;
-            }
-        }
+        // Image generation models are not available in free tier
+        // Return null to use default avatars instead
+        console.log("Image generation not available in free tier, using default avatar");
         return null;
-
     } catch (error) {
         console.error("Image generation failed:", error);
         return null;
@@ -106,6 +89,7 @@ export const generateStudentAvatar = async (description: string, resolution: Ima
 
 export const getSubjectDetails = async (subjectName: string): Promise<string> => {
     try {
+        // Use single API key with high-quality model for better explanations
         const ai = getAIClient();
         const prompt = `
             The student is weak in the subject: "${subjectName}" (Civil Engineering Diploma context).
@@ -118,6 +102,7 @@ export const getSubjectDetails = async (subjectName: string): Promise<string> =>
         `;
 
         const response = await ai.models.generateContent({
+            // Use gemini-2.5-flash for better educational content (5 RPM limit)
             model: 'gemini-2.5-flash',
             contents: prompt,
         });
@@ -131,6 +116,7 @@ export const getSubjectDetails = async (subjectName: string): Promise<string> =>
 
 export const chatWithAI = async (message: string, contextData: any, history: { role: string, parts: { text: string }[] }[]) => {
     try {
+        // Use single API key with lightweight fast model for chatbot
         const ai = getAIClient();
         
         // Process the user's query to find relevant student data
@@ -212,7 +198,8 @@ You: Answer with the total count: ${totalStudents} students
         }));
 
         const chat = ai.chats.create({
-            model: 'gemini-2.0-flash',
+            // Use gemini-2.5-flash-lite for fast, responsive chatbot (10 RPM limit)
+            model: 'gemini-2.5-flash-lite',
             config: {
                 systemInstruction: systemInstruction,
             },
