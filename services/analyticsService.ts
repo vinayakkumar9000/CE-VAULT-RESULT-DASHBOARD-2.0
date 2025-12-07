@@ -23,10 +23,12 @@ export const trackResultView = (studentName: string, rollNumber: string) => {
 
 /**
  * Track chatbot interactions
+ * Only tracks metadata, not the actual message content to protect user privacy
  */
-export const trackChatbotInteraction = (message: string, messageLength: number) => {
+export const trackChatbotInteraction = (messageLength: number, queryType?: string) => {
     track('chatbot_interaction', {
         messageLength: messageLength,
+        queryType: queryType || 'general',
         timestamp: new Date().toISOString()
     });
 };

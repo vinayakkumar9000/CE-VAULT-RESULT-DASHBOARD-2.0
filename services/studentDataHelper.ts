@@ -167,18 +167,19 @@ export const processQueryForAI = (query: string): string => {
     }
     
     // Look for common name patterns in lowercase
-    const commonNames = ['aman', 'kumar', 'himanshu', 'vinit', 'vivek', 'raj', 'mayank', 'abhay', 'saloni', 'nandani'];
-    for (const name of commonNames) {
-        if (lowerQuery.includes(name)) {
-            const students = findStudentByName(name);
+    // Try matching any word in the query that might be a name
+    const words = lowerQuery.split(/\s+/);
+    for (const word of words) {
+        if (word.length >= 3) { // Only consider words with 3+ characters
+            const students = findStudentByName(word);
             if (students.length > 0) {
                 if (students.length === 1) {
                     return getStudentDetailsForAI(students[0]);
                 } else if (students.length <= 5) {
-                    return `Multiple students found with "${name}":\n` + 
+                    return `Multiple students found with "${word}":\n` + 
                            students.map(s => `${s.rollNumber} - ${s.name} - SGPA: ${s.results[s.results.length - 1].sgpa}`).join('\n');
                 } else {
-                    return `Found ${students.length} students with "${name}" in their name:\n` + 
+                    return `Found ${students.length} students with "${word}" in their name:\n` + 
                            students.slice(0, 5).map(s => `${s.rollNumber} - ${s.name} - SGPA: ${s.results[s.results.length - 1].sgpa}`).join('\n') + 
                            '\n\nShowing first 5. Please be more specific.';
                 }
