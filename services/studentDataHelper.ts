@@ -149,21 +149,25 @@ export const processQueryForAI = (query: string): string => {
         }
     }
     
-    // Extract potential names (handle both Title Case and ALL CAPS names)
-    const nameMatches = query.match(/\b[A-Z][a-z]*(?:\s+[A-Z][a-z]*)*\b/gi);
+    // Extract potential names (handle both Title Case like "Aman Kumar" and ALL CAPS like "AMAN KUMAR")
+    // Match words starting with capital letter, followed by either lowercase letters or more capitals
+    const nameMatches = query.match(/\b[A-Z](?:[a-z]+|[A-Z]+)(?:\s+[A-Z](?:[a-z]+|[A-Z]+))*\b/g);
     if (nameMatches && nameMatches.length > 0) {
         for (const name of nameMatches) {
-            const students = findStudentByName(name);
-            if (students.length > 0) {
-                if (students.length === 1) {
-                    return getStudentDetailsForAI(students[0]);
-                } else if (students.length <= 5) {
-                    return `Multiple students found:\n` + 
-                           students.map(s => getStudentDetailsForAI(s)).join('\n---\n');
-                } else {
-                    return `Found ${students.length} students matching "${name}":\n` + 
-                           students.slice(0, 5).map(s => `${s.rollNumber} - ${s.name}`).join('\n') + 
-                           '\n\nShowing first 5. Please be more specific.';
+            // Only try names with spaces (multi-word) or 4+ characters to avoid common words
+            if (name.includes(' ') || name.length >= 4) {
+                const students = findStudentByName(name);
+                if (students.length > 0) {
+                    if (students.length === 1) {
+                        return getStudentDetailsForAI(students[0]);
+                    } else if (students.length <= 5) {
+                        return `Multiple students found:\n` + 
+                               students.map(s => getStudentDetailsForAI(s)).join('\n---\n');
+                    } else {
+                        return `Found ${students.length} students matching "${name}":\n` + 
+                               students.slice(0, 5).map(s => `${s.rollNumber} - ${s.name}`).join('\n') + 
+                               '\n\nShowing first 5. Please be more specific.';
+                    }
                 }
             }
         }
