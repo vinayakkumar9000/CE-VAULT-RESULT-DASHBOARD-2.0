@@ -3,7 +3,7 @@ import { Student, AnalysisResult, ImageResolution } from '../types';
 
 // Helper to get AI instance safely
 const getAIClient = () => {
-    const apiKey = process.env.API_KEY;
+    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
     if (!apiKey) {
         throw new Error("API Key not found in environment variables");
     }
