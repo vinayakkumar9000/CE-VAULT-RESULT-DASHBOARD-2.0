@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { createGoogleGenerativeAI } from '@ai-sdk/google';
 import { streamText } from 'ai';
-import { getModelName } from '../lib/aiClient.js';
+import { getModelName } from '../lib/aiClient';
 
 export const maxDuration = 60;
 

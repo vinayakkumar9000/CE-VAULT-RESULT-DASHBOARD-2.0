@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { callModelJSON } from '../lib/aiClient.js';
+import { callModelJSON } from '../lib/aiClient';
 import { Type } from "@google/genai";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
