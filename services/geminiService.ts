@@ -31,7 +31,7 @@ export const analyzeStudentPerformance = async (student: Student, semesterIndex?
 
         if (!response.ok) throw new Error('Analysis request failed');
         const data = await response.json();
-        return JSON.parse(data.text) as AnalysisResult;
+        return data as AnalysisResult;
 
     } catch (error) {
         console.error("AI Analysis failed:", error);

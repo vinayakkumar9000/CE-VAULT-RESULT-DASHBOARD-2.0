@@ -35,7 +35,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       }
     });
 
-    return res.status(200).json({ text: response.text });
+    // response.text is a JSON string, parse and return as object
+    return res.status(200).json(JSON.parse(response.text));
   } catch (err: any) {
     console.error('Analysis API error:', err);
     return res.status(500).json({ error: String(err?.message || err) });
