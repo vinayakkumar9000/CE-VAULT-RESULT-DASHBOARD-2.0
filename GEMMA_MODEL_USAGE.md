@@ -1,113 +1,133 @@
-# Gemma AI Model Usage Strategy
+# Gemini AI Model Usage Strategy
 
-This document explains how the Gemma AI model is used across the application with secure server-side architecture.
+This document explains how the Gemini AI model is used across the application with secure server-side architecture.
 
 ## Model Used
 
 | Model | Usage |
 |-------|-------|
-| **gemma-3-27b-it** | ✅ Chatbot (fast responses) |
-| **gemma-3-27b-it** | ✅ Analysis (deeper thinking) |
+| **gemini-robotics-er-1.5-preview** | ✅ Chatbot (streaming responses) |
+| **gemini-robotics-er-1.5-preview** | ✅ Analysis (structured JSON output) |
+| **gemini-robotics-er-1.5-preview** | ✅ Subject Details (text generation) |
 
 ## Secure Architecture
 
 ### Server-Side API Routes
-All AI operations now use **Vercel Serverless Functions** with the **Vercel AI SDK**:
+All AI operations use **Vercel Serverless Functions** with centralized Gemini client:
 
 - **API Key Location**: Server-side only (in Vercel Environment Variables)
 - **Client Access**: Frontend calls `/api/chat`, `/api/analyze`, `/api/subject` routes
 - **Security**: API key never exposed to client-side code
-- **Environment Variable**: `GOOGLE_GENERATIVE_AI_API_KEY` (auto-detected by Vercel AI SDK)
+- **Environment Variable**: `GEMINI_API_KEY` (required)
+- **Model Configuration**: `GEMINI_MODEL` (optional, defaults to `gemini-robotics-er-1.5-preview`)
 
-### Migration from Client-Side
-**Before (Insecure):**
-```typescript
-// ❌ Client-side API key exposure
-const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
-```
+### Centralized Client
 
-**After (Secure):**
+All AI operations use the centralized client in `lib/aiClient.ts`:
+
 ```typescript
-// ✅ Server-side API route
-export default async function handler(req: VercelRequest, res: VercelResponse) {
-  const apiKey = process.env.GOOGLE_GENERATIVE_AI_API_KEY;
-  // ... secure processing
-}
+// ✅ Centralized client usage
+import { callModel, callModelJSON } from '../lib/aiClient';
+
+// For text generation
+const text = await callModel(prompt);
+
+// For structured JSON responses
+const data = await callModelJSON(prompt, jsonSchema);
 ```
 
 ## Model Assignment by Feature
 
 ### 1. **Chatbot (CE VAULT AI ASSIST)**
-- **Model**: `gemma-3-27b-it`
+- **Model**: `gemini-robotics-er-1.5-preview`
 - **Use Case**: Quick student data queries, roll number lookups, marks checking
-- **Implementation**: `api/chat.ts` using Vercel AI SDK's `streamText()`
+- **Implementation**: `api/chat.ts` using Vercel AI SDK's `streamText()` for streaming
 - **Frontend**: `components/ChatBot.tsx` using `useChat` hook for streaming responses
+- **Client**: Uses centralized `getModelName()` for model configuration
 
 ### 2. **Student Performance Analysis**
-- **Model**: `gemma-3-27b-it`
+- **Model**: `gemini-robotics-er-1.5-preview`
 - **Use Case**: Analyzing student performance, identifying weak areas, providing tips
-- **Implementation**: `api/analyze.ts` with structured JSON output
+- **Implementation**: `api/analyze.ts` using centralized `callModelJSON()` with structured JSON output
 - **Frontend**: `services/geminiService.ts` → `analyzeStudentPerformance()`
 
 ### 3. **Subject Details & Study Resources**
-- **Model**: `gemma-3-27b-it`
+- **Model**: `gemini-robotics-er-1.5-preview`
 - **Use Case**: Providing study resources and guidance for weak subjects
-- **Implementation**: `api/subject.ts`
+- **Implementation**: `api/subject.ts` using centralized `callModel()`
 - **Frontend**: `services/geminiService.ts` → `getSubjectDetails()`
 
 ### 4. **Avatar Generation**
 - **Model**: None (Disabled)
-- **Why**: Image generation models not available in free tier
+- **Why**: Image generation not supported by Gemini models
 - **Use Case**: Falls back to default avatars
 - **Implementation**: `services/geminiService.ts` → `generateStudentAvatar()`
 
 ## Model Benefits
 
-The Gemma-3-27b-it model with Vercel AI SDK provides:
+The `gemini-robotics-er-1.5-preview` model provides:
 - ✅ High-quality responses for chatbot interactions
 - ✅ Deep analysis capabilities for student performance
 - ✅ Educational content generation for study resources
 - ✅ Streaming responses for better user experience
 - ✅ Secure server-side API key management
-- ✅ Optimal performance for the application
+- ✅ Centralized configuration for easy maintenance
 
 ## Environment Setup
 
+### Required Environment Variables
+
+**GEMINI_API_KEY** (required)
+- Your Google Gemini API key
+- Get it from: https://aistudio.google.com/app/apikey
+- Must be set in both local development and production
+
+**GEMINI_MODEL** (optional)
+- Model name to use (defaults to `gemini-robotics-er-1.5-preview`)
+- Can be overridden if needed
+
 ### Vercel Deployment
-Set the environment variable in Vercel Dashboard:
+Set the environment variables in Vercel Dashboard:
 ```
-GOOGLE_GENERATIVE_AI_API_KEY=your_api_key_here
+GEMINI_API_KEY=your_api_key_here
+GEMINI_MODEL=gemini-robotics-er-1.5-preview  # Optional
 ```
 
 ### Local Development
 Create a `.env` file (not committed to git):
 ```
-GOOGLE_GENERATIVE_AI_API_KEY=your_api_key_here
+GEMINI_API_KEY=your_api_key_here
+GEMINI_MODEL=gemini-robotics-er-1.5-preview  # Optional
 ```
 
-**Legacy Support**: The system also supports `GEMINI_API_KEY` for backward compatibility.
+## Centralized Client API
 
-## Future Improvements
+The `lib/aiClient.ts` module provides:
 
-If you need to scale:
-1. Add multiple API keys and implement round-robin selection
-2. Implement request queuing for rate limit management
-3. Add caching for frequently asked questions
-4. Consider upgrading to paid tier for higher limits
-5. Implement response caching for common queries
+- `callModel(prompt, options?)` - Generate text responses
+- `callModelJSON<T>(prompt, jsonSchema, options?)` - Generate structured JSON responses
+- `getModelName()` - Get the configured model name
+
+All functions automatically:
+- Read `GEMINI_API_KEY` from environment
+- Use `GEMINI_MODEL` or default to `gemini-robotics-er-1.5-preview`
+- Handle errors with clear messages
+- Manage client initialization
 
 ## Security Best Practices
 
 ✅ **DO:**
 - Store API keys in Vercel Environment Variables
 - Use server-side API routes for all AI operations
-- Use `GOOGLE_GENERATIVE_AI_API_KEY` as the environment variable name
+- Use `GEMINI_API_KEY` as the environment variable name
+- Keep API keys out of version control
 
 ❌ **DON'T:**
 - Never use `VITE_*` prefix for API keys (exposes to client)
 - Never import API keys in client-side code
 - Never commit API keys to version control
+- Never hardcode API keys in source code
 
 ---
 
-**Note**: All AI operations are now secured through Vercel Serverless Functions using the Vercel AI SDK.
+**Note**: All AI operations are secured through Vercel Serverless Functions using a centralized Gemini client.

@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { GoogleGenAI } from "@google/genai";
+import { callModel } from '../lib/aiClient';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -13,17 +13,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const { prompt } = req.body;
     if (!prompt) return res.status(400).json({ error: 'Missing prompt' });
 
-    const apiKey = process.env.GEMINI_API_KEY;
-    if (!apiKey) return res.status(500).json({ error: 'GEMINI_API_KEY missing' });
+    const text = await callModel(prompt);
 
-    const client = new GoogleGenAI({ apiKey });
-
-    const response = await client.models.generateContent({
-      model: 'gemma-3-27b-it',
-      contents: prompt,
-    });
-
-    return res.status(200).json({ text: response.text });
+    return res.status(200).json({ text });
   } catch (err: any) {
     console.error('Subject API error:', err);
     return res.status(500).json({ error: String(err?.message || err) });

@@ -24,7 +24,7 @@ const Home: React.FC<HomeProps> = ({ onSearch }) => {
 
     const handleGenerateBackground = async () => {
         setIsGeneratingBg(true);
-        // Image generation not supported (Gemma models don't have image generation capabilities)
+        // Image generation not supported (Gemini models don't have image generation capabilities)
         const prompt = "A futuristic, high-tech abstract educational background with glassmorphism elements, deep blue and purple nebula themes, 4k resolution, smooth gradients, no text, cinematic lighting.";
         const url = await generateStudentAvatar(prompt, '4K'); // Reuse service
         if (url) {
@@ -92,7 +92,7 @@ const Home: React.FC<HomeProps> = ({ onSearch }) => {
             </div>
             
             <div className="absolute bottom-4 left-0 w-full text-center text-xs text-white/30 z-10">
-                Powered by Gemma AI • Civil Engineering Department
+                Powered by Gemini AI • Civil Engineering Department
             </div>
         </div>
     );

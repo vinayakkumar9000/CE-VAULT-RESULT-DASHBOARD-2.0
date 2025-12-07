@@ -34,7 +34,7 @@ export const analyzeStudentPerformance = async (student: Student, semesterIndex?
 };
 
 export const generateStudentAvatar = async (description: string, resolution: ImageResolution): Promise<string | null> => {
-    console.log("Image generation not supported by Gemma models");
+    console.log("Image generation not supported by Gemini models");
     return null;
 };
 

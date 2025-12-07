@@ -26,7 +26,12 @@ View your app in AI Studio: https://ai.studio/apps/drive/1Ml-lZxoDS9Xa4wT_iuLO5A
    
    Edit `.env` and add your Gemini API key:
    ```
-   GOOGLE_GENERATIVE_AI_API_KEY=your_actual_api_key_here
+   GEMINI_API_KEY=your_actual_api_key_here
+   ```
+   
+   Optionally, you can specify a custom model (defaults to `gemini-robotics-er-1.5-preview`):
+   ```
+   GEMINI_MODEL=gemini-robotics-er-1.5-preview
    ```
    
    Get your API key from: https://aistudio.google.com/app/apikey
@@ -49,8 +54,9 @@ See [VERCEL_DEPLOYMENT.md](VERCEL_DEPLOYMENT.md) for detailed instructions.
 
 **Quick steps:**
 1. Import your repository to Vercel
-2. Add `GOOGLE_GENERATIVE_AI_API_KEY` environment variable in Vercel settings
-3. Deploy!
+2. Add `GEMINI_API_KEY` environment variable in Vercel settings (required)
+3. Optionally add `GEMINI_MODEL` environment variable (defaults to `gemini-robotics-er-1.5-preview`)
+4. Deploy!
 
 **Security**: This application uses Vercel Serverless Functions to keep your API key secure server-side.
 
