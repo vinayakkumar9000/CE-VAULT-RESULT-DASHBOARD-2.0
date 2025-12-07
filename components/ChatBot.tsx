@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { MessageCircle, X, Send, Bot, Sparkles, Loader2 } from 'lucide-react';
 import { chatWithAI } from '../services/geminiService';
-import { MOCK_STUDENTS } from '../mockData';
+import { GENERATED_STUDENTS } from '../generatedData';
 import { GlassCard } from './GlassComponents';
 
 interface Message {
@@ -13,7 +13,7 @@ interface Message {
 const ChatBot = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [messages, setMessages] = useState<Message[]>([
-        { id: '1', role: 'model', text: 'Hi! I can help you check student results, compare marks, or analyze performance. What would you like to know?' }
+        { id: '1', role: 'model', text: '👋 Hi! I\'m CE VAULT AI ASSIST. I can help you with:\n• Finding any student by name or roll number\n• Checking marks, SGPA, and grades\n• Finding the class topper\n• Getting class statistics\n\nTry asking: "What is the roll number of Aman Kumar?" or "Tell me about student 74"' }
     ]);
     const [inputValue, setInputValue] = useState('');
     const [isLoading, setIsLoading] = useState(false);
@@ -46,7 +46,7 @@ const ChatBot = () => {
             parts: [{ text: msg.text }]
         }));
 
-        const responseText = await chatWithAI(userMessage.text, MOCK_STUDENTS, historyForApi);
+        const responseText = await chatWithAI(userMessage.text, GENERATED_STUDENTS, historyForApi);
 
         const botMessage: Message = {
             id: (Date.now() + 1).toString(),
@@ -77,9 +77,9 @@ const ChatBot = () => {
                                     <Bot size={20} className="text-blue-300" />
                                 </div>
                                 <div>
-                                    <h3 className="font-bold text-white text-sm">ce vault ai assist ofhatbit</h3>
+                                    <h3 className="font-bold text-white text-sm">CE VAULT AI ASSIST</h3>
                                     <p className="text-[10px] text-blue-200 flex items-center gap-1">
-                                        <Sparkles size={8} /> Powered by Gemini 3.0 Pro
+                                        <Sparkles size={8} /> Powered by Gemini 2.0 Flash
                                     </p>
                                 </div>
                             </div>
@@ -150,8 +150,8 @@ const ChatBot = () => {
             <div className="pointer-events-auto">
                 <button
                     onClick={() => setIsOpen(!isOpen)}
-                    aria-label="ce vault ai assist ofhatbit chat assistant"
-                    title="ce vault ai assist ofhatbit"
+                    aria-label="CE VAULT AI ASSIST chat assistant"
+                    title="CE VAULT AI ASSIST"
                     className={`
                         w-14 h-14 rounded-full flex items-center justify-center shadow-2xl transition-all duration-300
                         ${isOpen 
