@@ -1,6 +1,6 @@
 # Vercel Deployment Guide
 
-This guide explains how to deploy the CE Vault Result Dashboard to Vercel with proper environment variable configuration.
+This guide explains how to deploy the CE Vault Result Dashboard to Vercel with secure server-side API key management.
 
 ## Prerequisites
 
@@ -16,11 +16,11 @@ This guide explains how to deploy the CE Vault Result Dashboard to Vercel with p
 
 ## Step 2: Configure Environment Variables
 
-Before deploying, add the Gemini API key:
+Before deploying, add the Gemini API key **securely**:
 
 1. In your Vercel project settings, go to **Settings** → **Environment Variables**
 2. Add a new environment variable:
-   - **Name**: `VITE_GEMINI_API_KEY`
+   - **Name**: `GOOGLE_GENERATIVE_AI_API_KEY` (recommended) or `GEMINI_API_KEY` (legacy)
    - **Value**: Your Gemini API key (e.g., `AIzaSy...`)
    - **Environment**: Select all three options:
      - ✅ Production
@@ -39,7 +39,7 @@ Before deploying, add the Gemini API key:
 
 ### ✅ What You Need to Do
 
-**ONLY ONE STEP**: Add `VITE_GEMINI_API_KEY` in Vercel → Project → Environment Variables.
+**ONLY ONE STEP**: Add `GOOGLE_GENERATIVE_AI_API_KEY` in Vercel → Project → Environment Variables.
 
 That's it! No other configuration is needed.
 
@@ -49,13 +49,27 @@ That's it! No other configuration is needed.
 - ❌ NO local `.env` file needed for deployment
 - ❌ NO GitHub Actions workflow changes needed
 - ❌ NO manual builds required
+- ❌ NO `VITE_*` prefixed variables (security risk!)
 
-### How It Works
+### How It Works (Secure Architecture)
 
-1. **Vercel automatically reads** `VITE_GEMINI_API_KEY` from the environment
-2. **Vite config** (`vite.config.ts`) loads it from `process.env.VITE_GEMINI_API_KEY`
-3. **Build process** replaces `import.meta.env.VITE_GEMINI_API_KEY` with the actual value
-4. **Client code** in `services/geminiService.ts` uses the injected value
+1. **Server-Side API Routes**: All AI operations use Vercel Serverless Functions in `api/` directory
+2. **Environment Variables**: API key stored securely server-side, never exposed to client
+3. **Vercel AI SDK**: Uses `@ai-sdk/google` for streaming responses
+4. **Client Calls**: Frontend calls `/api/chat`, `/api/analyze`, `/api/subject` endpoints
+5. **Zero Client Exposure**: API key never appears in browser JavaScript
+
+### Architecture Overview
+
+```
+Client (Browser)
+    ↓ POST /api/chat
+Vercel Serverless Function (api/chat.ts)
+    ↓ Uses process.env.GOOGLE_GENERATIVE_AI_API_KEY
+Google Gemini API
+    ↓ Streaming response
+Client receives AI response
+```
 
 ### Local Development
 
@@ -63,7 +77,7 @@ If you want to run the project locally:
 
 1. Create a `.env` file in the project root:
    ```
-   VITE_GEMINI_API_KEY=your_gemini_api_key_here
+   GOOGLE_GENERATIVE_AI_API_KEY=your_gemini_api_key_here
    ```
 
 2. Run the development server:
@@ -76,23 +90,25 @@ If you want to run the project locally:
 
 ## Security Considerations
 
-### ⚠️ Client-Side Exposure
+### ✅ Secure Server-Side Architecture
 
-Environment variables with the `VITE_` prefix are **exposed to the browser**. This means:
+This application uses a **secure server-side architecture**:
 
-- Anyone can view the API key by inspecting the JavaScript bundle
-- This is **intentional** for client-side API calls
-- Google Gemini API allows client-side keys with proper restrictions
+- ✅ API key stored **only** in Vercel Environment Variables
+- ✅ API key **never** exposed to client-side code
+- ✅ All AI operations through serverless functions
+- ✅ Uses Vercel AI SDK for industry-standard security
+- ✅ No `VITE_*` prefixed variables (which expose to browser)
 
-### 🔒 Recommended Security Measures
+### 🔒 Additional Security Measures
 
-To protect your API key:
+To further protect your API key:
 
 1. **Set Application Restrictions** in Google Cloud Console:
    - Go to https://console.cloud.google.com/apis/credentials
    - Select your API key
-   - Under "Application restrictions", select "HTTP referrers"
-   - Add your Vercel domain (e.g., `https://your-project-name.vercel.app/*`)
+   - Under "Application restrictions", select "IP addresses"
+   - Add Vercel's IP ranges if needed (or use HTTP referrers for your domain)
 
 2. **Set API Restrictions**:
    - Restrict the key to only use "Generative Language API"
@@ -102,16 +118,17 @@ To protect your API key:
    - Regularly check your API usage in Google Cloud Console
    - Set up billing alerts to catch unexpected usage
 
-### 🛡️ Alternative: Backend Proxy (Optional)
+### 🛡️ Why This is Secure
 
-If you need to completely hide the API key:
+Unlike the previous client-side approach:
 
-1. Create a Vercel Serverless Function (API route)
-2. Move the Gemini API calls to the backend
-3. Use a non-`VITE_` prefixed environment variable (e.g., `GEMINI_API_KEY`)
-4. Update your frontend to call your API route instead
+- **Before (Insecure)**: `VITE_GEMINI_API_KEY` was embedded in browser JavaScript
+- **After (Secure)**: `GOOGLE_GENERATIVE_AI_API_KEY` only exists in serverless functions
 
-This approach keeps the key server-side only but requires additional setup.
+This architecture prevents:
+- ❌ API key theft from browser inspection
+- ❌ Unauthorized usage from leaked keys
+- ❌ Direct API quota abuse
 
 ## Troubleshooting
 
@@ -119,7 +136,7 @@ This approach keeps the key server-side only but requires additional setup.
 
 If the build fails, check:
 
-1. ✅ Environment variable name is **exactly** `VITE_GEMINI_API_KEY`
+1. ✅ Environment variable name is **exactly** `GOOGLE_GENERATIVE_AI_API_KEY` or `GEMINI_API_KEY`
 2. ✅ Environment variable is added to all environments (Production, Preview, Development)
 3. ✅ You triggered a new deployment after adding the environment variable
 
@@ -128,12 +145,17 @@ If the build fails, check:
 If the API key is not being used:
 
 1. Check the browser console for errors
-2. Verify the environment variable is set correctly in Vercel
-3. Redeploy the project to ensure the new environment variable is picked up
+2. Check Vercel Function logs for API errors
+3. Verify the environment variable is set correctly in Vercel
+4. Redeploy the project to ensure the new environment variable is picked up
 
-### API Key Exposed Warning
+### Serverless Function Timeout
 
-This is expected behavior. Vite exposes `VITE_*` variables to the client. See [Security Considerations](#security-considerations) above for how to protect your key.
+If you see timeout errors:
+
+1. The `maxDuration` is set to 60 seconds in `vercel.json`
+2. Check Vercel logs to see if the AI model is responding slowly
+3. Consider upgrading your Vercel plan for longer timeouts
 
 ## Redeployment
 
@@ -152,5 +174,17 @@ Vercel will automatically:
 If you encounter issues:
 
 1. Check Vercel build logs in the "Deployments" tab
-2. Verify your API key is valid at https://aistudio.google.com/app/apikey
-3. Ensure the Gemini API is enabled in your Google Cloud project
+2. Check Vercel Function logs for runtime errors
+3. Verify your API key is valid at https://aistudio.google.com/app/apikey
+4. Ensure the Gemini API is enabled in your Google Cloud project
+
+## Migration from Old Client-Side Architecture
+
+If you're migrating from the old `VITE_GEMINI_API_KEY` approach:
+
+1. **Remove** the old `VITE_GEMINI_API_KEY` environment variable from Vercel
+2. **Add** the new `GOOGLE_GENERATIVE_AI_API_KEY` environment variable
+3. **Redeploy** the application
+4. **Test** that the chatbot and AI features work correctly
+
+The application now uses Vercel AI SDK with server-side API routes for maximum security.

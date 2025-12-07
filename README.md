@@ -26,7 +26,7 @@ View your app in AI Studio: https://ai.studio/apps/drive/1Ml-lZxoDS9Xa4wT_iuLO5A
    
    Edit `.env` and add your Gemini API key:
    ```
-   VITE_GEMINI_API_KEY=your_actual_api_key_here
+   GOOGLE_GENERATIVE_AI_API_KEY=your_actual_api_key_here
    ```
    
    Get your API key from: https://aistudio.google.com/app/apikey
@@ -49,8 +49,10 @@ See [VERCEL_DEPLOYMENT.md](VERCEL_DEPLOYMENT.md) for detailed instructions.
 
 **Quick steps:**
 1. Import your repository to Vercel
-2. Add `VITE_GEMINI_API_KEY` environment variable in Vercel settings
+2. Add `GOOGLE_GENERATIVE_AI_API_KEY` environment variable in Vercel settings
 3. Deploy!
+
+**Security**: This application uses Vercel Serverless Functions to keep your API key secure server-side.
 
 ### GitHub Pages
 
