@@ -24,7 +24,7 @@ const Home: React.FC<HomeProps> = ({ onSearch }) => {
 
     const handleGenerateBackground = async () => {
         setIsGeneratingBg(true);
-        // Using Gemma AI (image generation disabled in free tier) via service
+        // Image generation not supported (Gemma models don't have image generation capabilities)
         const prompt = "A futuristic, high-tech abstract educational background with glassmorphism elements, deep blue and purple nebula themes, 4k resolution, smooth gradients, no text, cinematic lighting.";
         const url = await generateStudentAvatar(prompt, '4K'); // Reuse service
         if (url) {
