@@ -1,6 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import connectToDatabase from '../lib/db.js';
 import Student from '../models/Student.js';
+import { escapeRegex } from '../lib/regexUtils.js';
 
 export const maxDuration = 60;
 
@@ -74,9 +75,10 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       const { rollNumber, name } = req.query;
 
       if (rollNumber) {
-        // Search by roll number (exact or partial match)
+        // Search by roll number (exact or partial match) - escape regex to prevent injection
+        const escapedRollNumber = escapeRegex(rollNumber as string);
         const students = await Student.find({
-          rollNumber: { $regex: rollNumber as string, $options: 'i' },
+          rollNumber: { $regex: escapedRollNumber, $options: 'i' },
         }).limit(10);
 
         return res.status(200).json({
@@ -87,9 +89,10 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       }
 
       if (name) {
-        // Search by name (case-insensitive, partial match)
+        // Search by name (case-insensitive, partial match) - escape regex to prevent injection
+        const escapedName = escapeRegex(name as string);
         const students = await Student.find({
-          name: { $regex: name as string, $options: 'i' },
+          name: { $regex: escapedName, $options: 'i' },
         }).limit(10);
 
         return res.status(200).json({

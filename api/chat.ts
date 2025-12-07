@@ -4,6 +4,7 @@ import { streamText } from 'ai';
 import { getModelName } from '../lib/aiClient.js';
 import connectToDatabase from '../lib/db.js';
 import Student from '../models/Student.js';
+import { escapeRegex } from '../lib/regexUtils.js';
 
 export const maxDuration = 60;
 
@@ -50,15 +51,19 @@ async function fetchStudentData(rollNumber?: string, name?: string) {
 
   try {
     if (rollNumber) {
+      // Escape regex to prevent injection attacks
+      const escapedRollNumber = escapeRegex(rollNumber);
       const student = await Student.findOne({
-        rollNumber: { $regex: `^${rollNumber}`, $options: 'i' },
+        rollNumber: { $regex: `^${escapedRollNumber}`, $options: 'i' },
       });
       return student ? student.toObject() : null;
     }
 
     if (name) {
+      // Escape regex to prevent injection attacks
+      const escapedName = escapeRegex(name);
       const students = await Student.find({
-        name: { $regex: name, $options: 'i' },
+        name: { $regex: escapedName, $options: 'i' },
       }).limit(1);
       return students.length > 0 ? students[0].toObject() : null;
     }
