@@ -1,7 +1,13 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { Student, AnalysisResult, ImageResolution } from '../types';
+import { 
+  getStudentStatistics, 
+  processUserQuery, 
+  getAllStudentsCompactList,
+  getTotalStudents 
+} from './studentDataHelper';
 
-// Helper to get AI instance safely
+// Helper to get AI instance safely with single API key
 const getAIClient = () => {
     const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
     if (!apiKey) {
@@ -12,6 +18,7 @@ const getAIClient = () => {
 
 export const analyzeStudentPerformance = async (student: Student, semesterIndex?: number): Promise<AnalysisResult> => {
     try {
+        // Use single API key with high-quality model for deeper analysis
         const ai = getAIClient();
         
         let contextData;
@@ -35,6 +42,7 @@ export const analyzeStudentPerformance = async (student: Student, semesterIndex?
         `;
 
         const response = await ai.models.generateContent({
+            // Use gemini-2.5-flash for deeper thinking analysis (5 RPM limit, higher quality)
             model: 'gemini-2.5-flash',
             contents: prompt,
             config: {
@@ -69,29 +77,10 @@ export const analyzeStudentPerformance = async (student: Student, semesterIndex?
 
 export const generateStudentAvatar = async (description: string, resolution: ImageResolution): Promise<string | null> => {
     try {
-        const ai = getAIClient();
-        
-        const response = await ai.models.generateContent({
-            model: 'gemini-3-pro-image-preview',
-            contents: {
-                parts: [{ text: `A professional, academic-themed, futuristic student avatar or illustration: ${description}` }]
-            },
-            config: {
-                imageConfig: {
-                    imageSize: resolution,
-                    aspectRatio: "1:1"
-                }
-            }
-        });
-
-        // Loop to find image part
-        for (const part of response.candidates?.[0]?.content?.parts || []) {
-            if (part.inlineData) {
-                return `data:image/png;base64,${part.inlineData.data}`;
-            }
-        }
+        // Image generation models are not available in free tier
+        // Return null to use default avatars instead
+        console.log("Image generation not available in free tier, using default avatar");
         return null;
-
     } catch (error) {
         console.error("Image generation failed:", error);
         return null;
@@ -100,6 +89,7 @@ export const generateStudentAvatar = async (description: string, resolution: Ima
 
 export const getSubjectDetails = async (subjectName: string): Promise<string> => {
     try {
+        // Use single API key with high-quality model for better explanations
         const ai = getAIClient();
         const prompt = `
             The student is weak in the subject: "${subjectName}" (Civil Engineering Diploma context).
@@ -112,6 +102,7 @@ export const getSubjectDetails = async (subjectName: string): Promise<string> =>
         `;
 
         const response = await ai.models.generateContent({
+            // Use gemini-2.5-flash for better educational content (5 RPM limit)
             model: 'gemini-2.5-flash',
             contents: prompt,
         });
@@ -125,20 +116,79 @@ export const getSubjectDetails = async (subjectName: string): Promise<string> =>
 
 export const chatWithAI = async (message: string, contextData: any, history: { role: string, parts: { text: string }[] }[]) => {
     try {
+        // Use single API key with lightweight fast model for chatbot
         const ai = getAIClient();
+        
+        // Process the user's query to find relevant student data
+        const queryResults = processUserQuery(message);
+        
+        // Get class statistics
+        const statistics = getStudentStatistics();
+        
+        // Get compact list of all students
+        const allStudentsList = getAllStudentsCompactList();
+        
+        // Get total count
+        const totalStudents = getTotalStudents();
+        
         const systemInstruction = `
-            You are "ce vault ai assist ofhatbit", an intelligent assistant for a student result portal.
-            You have access to the following raw student result data: ${JSON.stringify(contextData)}.
-            
-            Your primary goal is to help users find information about student marks, grades, SGPA, and performance.
-            
-            Rules:
-            1. If a user asks about a specific student, check the data and provide accurate marks or grades.
-            2. You can compare students (e.g., "Who got the highest SGPA?").
-            3. Be concise, professional, and helpful.
-            4. If the information is not in the data provided, state that you don't have that information.
-            5. Use a friendly, academic tone.
-            6. Keep responses short and fast.
+You are "CE VAULT AI ASSIST", the official AI assistant for the CE Vault Student Result Portal. 
+You help students and faculty find information about Diploma in Civil Engineering student results. 
+
+═══════════════════════════════════════════════════════════════════
+IMPORTANT: YOU HAVE COMPLETE ACCESS TO ALL ${totalStudents} STUDENT RECORDS
+═══════════════════════════════════════════════════════════════════
+
+${statistics}
+
+═══════════════════════════════════════════════════════════════════
+COMPLETE STUDENT DATABASE
+═══════════════════════════════════════════════════════════════════
+${allStudentsList}
+
+═══════════════════════════════════════════════════════════════════
+SEARCH RESULTS FOR CURRENT QUERY
+═══════════════════════════════════════════════════════════════════
+${queryResults}
+
+═══════════════════════════════════════════════════════════════════
+YOUR CAPABILITIES
+═══════════════════════════════════════════════════════════════════
+1. ✅ Find any student by their NAME (full or partial)
+2. ✅ Find any student by their ROLL NUMBER (full or partial, e.g., "74" finds "211271524074")
+3. ✅ Tell marks, grades, SGPA, CGPA of any student
+4. ✅ Show subject-wise marks (Theory, Practical, Term Work)
+5. ✅ Find the topper or students with highest/lowest SGPA
+6. ✅ Compare students
+7. ✅ Provide class statistics
+8. ✅ List all students
+
+═══════════════════════════════════════════════════════════════════
+RESPONSE RULES
+═══════════════════════════════════════════════════════════════════
+1. ALWAYS search the student database before saying you don't have information
+2. If user asks about a name like "Aman Kumar", search for it in the list
+3. If user asks about roll number like "74", match it with roll numbers containing or ending with 74
+4. Provide COMPLETE information when asked about a student
+5. Be friendly, helpful, and professional
+6. Use emojis to make responses engaging
+7. If you find multiple students with similar names, list all of them
+8. NEVER say "I don't have access" - you have access to ALL students
+
+═══════════════════════════════════════════════════════════════════
+EXAMPLE INTERACTIONS
+═══════════════════════════════════════════════════════════════════
+User: "What is the roll number of Aman Kumar?"
+You: Search the list, find the student named Aman Kumar, and respond with their roll number
+
+User: "Tell me about student 74"
+You: Find the student whose roll number ends with 74 and provide complete details
+
+User: "Who is the topper?"
+You: Find the student with highest SGPA and provide their details
+
+User: "How many students are there?"
+You: Answer with the total count: ${totalStudents} students
         `;
 
         // Format history for the API
@@ -148,8 +198,8 @@ export const chatWithAI = async (message: string, contextData: any, history: { r
         }));
 
         const chat = ai.chats.create({
-            // Using Flash-Lite for low-latency responses as requested
-            model: 'gemini-flash-lite-latest',
+            // Use gemini-2.5-flash-lite for fast, responsive chatbot (10 RPM limit)
+            model: 'gemini-2.5-flash-lite',
             config: {
                 systemInstruction: systemInstruction,
             },
@@ -160,6 +210,6 @@ export const chatWithAI = async (message: string, contextData: any, history: { r
         return result.text;
     } catch (error) {
         console.error("Chat failed:", error);
-        return "I'm having trouble connecting to the server right now. Please try again later.";
+        return "I'm having trouble connecting right now. Please try again in a moment. 🔄";
     }
 };
