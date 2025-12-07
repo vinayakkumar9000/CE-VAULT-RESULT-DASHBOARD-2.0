@@ -54,7 +54,7 @@ async function fetchStudentData(rollNumber?: string, name?: string) {
       // Escape regex to prevent injection attacks
       const escapedRollNumber = escapeRegex(rollNumber);
       const student = await Student.findOne({
-        rollNumber: { $regex: `^${escapedRollNumber}`, $options: 'i' },
+        rollNumber: { $regex: `^${escapedRollNumber}$`, $options: 'i' },
       });
       return student ? student.toObject() : null;
     }
