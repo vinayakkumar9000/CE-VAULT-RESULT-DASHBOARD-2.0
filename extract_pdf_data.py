@@ -74,6 +74,19 @@ def parse_subject_line(line, category):
             marks_internal = ""
         if marks_final == "-":
             marks_final = ""
+        
+        # Evaluate arithmetic expressions if present (e.g., "44-5" -> "39", "23+5" -> "28")
+        if marks_internal and re.search(r'[\+\-]', marks_internal):
+            try:
+                marks_internal = str(eval(marks_internal))
+            except:
+                pass
+        
+        if marks_final and re.search(r'[\+\-]', marks_final):
+            try:
+                marks_final = str(eval(marks_final))
+            except:
+                pass
             
         return {
             "subject_name": subject_name,
