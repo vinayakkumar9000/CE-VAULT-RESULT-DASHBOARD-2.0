@@ -1,13 +1,12 @@
-import React, { useState, lazy, Suspense } from 'react';
+import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
+import Result from './pages/Result';
+import Profile from './pages/Profile';
+import ChatBot from './components/ChatBot';
 import ScrollControls from './components/ScrollControls';
-import { getStudentByRoll } from './services/studentService';
+import { GENERATED_STUDENTS } from './generatedData';
 import { Student } from './types';
-
-const Result = lazy(() => import('./pages/Result'));
-const Profile = lazy(() => import('./pages/Profile'));
-const ChatBot = lazy(() => import('./components/ChatBot'));
 
 const App = () => {
     // Simple state-based routing for a single-page feel
@@ -15,7 +14,7 @@ const App = () => {
     const [currentStudent, setCurrentStudent] = useState<Student | null>(null);
 
     const handleSearch = (rollNo: string) => {
-        const student = getStudentByRoll(rollNo);
+        const student = GENERATED_STUDENTS.find(s => s.rollNumber.toLowerCase() === rollNo.toLowerCase());
         if (student) {
             setCurrentStudent(student);
             setActiveTab('results');
@@ -39,16 +38,12 @@ const App = () => {
 
     return (
         <div className="min-h-screen text-white pb-20">
-            <Suspense fallback={<div className="flex justify-center items-center h-screen"><div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-white/50"></div></div>}>
-                {renderContent()}
-            </Suspense>
+            {renderContent()}
             {activeTab !== 'home' && (
                 <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
             )}
             <ScrollControls />
-            <Suspense fallback={null}>
-                <ChatBot />
-            </Suspense>
+            <ChatBot />
         </div>
     );
 };

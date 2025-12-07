@@ -22,19 +22,6 @@ export default defineConfig(({ mode }) => {
         alias: {
           '@': path.resolve(__dirname, '.'),
         }
-      },
-      build: {
-        minify: 'terser',
-        chunkSizeWarningLimit: 500,
-        rollupOptions: {
-          output: {
-            manualChunks: {
-              'vendor-react': ['react', 'react-dom'],
-              'vendor-charts': ['recharts'],
-              'vendor-icons': ['lucide-react'],
-            }
-          }
-        }
       }
     };
 });
