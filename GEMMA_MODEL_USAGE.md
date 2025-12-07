@@ -6,23 +6,23 @@ This document explains how the Gemma AI model is used across the application to 
 
 | Model | Usage |
 |-------|-------|
-| **gemma-3-27b** | ✅ Chatbot (fast responses) |
-| **gemma-3-27b** | ✅ Analysis (deeper thinking) |
+| **gemma-3-27b-it** | ✅ Chatbot (fast responses) |
+| **gemma-3-27b-it** | ✅ Analysis (deeper thinking) |
 
 ## Model Assignment by Feature
 
 ### 1. **Chatbot (CE VAULT AI ASSIST)**
-- **Model**: `gemma-3-27b`
+- **Model**: `gemma-3-27b-it`
 - **Use Case**: Quick student data queries, roll number lookups, marks checking
 - **File**: `services/geminiService.ts` → `chatWithAI()`
 
 ### 2. **Student Performance Analysis**
-- **Model**: `gemma-3-27b`
+- **Model**: `gemma-3-27b-it`
 - **Use Case**: Analyzing student performance, identifying weak areas, providing tips
 - **File**: `services/geminiService.ts` → `analyzeStudentPerformance()`
 
 ### 3. **Subject Details & Study Resources**
-- **Model**: `gemma-3-27b`
+- **Model**: `gemma-3-27b-it`
 - **Use Case**: Providing study resources and guidance for weak subjects
 - **File**: `services/geminiService.ts` → `getSubjectDetails()`
 
@@ -34,7 +34,7 @@ This document explains how the Gemma AI model is used across the application to 
 
 ## Model Benefits
 
-The Gemma-3-27b model provides:
+The Gemma-3-27b-it model provides:
 - ✅ High-quality responses for chatbot interactions
 - ✅ Deep analysis capabilities for student performance
 - ✅ Educational content generation for study resources
