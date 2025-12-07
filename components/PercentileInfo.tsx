@@ -135,7 +135,7 @@ export const PercentileInfo: React.FC<PercentileInfoProps> = ({ sgpa, batchSgpas
                     }
                 }}
                 className="w-4 h-4 flex items-center justify-center text-yellow-400/60 hover:text-yellow-300 transition-colors focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 focus:ring-offset-transparent rounded-full"
-                aria-label="Percentile information. Opens explanation."
+                aria-label="Percentile information, opens explanation"
                 aria-describedby={showTooltip ? 'percentile-tooltip' : undefined}
                 tabIndex={0}
             >
@@ -216,12 +216,12 @@ export const PercentileInfo: React.FC<PercentileInfoProps> = ({ sgpa, batchSgpas
     );
 };
 
-// Utility function for programmatic use
-export const getPercentileData = (sgpa: number | 'N/A', batchSgpas: number[], rollNumber?: string) => {
+// Utility function for programmatic use - returns percentile data with metadata
+export const getPercentileData = (sgpa: number | 'N/A', batchSgpas: number[], rollNumber: string = '') => {
     const calculation = calculatePercentile(sgpa, batchSgpas);
     
     return {
-        roll: rollNumber || '',
+        roll: rollNumber,
         sgpa: typeof sgpa === 'number' ? sgpa : null,
         count_leq: calculation.count_leq,
         total_students: calculation.total_students,

@@ -26,7 +26,7 @@ const ScrollControls = () => {
             // Check if content is scrollable (content height > window height)
             setIsScrollable(docHeight > windowHeight);
 
-            // Determine if user is at the bottom (with buffer of 120px as per spec)
+            // Determine if user is at the bottom (with buffer of 120px for smooth UX)
             if (scrollTop + windowHeight >= docHeight - 120) {
                 setIsAtBottom(true);
             } else {
