@@ -1,6 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import { ArrowDown, ArrowUp } from 'lucide-react';
 
+// Reusable Tooltip Component
+const Tooltip: React.FC<{ text: string; show: boolean }> = ({ text, show }) => {
+    if (!show) return null;
+    
+    return (
+        <div className="absolute right-full mr-3 top-1/2 -translate-y-1/2 px-3 py-1.5 bg-gray-900/95 backdrop-blur-sm text-white text-sm rounded-lg whitespace-nowrap shadow-lg border border-white/10 opacity-0 animate-[fadeIn_0.2s_ease-out_forwards]">
+            {text}
+            <div className="absolute right-[-6px] top-1/2 -translate-y-1/2 w-0 h-0 border-t-[6px] border-t-transparent border-b-[6px] border-b-transparent border-l-[6px] border-l-gray-900/95"></div>
+        </div>
+    );
+};
+
 const ScrollControls = () => {
     const [isAtBottom, setIsAtBottom] = useState(false);
     const [isScrollable, setIsScrollable] = useState(false);
@@ -62,13 +74,7 @@ const ScrollControls = () => {
                 >
                     <ArrowDown size={20} className="group-hover:translate-y-0.5 transition-transform" />
                 </button>
-                {/* Tooltip */}
-                {showTooltip === 'bottom' && (
-                    <div className="absolute right-full mr-3 top-1/2 -translate-y-1/2 px-3 py-1.5 bg-gray-900/95 backdrop-blur-sm text-white text-sm rounded-lg whitespace-nowrap shadow-lg border border-white/10 animate-fadeIn">
-                        Scroll to Bottom
-                        <div className="absolute right-[-6px] top-1/2 -translate-y-1/2 w-0 h-0 border-t-[6px] border-t-transparent border-b-[6px] border-b-transparent border-l-[6px] border-l-gray-900/95"></div>
-                    </div>
-                )}
+                <Tooltip text="Scroll to Bottom" show={showTooltip === 'bottom'} />
             </div>
 
             {/* Scroll to Top Button - Shows ONLY when at bottom */}
@@ -84,30 +90,8 @@ const ScrollControls = () => {
                 >
                     <ArrowUp size={20} className="group-hover:-translate-y-0.5 transition-transform" />
                 </button>
-                {/* Tooltip */}
-                {showTooltip === 'top' && (
-                    <div className="absolute right-full mr-3 top-1/2 -translate-y-1/2 px-3 py-1.5 bg-gray-900/95 backdrop-blur-sm text-white text-sm rounded-lg whitespace-nowrap shadow-lg border border-white/10 animate-fadeIn">
-                        Scroll to Top
-                        <div className="absolute right-[-6px] top-1/2 -translate-y-1/2 w-0 h-0 border-t-[6px] border-t-transparent border-b-[6px] border-b-transparent border-l-[6px] border-l-gray-900/95"></div>
-                    </div>
-                )}
+                <Tooltip text="Scroll to Top" show={showTooltip === 'top'} />
             </div>
-
-            <style>{`
-                @keyframes fadeIn {
-                    from {
-                        opacity: 0;
-                        transform: translateX(5px);
-                    }
-                    to {
-                        opacity: 1;
-                        transform: translateX(0);
-                    }
-                }
-                .animate-fadeIn {
-                    animation: fadeIn 0.2s ease-out;
-                }
-            `}</style>
         </div>
     );
 };
