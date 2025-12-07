@@ -5,7 +5,7 @@ import Result from './pages/Result';
 import Profile from './pages/Profile';
 import ChatBot from './components/ChatBot';
 import ScrollControls from './components/ScrollControls';
-import { MOCK_STUDENTS } from './mockData';
+import { GENERATED_STUDENTS } from './generatedData';
 import { Student } from './types';
 
 const App = () => {
@@ -14,12 +14,12 @@ const App = () => {
     const [currentStudent, setCurrentStudent] = useState<Student | null>(null);
 
     const handleSearch = (rollNo: string) => {
-        const student = MOCK_STUDENTS.find(s => s.rollNumber.toLowerCase() === rollNo.toLowerCase());
+        const student = GENERATED_STUDENTS.find(s => s.rollNumber.toLowerCase() === rollNo.toLowerCase());
         if (student) {
             setCurrentStudent(student);
             setActiveTab('results');
         } else {
-            alert('Student not found! Try 2023CS101 or 2023ME205');
+            alert('Student not found! Please try a valid roll number.');
         }
     };
 

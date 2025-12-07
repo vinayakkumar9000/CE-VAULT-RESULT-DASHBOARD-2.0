@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Search, Wand2, RefreshCw } from 'lucide-react';
 import { GlassCard, GlassInput } from '../components/GlassComponents';
 import { StudentCreditCard } from '../components/StudentCreditCard';
-import { MOCK_STUDENTS } from '../mockData';
+import { GENERATED_STUDENTS } from '../generatedData';
 import { Student } from '../types';
 import { generateStudentAvatar } from '../services/geminiService';
 
@@ -16,7 +16,7 @@ const Home: React.FC<HomeProps> = ({ onSearch }) => {
     const [isGeneratingBg, setIsGeneratingBg] = useState(false);
 
     // Filter students based on search
-    const filteredStudents = MOCK_STUDENTS.filter(s => 
+    const filteredStudents = GENERATED_STUDENTS.filter(s => 
         s.name.toLowerCase().includes(searchText.toLowerCase()) || 
         s.rollNumber.includes(searchText) ||
         s.regNumber.includes(searchText)

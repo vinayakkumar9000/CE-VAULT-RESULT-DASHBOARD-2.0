@@ -1,0 +1,202 @@
+[
+  {
+    "subject_name": "ENVT. EDU. AND SUST. DEVELOP.",
+    "credits": "1.0",
+    "total_marks": "015",
+    "marks_internal": "13",
+    "marks_final": "",
+    "marks_total": "13",
+    "grade": "A",
+    "category": "THEORY"
+  },
+  {
+    "subject_name": "APPLIED PHYSICS -A",
+    "credits": "3.0",
+    "total_marks": "100",
+    "marks_internal": "20",
+    "marks_final": "31",
+    "marks_total": "51",
+    "grade": "D",
+    "category": "THEORY"
+  },
+  {
+    "subject_name": "APPLIED MATHEMATICS -A",
+    "credits": "3.0",
+    "total_marks": "100",
+    "marks_internal": "24",
+    "marks_final": "28",
+    "marks_total": "52",
+    "grade": "D",
+    "category": "THEORY"
+  },
+  {
+    "subject_name": "ESSEN OF IND KNOWL. AND TRADIT",
+    "credits": "1.0",
+    "total_marks": "025",
+    "marks_internal": "23",
+    "marks_final": "",
+    "marks_total": "23",
+    "grade": "A+",
+    "category": "THEORY"
+  },
+  {
+    "subject_name": "PRINCIPLES OF MANAGEMENT",
+    "credits": "1.0",
+    "total_marks": "025",
+    "marks_internal": "23",
+    "marks_final": "",
+    "marks_total": "23",
+    "grade": "A+",
+    "category": "THEORY"
+  },
+  {
+    "subject_name": "INDIAN CONSTITUTION",
+    "credits": "0.5",
+    "total_marks": "025",
+    "marks_internal": "22",
+    "marks_final": "",
+    "marks_total": "22",
+    "grade": "A",
+    "category": "THEORY"
+  },
+  {
+    "subject_name": "PYTHON PROGRAMMING",
+    "credits": "3.0",
+    "total_marks": "100",
+    "marks_internal": "25",
+    "marks_final": "23+5",
+    "marks_total": "53",
+    "grade": "D",
+    "category": "THEORY"
+  },
+  {
+    "subject_name": "ENGG. MECHANICS",
+    "credits": "3.0",
+    "total_marks": "100",
+    "marks_internal": "24",
+    "marks_final": "28",
+    "marks_total": "52",
+    "grade": "D",
+    "category": "THEORY"
+  },
+  {
+    "subject_name": "ENVT. EDU. AND SUST. DEVELOP.",
+    "credits": "0.5",
+    "total_marks": "025",
+    "marks_internal": "08",
+    "marks_final": "13",
+    "marks_total": "21",
+    "grade": "A",
+    "category": "PRACTICAL"
+  },
+  {
+    "subject_name": "APPLIED PHYSICS -A",
+    "credits": "2.0",
+    "total_marks": "050",
+    "marks_internal": "14",
+    "marks_final": "26",
+    "marks_total": "40",
+    "grade": "A",
+    "category": "PRACTICAL"
+  },
+  {
+    "subject_name": "PYTHON PROGRAMMING",
+    "credits": "2.0",
+    "total_marks": "050",
+    "marks_internal": "17",
+    "marks_final": "26",
+    "marks_total": "43",
+    "grade": "A",
+    "category": "PRACTICAL"
+  },
+  {
+    "subject_name": "ICT TOOLS",
+    "credits": "2.0",
+    "total_marks": "050",
+    "marks_internal": "17",
+    "marks_final": "26",
+    "marks_total": "43",
+    "grade": "A",
+    "category": "PRACTICAL"
+  },
+  {
+    "subject_name": "ENGG. MECHANICS",
+    "credits": "2.0",
+    "total_marks": "050",
+    "marks_internal": "17",
+    "marks_final": "29-5",
+    "marks_total": "41",
+    "grade": "A",
+    "category": "PRACTICAL"
+  },
+  {
+    "subject_name": "ENVT. EDU. AND SUST. DEVELOP.",
+    "credits": "0.5",
+    "total_marks": "010",
+    "marks_internal": "09",
+    "marks_final": "",
+    "marks_total": "09",
+    "grade": "A+",
+    "category": "TERM WORK"
+  },
+  {
+    "subject_name": "APPLIED PHYSICS -A",
+    "credits": "1.0",
+    "total_marks": "050",
+    "marks_internal": "16",
+    "marks_final": "26",
+    "marks_total": "42",
+    "grade": "A",
+    "category": "TERM WORK"
+  },
+  {
+    "subject_name": "APPLIED MATHEMATICS -A",
+    "credits": "1.0",
+    "total_marks": "050",
+    "marks_internal": "15",
+    "marks_final": "27",
+    "marks_total": "42",
+    "grade": "A",
+    "category": "TERM WORK"
+  },
+  {
+    "subject_name": "INDIAN CONSTITUTION",
+    "credits": "0.5",
+    "total_marks": "025",
+    "marks_internal": "23",
+    "marks_final": "",
+    "marks_total": "23",
+    "grade": "A+",
+    "category": "TERM WORK"
+  },
+  {
+    "subject_name": "PYTHON PROGRAMMING",
+    "credits": "1.0",
+    "total_marks": "050",
+    "marks_internal": "17",
+    "marks_final": "26",
+    "marks_total": "43",
+    "grade": "A",
+    "category": "TERM WORK"
+  },
+  {
+    "subject_name": "ICT TOOLS",
+    "credits": "1.0",
+    "total_marks": "050",
+    "marks_internal": "17",
+    "marks_final": "26",
+    "marks_total": "43",
+    "grade": "A",
+    "category": "TERM WORK"
+  },
+  {
+    "subject_name": "ENGG. MECHANICS",
+    "credits": "1.0",
+    "total_marks": "050",
+    "marks_internal": "17",
+    "marks_final": "28",
+    "marks_total": "45",
+    "grade": "A+",
+    "category": "TERM WORK"
+  }
+]
