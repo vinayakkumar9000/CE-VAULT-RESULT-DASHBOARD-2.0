@@ -77,7 +77,7 @@ const ChatBot = () => {
                                     <Bot size={20} className="text-blue-300" />
                                 </div>
                                 <div>
-                                    <h3 className="font-bold text-white text-sm">GlassGrade Assistant</h3>
+                                    <h3 className="font-bold text-white text-sm">ce vault ai assist ofhatbit</h3>
                                     <p className="text-[10px] text-blue-200 flex items-center gap-1">
                                         <Sparkles size={8} /> Powered by Gemini 3.0 Pro
                                     </p>
@@ -150,6 +150,8 @@ const ChatBot = () => {
             <div className="pointer-events-auto">
                 <button
                     onClick={() => setIsOpen(!isOpen)}
+                    aria-label="ce vault ai assist ofhatbit chat assistant"
+                    title="ce vault ai assist ofhatbit"
                     className={`
                         w-14 h-14 rounded-full flex items-center justify-center shadow-2xl transition-all duration-300
                         ${isOpen 
