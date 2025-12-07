@@ -36,6 +36,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     });
 
     // response.text is a JSON string, parse and return as object
+    if (!response.text) {
+      throw new Error('Empty response from AI');
+    }
     return res.status(200).json(JSON.parse(response.text));
   } catch (err: any) {
     console.error('Analysis API error:', err);
