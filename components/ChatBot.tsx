@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { MessageCircle, X, Send, Bot, Sparkles, Loader2 } from 'lucide-react';
 import { chatWithAI } from '../services/geminiService';
-import { MOCK_STUDENTS } from '../mockData';
+import { GENERATED_STUDENTS } from '../generatedData';
 import { GlassCard } from './GlassComponents';
 
 interface Message {
@@ -46,7 +46,7 @@ const ChatBot = () => {
             parts: [{ text: msg.text }]
         }));
 
-        const responseText = await chatWithAI(userMessage.text, MOCK_STUDENTS, historyForApi);
+        const responseText = await chatWithAI(userMessage.text, GENERATED_STUDENTS, historyForApi);
 
         const botMessage: Message = {
             id: (Date.now() + 1).toString(),

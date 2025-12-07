@@ -1,5 +1,6 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { Student, AnalysisResult, ImageResolution } from '../types';
+import { processQueryForAI, getStudentStatistics, getCompactStudentList } from './studentDataHelper';
 
 // Helper to get AI instance safely
 const getAIClient = () => {
@@ -126,19 +127,54 @@ export const getSubjectDetails = async (subjectName: string): Promise<string> =>
 export const chatWithAI = async (message: string, contextData: any, history: { role: string, parts: { text: string }[] }[]) => {
     try {
         const ai = getAIClient();
+        
+        // Get relevant student info for this query
+        const relevantInfo = processQueryForAI(message);
+        
+        // Get overall statistics
+        const stats = getStudentStatistics();
+        
+        // Get compact student list
+        const compactList = getCompactStudentList();
+        
         const systemInstruction = `
             You are "ce vault ai assist ofhatbit", an intelligent assistant for a student result portal.
-            You have access to the following raw student result data: ${JSON.stringify(contextData)}.
+            
+            STUDENT DATABASE STATISTICS:
+            - Total Students: ${stats.totalStudents}
+            - Highest SGPA: ${stats.highestSGPA} (${stats.topperName}, Roll: ${stats.topperRoll})
+            - Lowest SGPA: ${stats.lowestSGPA}
+            - Average SGPA: ${stats.averageSGPA}
+            
+            COMPACT STUDENT LIST (RollNumber|Name|SGPA|TotalMarks):
+            ${compactList}
+            
+            ${relevantInfo ? `\nRELEVANT INFO FOR CURRENT QUERY:\n${relevantInfo}\n` : ''}
             
             Your primary goal is to help users find information about student marks, grades, SGPA, and performance.
             
-            Rules:
-            1. If a user asks about a specific student, check the data and provide accurate marks or grades.
-            2. You can compare students (e.g., "Who got the highest SGPA?").
-            3. Be concise, professional, and helpful.
-            4. If the information is not in the data provided, state that you don't have that information.
-            5. Use a friendly, academic tone.
-            6. Keep responses short and fast.
+            IMPORTANT RULES:
+            1. When asked about a specific student by name, search the student list above and provide their exact details.
+            2. When asked about a roll number, find the matching student from the list above.
+            3. For "topper" or "highest SGPA" queries, refer to ${stats.topperName} (${stats.topperRoll}) with SGPA ${stats.highestSGPA}.
+            4. For "how many students" queries, answer with ${stats.totalStudents} students.
+            5. Be concise, professional, and helpful.
+            6. If information is not in the data, state that clearly.
+            7. Use a friendly, academic tone.
+            8. Keep responses short and accurate.
+            
+            EXAMPLES:
+            Q: "What is the roll number of Aman Kumar?"
+            A: Search for "Aman Kumar" in the student list and provide their roll number.
+            
+            Q: "Tell me about student 74"
+            A: Search for roll numbers containing "74" and provide their details.
+            
+            Q: "Who is the topper?"
+            A: "${stats.topperName} is the topper with SGPA ${stats.highestSGPA} (Roll: ${stats.topperRoll})"
+            
+            Q: "How many students are there?"
+            A: "There are ${stats.totalStudents} students in the database."
         `;
 
         // Format history for the API
@@ -148,8 +184,8 @@ export const chatWithAI = async (message: string, contextData: any, history: { r
         }));
 
         const chat = ai.chats.create({
-            // Using Flash-Lite for low-latency responses as requested
-            model: 'gemini-flash-lite-latest',
+            // Using gemini-2.0-flash for better responses as requested
+            model: 'gemini-2.0-flash',
             config: {
                 systemInstruction: systemInstruction,
             },

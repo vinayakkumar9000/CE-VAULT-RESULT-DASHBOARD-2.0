@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Result from './pages/Result';
@@ -44,6 +46,8 @@ const App = () => {
             )}
             <ScrollControls />
             <ChatBot />
+            <Analytics />
+            <SpeedInsights />
         </div>
     );
 };
