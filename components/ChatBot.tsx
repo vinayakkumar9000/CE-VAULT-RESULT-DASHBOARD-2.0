@@ -1,26 +1,12 @@
-import React, { useState, useRef, useEffect, useMemo } from 'react';
-import { MessageCircle, X, Send, Bot, Sparkles, Loader2 } from 'lucide-react';
+import React, { useState, useRef, useEffect } from 'react';
+import { MessageCircle, X, Send, Bot, Sparkles, Loader2, Download } from 'lucide-react';
 import { useChat } from 'ai/react';
-import { GENERATED_STUDENTS } from '../generatedData';
 import { GlassCard } from './GlassComponents';
-import { 
-  getStudentStatistics, 
-  processUserQuery, 
-  getAllStudentsCompactList,
-  getTotalStudents 
-} from '../services/studentDataHelper';
 
 const ChatBot = () => {
     const [isOpen, setIsOpen] = useState(false);
     const messagesEndRef = useRef<HTMLDivElement>(null);
-
-    // Build context data for AI - memoized to prevent unnecessary recalculations
-    const contextData = useMemo(() => ({
-        totalStudents: getTotalStudents(),
-        statistics: getStudentStatistics(),
-        allStudentsList: getAllStudentsCompactList(),
-        queryResults: '' // Will be populated per message in the API
-    }), []);
+    const [detectedRollNumber, setDetectedRollNumber] = useState<string | null>(null);
 
     const { messages, input, handleInputChange, handleSubmit, isLoading } = useChat({
         api: '/api/chat',
@@ -28,16 +14,43 @@ const ChatBot = () => {
             { 
                 id: '1', 
                 role: 'assistant', 
-                content: '👋 Hi! I\'m CE VAULT AI ASSIST. I can help you with:\n• Finding any student by name or roll number\n• Checking marks, SGPA, and grades\n• Finding the class topper\n• Getting class statistics\n\nTry asking: "What is the roll number of Aman Kumar?" or "Tell me about student 74"' 
+                content: '👋 Hi! I\'m CE VAULT AI ASSIST. I can help you with:\n• Finding any student by name or roll number\n• Checking marks, SGPA, and grades\n• Getting improvement guidance\n\nTry asking: "Show marks of roll 211991524001" or "What is SGPA of <name>?"' 
             }
         ],
-        body: {
-            studentData: contextData
-        },
         onError: (error) => {
             console.error('Chat error:', error);
         }
     });
+
+    // Extract roll number from messages to show PDF download button
+    useEffect(() => {
+        const lastAssistantMessage = messages
+            .filter((m) => m.role === 'assistant')
+            .pop()?.content || '';
+
+        // Look for roll number pattern in assistant message
+        const rollMatch = lastAssistantMessage.match(/Roll Number:\s*(\d{10,12})/i);
+        if (rollMatch) {
+            setDetectedRollNumber(rollMatch[1]);
+        } else {
+            // Also check user messages for roll numbers
+            const lastUserMessage = messages
+                .filter((m) => m.role === 'user')
+                .pop()?.content || '';
+            const userRollMatch = lastUserMessage.match(/\b(\d{10,12})\b/);
+            if (userRollMatch && lastAssistantMessage.includes('STUDENT DATA FOUND')) {
+                setDetectedRollNumber(userRollMatch[1]);
+            } else {
+                setDetectedRollNumber(null);
+            }
+        }
+    }, [messages]);
+
+    const handleDownloadPDF = () => {
+        if (detectedRollNumber) {
+            window.open(`/api/students/pdf?rollNumber=${detectedRollNumber}`, '_blank');
+        }
+    };
 
     const scrollToBottom = () => {
         messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -101,7 +114,7 @@ const ChatBot = () => {
                             {messages.map((msg) => (
                                 <div 
                                     key={msg.id} 
-                                    className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}
+                                    className={`flex flex-col ${msg.role === 'user' ? 'items-end' : 'items-start'}`}
                                 >
                                     <div 
                                         className={`
@@ -114,6 +127,18 @@ const ChatBot = () => {
                                     >
                                         {msg.content}
                                     </div>
+                                    {/* PDF Download Button - show after assistant message with student data */}
+                                    {msg.role === 'assistant' && 
+                                     detectedRollNumber && 
+                                     msg.id === messages.filter(m => m.role === 'assistant').pop()?.id && (
+                                        <button
+                                            onClick={handleDownloadPDF}
+                                            className="mt-2 px-3 py-1.5 bg-green-600/80 hover:bg-green-500 text-white text-xs rounded-full flex items-center gap-2 transition-all shadow-lg"
+                                        >
+                                            <Download size={14} />
+                                            Download Result PDF
+                                        </button>
+                                    )}
                                 </div>
                             ))}
                             {isLoading && (
