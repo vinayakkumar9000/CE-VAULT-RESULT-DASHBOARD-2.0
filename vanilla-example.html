@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla JS - Scroll Controls & Percentile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #0f0f1e 100%);
+            color: white;
+            min-height: 300vh;
+            padding: 2rem;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            margin-bottom: 2rem;
+        }
+
+        /* Scroll Controls */
+        .scroll-control {
+            position: fixed;
+            bottom: max(6rem, env(safe-area-inset-bottom, 1rem));
+            right: max(1rem, env(safe-area-inset-right, 1rem));
+            z-index: 40;
+        }
+
+        .scroll-btn {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(12px);
+            color: white;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .scroll-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(1.1);
+        }
+
+        .scroll-btn:focus {
+            outline: 2px solid #3b82f6;
+            outline-offset: 2px;
+        }
+
+        .scroll-btn.hidden {
+            opacity: 0;
+            pointer-events: none;
+            transform: translateY(1rem);
+        }
+
+        .scroll-to-top {
+            background: rgba(37, 99, 235, 0.8);
+            border-color: rgba(96, 165, 250, 0.5);
+        }
+
+        @media (min-width: 768px) {
+            .scroll-btn {
+                width: 72px;
+                height: 72px;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .scroll-btn {
+                transition: none;
+            }
+        }
+
+        /* Percentile Card */
+        .percentile-card {
+            background: rgba(234, 179, 8, 0.1);
+            border: 1px solid rgba(234, 179, 8, 0.3);
+            border-radius: 1rem;
+            padding: 2rem;
+            text-align: center;
+            margin: 2rem 0;
+            position: relative;
+        }
+
+        .percentile-label {
+            color: rgba(253, 224, 71, 0.8);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 0.5rem;
+        }
+
+        .percentile-value {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 3rem;
+            font-weight: bold;
+            color: #fde047;
+        }
+
+        .info-btn {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: transparent;
+            border: none;
+            color: rgba(253, 224, 71, 0.6);
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.2s;
+        }
+
+        .info-btn:hover {
+            color: #fde047;
+        }
+
+        .info-btn:focus {
+            outline: 2px solid #fde047;
+            outline-offset: 2px;
+        }
+
+        /* Tooltip */
+        .tooltip {
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: 1rem;
+            background: #0f0f1e;
+            border: 1px solid rgba(234, 179, 8, 0.3);
+            border-radius: 0.75rem;
+            padding: 1rem;
+            width: 90vw;
+            max-width: 400px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+            z-index: 50;
+            display: none;
+        }
+
+        .tooltip.active {
+            display: block;
+            animation: fadeIn 0.2s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateX(-50%) translateY(-10px); }
+            to { opacity: 1; transform: translateX(-50%) translateY(0); }
+        }
+
+        .tooltip-title {
+            font-weight: bold;
+            margin-bottom: 0.75rem;
+            font-size: 0.875rem;
+        }
+
+        .tooltip-formula {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 0.5rem;
+            border-radius: 0.25rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            font-family: monospace;
+            font-size: 0.75rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .tooltip-example {
+            color: #9ca3af;
+            font-size: 0.75rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .show-calc-btn {
+            color: #93c5fd;
+            text-decoration: underline;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 0.75rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .calc-output {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 0.5rem;
+            padding: 0.75rem;
+            margin-top: 0.5rem;
+            display: none;
+        }
+
+        .calc-output.active {
+            display: block;
+        }
+
+        .calc-output pre {
+            font-family: monospace;
+            font-size: 0.75rem;
+            color: #d1d5db;
+            overflow-x: auto;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background: none;
+            border: none;
+            color: #9ca3af;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Vanilla JS Implementation</h1>
+        <p>This page demonstrates the scroll controls and percentile info components using vanilla HTML, CSS, and JavaScript.</p>
+        
+        <div style="height: 50vh;"></div>
+        
+        <div class="percentile-card">
+            <div class="percentile-label">Percentile</div>
+            <div class="percentile-value">
+                <span id="percentile-display">71.43</span><span style="font-size: 1.125rem;">%</span>
+                <button class="info-btn" id="info-btn" aria-label="Percentile information. Opens explanation.">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="16" x2="12" y2="12"></line>
+                        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="tooltip" id="tooltip" role="dialog" aria-labelledby="tooltip-title">
+                <button class="close-btn" id="close-tooltip" aria-label="Close tooltip">✕</button>
+                <h4 class="tooltip-title" id="tooltip-title">How percentile is calculated</h4>
+                <div class="tooltip-formula">
+                    Percentile = (Count of students with SGPA ≤ your SGPA ÷ Total students) × 100
+                </div>
+                <p class="tooltip-example">
+                    <strong>Example:</strong> count_leq = <span id="count-leq">5</span>, 
+                    total_students = <span id="total-students">7</span> 
+                    → (<span id="count-leq-2">5</span> / <span id="total-students-2">7</span>) × 100 
+                    = <span id="percentile-calc">71.43</span>%
+                </p>
+                <button class="show-calc-btn" id="show-calc-btn">Show class calculation</button>
+                <div class="calc-output" id="calc-output">
+                    <pre id="calc-json">{
+  "count_leq": 5,
+  "total_students": 7,
+  "percentile": 71.43
+}</pre>
+                </div>
+            </div>
+        </div>
+
+        <div style="height: 100vh;"></div>
+        <p>Keep scrolling to test the scroll controls...</p>
+        <div style="height: 100vh;"></div>
+    </div>
+
+    <!-- Scroll Controls -->
+    <div class="scroll-control">
+        <button class="scroll-btn" id="scroll-to-bottom" aria-label="Scroll to bottom" title="Scroll to bottom">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <polyline points="19 12 12 19 5 12"></polyline>
+            </svg>
+        </button>
+        <button class="scroll-btn scroll-to-top hidden" id="scroll-to-top" aria-label="Scroll to top" title="Scroll to top">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="19" x2="12" y2="5"></line>
+                <polyline points="5 12 12 5 19 12"></polyline>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Live region for screen reader announcements -->
+    <div class="sr-only" role="status" aria-live="polite" aria-atomic="true" id="live-region"></div>
+
+    <script>
+        // Scroll Controls
+        const scrollToBottomBtn = document.getElementById('scroll-to-bottom');
+        const scrollToTopBtn = document.getElementById('scroll-to-top');
+        const liveRegion = document.getElementById('live-region');
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        function updateScrollButtons() {
+            const scrollTop = window.scrollY;
+            const windowHeight = window.innerHeight;
+            const docHeight = document.documentElement.scrollHeight;
+            const isAtBottom = scrollTop + windowHeight >= docHeight - 120;
+
+            if (isAtBottom) {
+                scrollToBottomBtn.classList.add('hidden');
+                scrollToTopBtn.classList.remove('hidden');
+            } else {
+                scrollToBottomBtn.classList.remove('hidden');
+                scrollToTopBtn.classList.add('hidden');
+            }
+        }
+
+        function announceScroll(message) {
+            liveRegion.textContent = message;
+            setTimeout(() => {
+                liveRegion.textContent = '';
+            }, 1000);
+        }
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: prefersReducedMotion ? 'auto' : 'smooth'
+            });
+            announceScroll('Moved to top');
+        }
+
+        function scrollToBottom() {
+            window.scrollTo({
+                top: document.documentElement.scrollHeight,
+                behavior: prefersReducedMotion ? 'auto' : 'smooth'
+            });
+            announceScroll('Moved to bottom');
+        }
+
+        scrollToBottomBtn.addEventListener('click', scrollToBottom);
+        scrollToTopBtn.addEventListener('click', scrollToTop);
+        window.addEventListener('scroll', updateScrollButtons);
+        window.addEventListener('resize', updateScrollButtons);
+
+        // Keyboard support
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Home') {
+                e.preventDefault();
+                scrollToTop();
+            } else if (e.key === 'End') {
+                e.preventDefault();
+                scrollToBottom();
+            }
+        });
+
+        updateScrollButtons();
+
+        // Percentile Tooltip
+        const infoBtn = document.getElementById('info-btn');
+        const tooltip = document.getElementById('tooltip');
+        const closeTooltipBtn = document.getElementById('close-tooltip');
+        const showCalcBtn = document.getElementById('show-calc-btn');
+        const calcOutput = document.getElementById('calc-output');
+
+        function toggleTooltip() {
+            tooltip.classList.toggle('active');
+        }
+
+        function closeTooltip() {
+            tooltip.classList.remove('active');
+            calcOutput.classList.remove('active');
+        }
+
+        function toggleCalculation() {
+            calcOutput.classList.toggle('active');
+            showCalcBtn.textContent = calcOutput.classList.contains('active') 
+                ? 'Hide class calculation' 
+                : 'Show class calculation';
+        }
+
+        infoBtn.addEventListener('click', toggleTooltip);
+        closeTooltipBtn.addEventListener('click', closeTooltip);
+        showCalcBtn.addEventListener('click', toggleCalculation);
+
+        // Close on escape
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeTooltip();
+            }
+        });
+
+        // Close on outside click
+        document.addEventListener('click', (e) => {
+            if (!tooltip.contains(e.target) && !infoBtn.contains(e.target)) {
+                closeTooltip();
+            }
+        });
+
+        // Percentile Calculation Function
+        function calculatePercentile(sgpa, batchSgpas) {
+            if (typeof sgpa !== 'number' || isNaN(sgpa)) {
+                return {
+                    percentile: null,
+                    count_leq: null,
+                    total_students: 0,
+                    error: 'NO_SGPA'
+                };
+            }
+
+            if (!batchSgpas || batchSgpas.length === 0) {
+                return {
+                    percentile: null,
+                    count_leq: null,
+                    total_students: 0,
+                    error: 'NO_BATCH_DATA'
+                };
+            }
+
+            const total_students = batchSgpas.length;
+            const count_leq = batchSgpas.filter(s => s <= sgpa).length;
+            const percentile = Math.max(0, Math.min(100, 
+                Math.round((count_leq / total_students) * 100 * 100) / 100
+            ));
+
+            return {
+                percentile,
+                count_leq,
+                total_students
+            };
+        }
+
+        // Example usage
+        const studentSgpa = 8.83;
+        const batchSgpas = [7.5, 8.0, 8.5, 8.83, 9.0, 7.2, 8.9];
+        const result = calculatePercentile(studentSgpa, batchSgpas);
+        
+        console.log('Percentile calculation:', result);
+        // Update display with calculated values
+        if (result.percentile !== null) {
+            document.getElementById('percentile-display').textContent = result.percentile.toFixed(2);
+            document.getElementById('count-leq').textContent = result.count_leq;
+            document.getElementById('count-leq-2').textContent = result.count_leq;
+            document.getElementById('total-students').textContent = result.total_students;
+            document.getElementById('total-students-2').textContent = result.total_students;
+            document.getElementById('percentile-calc').textContent = result.percentile.toFixed(2);
+            document.getElementById('calc-json').textContent = JSON.stringify(result, null, 2);
+        }
+    </script>
+</body>
+</html>
