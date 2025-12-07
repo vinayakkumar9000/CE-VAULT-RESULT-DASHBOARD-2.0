@@ -129,25 +129,28 @@ export const processQueryForAI = (query: string): string => {
         return `Total Students: ${stats.totalStudents}\nHighest SGPA: ${stats.highestSGPA}\nLowest SGPA: ${stats.lowestSGPA}\nAverage SGPA: ${stats.averageSGPA}`;
     }
     
-    // Extract potential roll numbers (look for numbers)
+    // Extract potential roll numbers (look for numbers with at least 2 digits to avoid false matches)
     const rollMatches = query.match(/\b\d+\b/g);
     if (rollMatches && rollMatches.length > 0) {
         for (const rollNum of rollMatches) {
-            const students = findStudentByRoll(rollNum);
-            if (students.length > 0) {
-                if (students.length === 1) {
-                    return getStudentDetailsForAI(students[0]);
-                } else {
-                    return `Multiple students found:\n` + 
-                           students.map(s => `${s.rollNumber} - ${s.name}`).join('\n') + 
-                           '\n\nPlease be more specific.';
+            // Only consider numbers with at least 2 digits to reduce false positives
+            if (rollNum.length >= 2) {
+                const students = findStudentByRoll(rollNum);
+                if (students.length > 0) {
+                    if (students.length === 1) {
+                        return getStudentDetailsForAI(students[0]);
+                    } else {
+                        return `Multiple students found:\n` + 
+                               students.map(s => `${s.rollNumber} - ${s.name}`).join('\n') + 
+                               '\n\nPlease be more specific.';
+                    }
                 }
             }
         }
     }
     
-    // Extract potential names (look for capitalized words that might be names)
-    const nameMatches = query.match(/\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*\b/g);
+    // Extract potential names (handle both Title Case and ALL CAPS names)
+    const nameMatches = query.match(/\b[A-Z][a-z]*(?:\s+[A-Z][a-z]*)*\b/gi);
     if (nameMatches && nameMatches.length > 0) {
         for (const name of nameMatches) {
             const students = findStudentByName(name);

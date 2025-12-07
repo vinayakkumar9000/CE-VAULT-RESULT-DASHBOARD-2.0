@@ -2,21 +2,20 @@ import { track } from '@vercel/analytics';
 
 /**
  * Track when a user searches for a student
+ * Only tracks metadata for privacy
  */
-export const trackStudentSearch = (rollNumber: string) => {
+export const trackStudentSearch = () => {
     track('student_search', {
-        rollNumber: rollNumber,
         timestamp: new Date().toISOString()
     });
 };
 
 /**
  * Track when a user views a student result
+ * Only tracks metadata for privacy, not actual student identifiers
  */
-export const trackResultView = (studentName: string, rollNumber: string) => {
+export const trackResultView = () => {
     track('result_view', {
-        studentName: studentName,
-        rollNumber: rollNumber,
         timestamp: new Date().toISOString()
     });
 };

@@ -46,7 +46,7 @@ const ChatBot = () => {
             parts: [{ text: msg.text }]
         }));
 
-        const responseText = await chatWithAI(userMessage.text, GENERATED_STUDENTS, historyForApi);
+        const responseText = await chatWithAI(userMessage.text, historyForApi);
 
         const botMessage: Message = {
             id: (Date.now() + 1).toString(),

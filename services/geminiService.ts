@@ -124,7 +124,7 @@ export const getSubjectDetails = async (subjectName: string): Promise<string> =>
     }
 };
 
-export const chatWithAI = async (message: string, contextData: any, history: { role: string, parts: { text: string }[] }[]) => {
+export const chatWithAI = async (message: string, history: { role: string, parts: { text: string }[] }[]) => {
     try {
         const ai = getAIClient();
         
@@ -134,8 +134,9 @@ export const chatWithAI = async (message: string, contextData: any, history: { r
         // Get overall statistics
         const stats = getStudentStatistics();
         
-        // Get compact student list
-        const compactList = getCompactStudentList();
+        // Only include full student list if no relevant info was found
+        // This reduces token consumption while ensuring AI has context when needed
+        const compactList = relevantInfo ? '' : getCompactStudentList();
         
         const systemInstruction = `
             You are "ce vault ai assist ofhatbit", an intelligent assistant for a student result portal.
@@ -146,9 +147,7 @@ export const chatWithAI = async (message: string, contextData: any, history: { r
             - Lowest SGPA: ${stats.lowestSGPA}
             - Average SGPA: ${stats.averageSGPA}
             
-            COMPACT STUDENT LIST (RollNumber|Name|SGPA|TotalMarks):
-            ${compactList}
-            
+            ${compactList ? `COMPACT STUDENT LIST (RollNumber|Name|SGPA|TotalMarks):\n${compactList}\n` : ''}
             ${relevantInfo ? `\nRELEVANT INFO FOR CURRENT QUERY:\n${relevantInfo}\n` : ''}
             
             Your primary goal is to help users find information about student marks, grades, SGPA, and performance.
