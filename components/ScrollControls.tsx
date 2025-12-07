@@ -115,8 +115,8 @@ const ScrollControls = () => {
             <div 
                 className="fixed z-40 flex flex-col"
                 style={{
-                    bottom: 'max(6rem, env(safe-area-inset-bottom, 1rem))',
-                    right: 'max(1rem, env(safe-area-inset-right, 1rem))'
+                    bottom: 'max(1rem, env(safe-area-inset-bottom, 1rem))',
+                    left: 'max(1rem, env(safe-area-inset-left, 1rem))'
                 }}
             >
                 {/* Scroll to Bottom Button - Shows when NOT at bottom */}
