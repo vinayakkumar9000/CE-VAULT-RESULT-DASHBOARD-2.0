@@ -4,6 +4,8 @@ import { GlassCard, Badge, GlassButton } from '../components/GlassComponents';
 import { SubjectMarksChart } from '../components/Charts';
 import { Sparkles, Download, Share2, AlertTriangle, CheckCircle, BrainCircuit, XCircle, BookOpen, X, Loader2 } from 'lucide-react';
 import { analyzeStudentPerformance, getSubjectDetails } from '../services/geminiService';
+import { PercentileInfo } from '../components/PercentileInfo';
+import { MOCK_STUDENTS } from '../mockData';
 
 interface ResultProps {
     student: Student;
@@ -20,6 +22,14 @@ const Result: React.FC<ResultProps> = ({ student }) => {
     const [loadingDetails, setLoadingDetails] = useState(false);
 
     const currentResult: SemesterResult | undefined = student.results.find(r => r.semester === selectedSem);
+
+    // Gather batch SGPA data for percentile calculation
+    const batchSgpas: number[] = MOCK_STUDENTS
+        .map(s => {
+            const semResult = s.results.find(r => r.semester === selectedSem);
+            return semResult?.sgpa;
+        })
+        .filter((sgpa): sgpa is number => typeof sgpa === 'number' && !isNaN(sgpa));
 
     const handleAnalyze = async () => {
         setLoadingAnalysis(true);
@@ -103,10 +113,9 @@ const Result: React.FC<ResultProps> = ({ student }) => {
                 </GlassCard>
                 <GlassCard className="text-center py-6 bg-yellow-500/10 border-yellow-500/30">
                     <p className="text-yellow-200/80 text-xs uppercase tracking-widest mb-2">Percentile</p>
-                    <p className="text-4xl font-bold text-yellow-300">
-                        {currentResult.percentile}
-                        {currentResult.percentile !== 'N/A' && <span className="text-lg font-normal">%</span>}
-                    </p>
+                    <div className="flex items-center justify-center">
+                        <PercentileInfo sgpa={currentResult.sgpa} batchSgpas={batchSgpas} />
+                    </div>
                 </GlassCard>
                 
                 {/* Result Status Card with Highlight Logic */}

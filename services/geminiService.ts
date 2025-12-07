@@ -127,7 +127,7 @@ export const chatWithAI = async (message: string, contextData: any, history: { r
     try {
         const ai = getAIClient();
         const systemInstruction = `
-            You are "GlassGrade Bot", an intelligent assistant for a student result portal.
+            You are "ce vault ai assist ofhatbit", an intelligent assistant for a student result portal.
             You have access to the following raw student result data: ${JSON.stringify(contextData)}.
             
             Your primary goal is to help users find information about student marks, grades, SGPA, and performance.
