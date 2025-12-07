@@ -1,23 +1,43 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useMemo } from 'react';
 import { MessageCircle, X, Send, Bot, Sparkles, Loader2 } from 'lucide-react';
-import { chatWithAI } from '../services/geminiService';
+import { useChat } from 'ai/react';
 import { GENERATED_STUDENTS } from '../generatedData';
 import { GlassCard } from './GlassComponents';
-
-interface Message {
-    id: string;
-    role: 'user' | 'model';
-    text: string;
-}
+import { 
+  getStudentStatistics, 
+  processUserQuery, 
+  getAllStudentsCompactList,
+  getTotalStudents 
+} from '../services/studentDataHelper';
 
 const ChatBot = () => {
     const [isOpen, setIsOpen] = useState(false);
-    const [messages, setMessages] = useState<Message[]>([
-        { id: '1', role: 'model', text: '👋 Hi! I\'m CE VAULT AI ASSIST. I can help you with:\n• Finding any student by name or roll number\n• Checking marks, SGPA, and grades\n• Finding the class topper\n• Getting class statistics\n\nTry asking: "What is the roll number of Aman Kumar?" or "Tell me about student 74"' }
-    ]);
-    const [inputValue, setInputValue] = useState('');
-    const [isLoading, setIsLoading] = useState(false);
     const messagesEndRef = useRef<HTMLDivElement>(null);
+
+    // Build context data for AI - memoized to prevent unnecessary recalculations
+    const contextData = useMemo(() => ({
+        totalStudents: getTotalStudents(),
+        statistics: getStudentStatistics(),
+        allStudentsList: getAllStudentsCompactList(),
+        queryResults: '' // Will be populated per message in the API
+    }), []);
+
+    const { messages, input, handleInputChange, handleSubmit, isLoading } = useChat({
+        api: '/api/chat',
+        initialMessages: [
+            { 
+                id: '1', 
+                role: 'assistant', 
+                content: '👋 Hi! I\'m CE VAULT AI ASSIST. I can help you with:\n• Finding any student by name or roll number\n• Checking marks, SGPA, and grades\n• Finding the class topper\n• Getting class statistics\n\nTry asking: "What is the roll number of Aman Kumar?" or "Tell me about student 74"' 
+            }
+        ],
+        body: {
+            studentData: contextData
+        },
+        onError: (error) => {
+            console.error('Chat error:', error);
+        }
+    });
 
     const scrollToBottom = () => {
         messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -27,40 +47,25 @@ const ChatBot = () => {
         scrollToBottom();
     }, [messages, isOpen]);
 
-    const handleSendMessage = async () => {
-        if (!inputValue.trim()) return;
-
-        const userMessage: Message = {
-            id: Date.now().toString(),
-            role: 'user',
-            text: inputValue
-        };
-
-        setMessages(prev => [...prev, userMessage]);
-        setInputValue('');
-        setIsLoading(true);
-
-        // Prepare history for API
-        const historyForApi = messages.map(msg => ({
-            role: msg.role,
-            parts: [{ text: msg.text }]
-        }));
-
-        const responseText = await chatWithAI(userMessage.text, GENERATED_STUDENTS, historyForApi);
-
-        const botMessage: Message = {
-            id: (Date.now() + 1).toString(),
-            role: 'model',
-            text: responseText || "I couldn't generate a response."
-        };
-
-        setMessages(prev => [...prev, botMessage]);
-        setIsLoading(false);
+    const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        if (input.trim()) {
+            handleSubmit(e);
+        }
     };
 
-    const handleKeyPress = (e: React.KeyboardEvent) => {
-        if (e.key === 'Enter') {
-            handleSendMessage();
+    const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
+        if (e.key === 'Enter' && !e.shiftKey) {
+            e.preventDefault();
+            if (input.trim()) {
+                // Create a synthetic form event for handleSubmit
+                const form = e.currentTarget.form;
+                if (form) {
+                    const formEvent = new Event('submit', { bubbles: true, cancelable: true });
+                    Object.defineProperty(formEvent, 'target', { value: form, enumerable: true });
+                    handleSubmit(formEvent as unknown as React.FormEvent<HTMLFormElement>);
+                }
+            }
         }
     };
 
@@ -107,7 +112,7 @@ const ChatBot = () => {
                                             }
                                         `}
                                     >
-                                        {msg.text}
+                                        {msg.content}
                                     </div>
                                 </div>
                             ))}
@@ -124,23 +129,23 @@ const ChatBot = () => {
 
                         {/* Input Area */}
                         <div className="p-4 bg-black/20 border-t border-white/10">
-                            <div className="relative flex items-center">
+                            <form onSubmit={handleFormSubmit} className="relative flex items-center">
                                 <input
                                     type="text"
-                                    value={inputValue}
-                                    onChange={(e) => setInputValue(e.target.value)}
+                                    value={input}
+                                    onChange={handleInputChange}
                                     onKeyPress={handleKeyPress}
                                     placeholder="Ask about marks, SGPA..."
                                     className="w-full bg-white/5 border border-white/10 rounded-full pl-4 pr-12 py-3 text-sm text-white focus:outline-none focus:border-blue-500/50 focus:bg-white/10 transition-all placeholder-gray-500"
                                 />
                                 <button 
-                                    onClick={handleSendMessage}
-                                    disabled={!inputValue.trim() || isLoading}
+                                    type="submit"
+                                    disabled={!input.trim() || isLoading}
                                     className="absolute right-1.5 top-1.5 p-1.5 bg-blue-600 rounded-full text-white hover:bg-blue-500 disabled:opacity-50 disabled:cursor-not-allowed transition-all"
                                 >
                                     <Send size={16} />
                                 </button>
-                            </div>
+                            </form>
                         </div>
                     </GlassCard>
                 </div>

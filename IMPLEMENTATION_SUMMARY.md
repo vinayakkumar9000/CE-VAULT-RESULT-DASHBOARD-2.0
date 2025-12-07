@@ -89,10 +89,21 @@
 
 ## 🔧 Environment Variables
 
-Required:
+**Required (Secure Server-Side):**
 ```
-VITE_GEMINI_API_KEY=your_api_key_here
+GOOGLE_GENERATIVE_AI_API_KEY=your_api_key_here
 ```
+
+**Legacy Fallback (Still Supported):**
+```
+GEMINI_API_KEY=your_api_key_here
+```
+
+**Important Security Notes:**
+- ✅ API keys stored only in Vercel Environment Variables
+- ✅ Never use `VITE_*` prefix (exposes to client-side)
+- ✅ All AI operations through secure serverless functions
+- ✅ Using Vercel AI SDK for better streaming and security
 
 ## 📊 Model Usage Strategy
 
