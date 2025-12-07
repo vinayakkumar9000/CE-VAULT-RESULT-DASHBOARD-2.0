@@ -32,8 +32,8 @@ You have access to student data provided in the context: ${JSON.stringify(studen
 Be helpful, concise, and accurate. Always search the student database before responding.
 `;
 
-    const result = streamText({
-      model: google('gemma-3-27b-it', { apiKey }),
+    const result = await streamText({
+      model: google('gemma-3-27b-it'),
       system: systemInstruction,
       messages,
     });

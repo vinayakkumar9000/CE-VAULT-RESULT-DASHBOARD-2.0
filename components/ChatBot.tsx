@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useMemo } from 'react';
 import { MessageCircle, X, Send, Bot, Sparkles, Loader2 } from 'lucide-react';
 import { useChat } from 'ai/react';
 import { GENERATED_STUDENTS } from '../generatedData';
@@ -14,11 +14,13 @@ const ChatBot = () => {
     const [isOpen, setIsOpen] = useState(false);
     const messagesEndRef = useRef<HTMLDivElement>(null);
 
-    // Build context data for AI
-    const queryResults = processUserQuery('');
-    const statistics = getStudentStatistics();
-    const allStudentsList = getAllStudentsCompactList();
-    const totalStudents = getTotalStudents();
+    // Build context data for AI - memoized to prevent unnecessary recalculations
+    const contextData = useMemo(() => ({
+        totalStudents: getTotalStudents(),
+        statistics: getStudentStatistics(),
+        allStudentsList: getAllStudentsCompactList(),
+        queryResults: '' // Will be populated per message in the API
+    }), []);
 
     const { messages, input, handleInputChange, handleSubmit, isLoading } = useChat({
         api: '/api/chat',
@@ -30,12 +32,7 @@ const ChatBot = () => {
             }
         ],
         body: {
-            studentData: {
-                totalStudents,
-                statistics,
-                allStudentsList,
-                queryResults
-            }
+            studentData: contextData
         },
         onError: (error) => {
             console.error('Chat error:', error);
@@ -50,18 +47,24 @@ const ChatBot = () => {
         scrollToBottom();
     }, [messages, isOpen]);
 
-    const handleFormSubmit = (e: React.FormEvent) => {
+    const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         if (input.trim()) {
             handleSubmit(e);
         }
     };
 
-    const handleKeyPress = (e: React.KeyboardEvent) => {
+    const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
         if (e.key === 'Enter' && !e.shiftKey) {
             e.preventDefault();
             if (input.trim()) {
-                handleSubmit(e as any);
+                // Create a synthetic form event for handleSubmit
+                const form = e.currentTarget.form;
+                if (form) {
+                    const formEvent = new Event('submit', { bubbles: true, cancelable: true });
+                    Object.defineProperty(formEvent, 'target', { value: form, enumerable: true });
+                    handleSubmit(formEvent as unknown as React.FormEvent<HTMLFormElement>);
+                }
             }
         }
     };
